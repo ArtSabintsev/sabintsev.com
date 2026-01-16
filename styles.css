@@ -356,6 +356,179 @@ h1 {
     }
 }
 
+/* ==================== */
+/* ENTRANCE ANIMATIONS  */
+/* ==================== */
+
+/* Keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes expandLine {
+    from {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+@keyframes cornerGlow {
+    0%, 100% {
+        box-shadow: 0 0 0 rgba(201, 162, 39, 0);
+    }
+    50% {
+        box-shadow: 0 0 8px rgba(201, 162, 39, 0.4);
+    }
+}
+
+@keyframes shimmer {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+@keyframes sunburstPulse {
+    0%, 100% {
+        transform: scaleY(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scaleY(1.15);
+        opacity: 1;
+    }
+}
+
+@keyframes diamondSpin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes frameGlow {
+    0%, 100% {
+        box-shadow: 0 0 0 rgba(201, 162, 39, 0);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(201, 162, 39, 0.5), inset 0 0 8px rgba(201, 162, 39, 0.1);
+    }
+}
+
+/* Frame entrance */
+.frame {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Corner glow animation */
+.corner {
+    animation: cornerGlow 3s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.corner-tr { animation-delay: 1.2s; }
+.corner-bl { animation-delay: 1.4s; }
+.corner-br { animation-delay: 1.6s; }
+
+/* Hero animations */
+.hero {
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+
+.deco-line {
+    animation: expandLine 0.8s ease-out forwards;
+    transform-origin: center;
+}
+
+.hero .deco-line:first-child {
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.hero .deco-line:last-child {
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.profile-frame {
+    animation: fadeIn 1s ease-out forwards, frameGlow 3s ease-in-out infinite;
+    animation-delay: 0.6s, 2s;
+    opacity: 0;
+}
+
+h1 {
+    animation: fadeInUp 0.7s ease-out forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+
+.tagline-wrapper {
+    animation: fadeIn 0.8s ease-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.deco-diamond {
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+.deco-diamond:last-child {
+    animation-delay: 0.5s;
+}
+
+/* Staggered section entrance */
+.section {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+.section:nth-child(1) { animation-delay: 1.2s; }
+.section:nth-child(2) { animation-delay: 1.4s; }
+.section:nth-child(3) { animation-delay: 1.6s; }
+.section:nth-child(4) { animation-delay: 1.8s; }
+
+/* Footer sunburst animation */
+.footer {
+    animation: fadeIn 0.8s ease-out forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+.sunburst span {
+    animation: sunburstPulse 2.5s ease-in-out infinite;
+    transform-origin: bottom;
+}
+
+.sunburst span:nth-child(1) { animation-delay: 0s; }
+.sunburst span:nth-child(2) { animation-delay: 0.15s; }
+.sunburst span:nth-child(3) { animation-delay: 0.3s; }
+.sunburst span:nth-child(4) { animation-delay: 0.15s; }
+.sunburst span:nth-child(5) { animation-delay: 0s; }
+
+/* Inline row separators shimmer */
+.inline-row .sep {
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+.inline-row .sep:nth-child(2) { animation-delay: 0.3s; }
+.inline-row .sep:nth-child(4) { animation-delay: 0.6s; }
+.inline-row .sep:nth-child(6) { animation-delay: 0.9s; }
+
 /* Reduce motion */
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
