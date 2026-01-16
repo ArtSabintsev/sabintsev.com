@@ -75,6 +75,11 @@ body {
     margin: 1.5rem 0;
 }
 
+.deco-line.short {
+    width: 60px;
+    margin: 0 auto 1rem;
+}
+
 .profile-frame {
     display: inline-block;
     padding: 4px;
@@ -261,6 +266,51 @@ h1 {
     letter-spacing: 0.05em;
 }
 
+/* Timeline Toggle */
+.timeline-toggle {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    background: var(--bg-card);
+    border: none;
+    border-top: 1px solid var(--border);
+    color: var(--cream-muted);
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.timeline-toggle:hover {
+    background: rgba(201, 162, 39, 0.05);
+    color: var(--gold-light);
+}
+
+.timeline-hidden {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, opacity 0.3s ease-out;
+    opacity: 0;
+}
+
+.timeline-hidden a {
+    border-top: 1px solid var(--border);
+    border-bottom: none;
+}
+
+.timeline.expanded .timeline-hidden {
+    max-height: 400px;
+    opacity: 1;
+    transition: max-height 0.4s ease-in, opacity 0.3s ease-in;
+}
+
+.timeline.expanded .timeline-toggle {
+    border-bottom: none;
+}
+
 /* Inline Row (Connect) */
 .inline-row {
     display: flex;
@@ -342,18 +392,6 @@ h1 {
         padding: 0.875rem 1rem;
     }
 
-    .prev-grid {
-        grid-template-columns: 1fr;
-        text-align: left;
-    }
-
-    .connect-row {
-        gap: 0.5rem;
-    }
-
-    .connect-row a {
-        font-size: 0.8125rem;
-    }
 }
 
 /* ==================== */
@@ -412,11 +450,6 @@ h1 {
         transform: scaleY(1.15);
         opacity: 1;
     }
-}
-
-@keyframes diamondSpin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
 }
 
 @keyframes frameGlow {

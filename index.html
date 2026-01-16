@@ -17,6 +17,9 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@artsabintsev">
+    <meta name="twitter:title" content="Arthur A. Sabintsev">
+    <meta name="twitter:description" content="Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.">
+    <meta name="twitter:image" content="https://sabintsev.com/images/profile.jpg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,14 +84,34 @@
                             <span class="company">Washington Post</span>
                             <span class="years">2015–2018</span>
                         </a>
-                        <a href="https://id.me" target="_blank" rel="noopener">
-                            <span class="company">ID.me</span>
-                            <span class="years">2013–2015</span>
-                        </a>
+                        <button type="button" class="timeline-toggle" aria-expanded="false" onclick="this.parentElement.classList.toggle('expanded'); const isExpanded = this.parentElement.classList.contains('expanded'); this.setAttribute('aria-expanded', isExpanded); this.textContent = isExpanded ? 'Show Less ▲' : 'See More ▼'">See More ▼</button>
+                        <div class="timeline-hidden">
+                            <a href="https://id.me" target="_blank" rel="noopener">
+                                <span class="company">ID.me</span>
+                                <span class="years">2013–2015</span>
+                            </a>
+                            <a href="https://shelby.tv" target="_blank" rel="noopener">
+                                <span class="company">Shelby.tv</span>
+                                <span class="years">2012–2013</span>
+                            </a>
+                            <a href="https://fueled.com" target="_blank" rel="noopener">
+                                <span class="company">Fueled</span>
+                                <span class="years">2011–2012</span>
+                            </a>
+                            <a href="https://jlab.org" target="_blank" rel="noopener">
+                                <span class="company">Jefferson Lab</span>
+                                <span class="years">2008–2011</span>
+                            </a>
+                            <a href="https://umms.org" target="_blank" rel="noopener">
+                                <span class="company">Univ. of MD Medical Center</span>
+                                <span class="years">2007–2008</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="section">
+                <div class="section connect-section">
+                    <div class="deco-line short"></div>
                     <h3>Connect</h3>
                     <div class="inline-row">
                         <a href="https://github.com/ArtSabintsev" target="_blank" rel="noopener">GitHub</a>
