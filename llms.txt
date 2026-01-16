@@ -1,16 +1,25 @@
-# Arthur Ariel Sabintsev
+# Arthur A. Sabintsev
 
 ## About
-- Personal homepage for Arthur Ariel Sabintsev.
+Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.
 
-## Projects
-- Grove: https://grove.city
-- Pocket Network: https://pocket.network
+## Building
+- Grove (CEO): https://grove.city
 
-## Social
-- X (Twitter): https://x.com/artsabintsev
+## Investing
+- Gold Ranger Ventures: https://goldranger.xyz
+
+## Previously
+- Pocket Network (2021-2025): https://pocket.network
+- Capital One (2018-2022): https://capitalone.com
+- Washington Post (2015-2018): https://washingtonpost.com
+- ID.me (2013-2015): https://id.me
+
+## Connect
+- GitHub: https://github.com/ArtSabintsev
 - LinkedIn: https://linkedin.com/in/artsabintsev
 - Telegram: https://t.me/artsabintsev/
+- X: https://x.com/artsabintsev
 
 ## Tip Addresses
 - BTC: bc1qygwglv3ptn043z3k8jtu5v8ncrc4852f4kukvy
