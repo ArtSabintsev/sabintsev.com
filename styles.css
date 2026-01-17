@@ -267,10 +267,12 @@ h1 {
 }
 
 /* Timeline Link */
-.timeline-link {
+.timeline .timeline-link {
     display: block;
+    justify-content: center;
     padding: 0.75rem 1.25rem;
     border-top: 1px solid var(--border);
+    border-bottom: none;
     color: var(--cream-muted);
     font-family: var(--font-body);
     font-size: 0.8125rem;
@@ -281,13 +283,9 @@ h1 {
     transition: all 0.3s ease;
 }
 
-.timeline-link:hover {
+.timeline .timeline-link:hover {
     background: rgba(201, 162, 39, 0.05);
     color: var(--gold-light);
-}
-
-.timeline .timeline-link {
-    border-bottom: none;
 }
 
 /* Inline Row (Connect) */
