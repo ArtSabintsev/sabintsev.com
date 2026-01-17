@@ -266,48 +266,27 @@ h1 {
     letter-spacing: 0.05em;
 }
 
-/* Timeline Toggle */
-.timeline-toggle {
-    width: 100%;
+/* Timeline Link */
+.timeline-link {
+    display: block;
     padding: 0.75rem 1.25rem;
-    background: var(--bg-card);
-    border: none;
     border-top: 1px solid var(--border);
     color: var(--cream-muted);
     font-family: var(--font-body);
     font-size: 0.8125rem;
     font-weight: 400;
     letter-spacing: 0.05em;
-    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
-.timeline-toggle:hover {
+.timeline-link:hover {
     background: rgba(201, 162, 39, 0.05);
     color: var(--gold-light);
 }
 
-.timeline-hidden {
-    display: flex;
-    flex-direction: column;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out, opacity 0.3s ease-out;
-    opacity: 0;
-}
-
-.timeline-hidden a {
-    border-top: 1px solid var(--border);
-    border-bottom: none;
-}
-
-.timeline.expanded .timeline-hidden {
-    max-height: 400px;
-    opacity: 1;
-    transition: max-height 0.4s ease-in, opacity 0.3s ease-in;
-}
-
-.timeline.expanded .timeline-toggle {
+.timeline .timeline-link {
     border-bottom: none;
 }
 
