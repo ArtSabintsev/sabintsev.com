@@ -23,5 +23,5 @@ Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.
 
 ## Tip Addresses
 - BTC: bc1qygwglv3ptn043z3k8jtu5v8ncrc4852f4kukvy
-- EVM: 0x497Ef814DF9CD346560E65a24Bf96371169ceBC5
+- EVM: 0xaa444C1470ad2618e1ce0d7de8BF9a56C28BBCc2
 - SOL: GEfzSJJ6pNWh1DK6ms15ujLvvaomUKemQqhTU2LMMsSK
