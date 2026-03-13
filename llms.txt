@@ -1,25 +1,27 @@
 # Arthur A. Sabintsev
 
+> Physicist, engineer, and founder. CEO of Grove. Founder of Gold Ranger Ventures. A career spanning physics, software engineering, and technology leadership.
+
 ## About
-Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He is the CEO of [Grove](https://grove.city) and the founder of [Gold Ranger Ventures](https://goldranger.xyz).
 
 ## Building
-- Grove (CEO): https://grove.city
+- [Grove](https://grove.city) (CEO)
 
 ## Tinkering
-- Gold Ranger Ventures: https://goldranger.xyz
+- [Gold Ranger Ventures](https://goldranger.xyz)
 
 ## Previously
-- Pocket Network (2021-2025): https://pocket.network
-- Capital One (2018-2022): https://capitalone.com
-- Washington Post (2015-2018): https://washingtonpost.com
-- ID.me (2013-2015): https://id.me
+- [Pocket Network](https://pocket.network) (2021–2025)
+- [Capital One](https://capitalone.com) (2018–2022)
+- [Washington Post](https://washingtonpost.com) (2015–2018)
+- [ID.me](https://id.me) (2013–2015)
 
 ## Connect
-- GitHub: https://github.com/ArtSabintsev
-- LinkedIn: https://linkedin.com/in/artsabintsev
-- Telegram: https://t.me/artsabintsev/
-- X: https://x.com/artsabintsev
+- [GitHub](https://github.com/ArtSabintsev)
+- [LinkedIn](https://linkedin.com/in/artsabintsev)
+- [Telegram](https://t.me/artsabintsev/)
+- [X](https://x.com/artsabintsev)
 
 ## Tip Addresses
 - BTC: bc1qygwglv3ptn043z3k8jtu5v8ncrc4852f4kukvy

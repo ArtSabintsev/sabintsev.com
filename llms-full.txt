@@ -1,0 +1,53 @@
+# Arthur A. Sabintsev
+
+> Physicist, engineer, and founder. CEO of Grove. Founder of Gold Ranger Ventures. A career spanning physics research, software engineering at major institutions, and technology entrepreneurship.
+
+## About
+Arthur Ariel Sabintsev is a physicist turned software engineer turned founder and CEO. He leads [Grove](https://grove.city) as CEO and founded [Gold Ranger Ventures](https://goldranger.xyz). His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure at Pocket Network.
+
+## Current Work
+
+### Grove
+- **Role:** CEO
+- **Website:** [grove.city](https://grove.city)
+
+### Gold Ranger Ventures
+- **Role:** Founder
+- **Website:** [goldranger.xyz](https://goldranger.xyz)
+
+## Career History
+
+### Pocket Network (2021–2025)
+- Decentralized infrastructure protocol
+- **Website:** [pocket.network](https://pocket.network)
+
+### Capital One (2018–2022)
+- Financial services and technology
+- **Website:** [capitalone.com](https://capitalone.com)
+
+### Washington Post (2015–2018)
+- News media and publishing technology
+- **Website:** [washingtonpost.com](https://washingtonpost.com)
+
+### ID.me (2013–2015)
+- Digital identity verification
+- **Website:** [id.me](https://id.me)
+
+## Background
+Arthur's background is in physics, with a career trajectory from research into software engineering and ultimately into founding and leading technology companies. He has experience across mobile development, web engineering, decentralized infrastructure, and venture building.
+
+## Social Profiles
+- [GitHub](https://github.com/ArtSabintsev) — Open source contributions and projects
+- [LinkedIn](https://linkedin.com/in/artsabintsev) — Full professional history
+- [X / Twitter](https://x.com/artsabintsev) — Updates and commentary
+- [Telegram](https://t.me/artsabintsev/) — Direct messaging
+
+## Website
+- **URL:** [sabintsev.com](https://sabintsev.com)
+- **Type:** Personal homepage
+- **Content:** Career overview, current projects, social links
+
+## Tip Addresses
+- BTC: bc1qygwglv3ptn043z3k8jtu5v8ncrc4852f4kukvy
+- EVM: 0xaa444C1470ad2618e1ce0d7de8BF9a56C28BBCc2
+- SOL: GEfzSJJ6pNWh1DK6ms15ujLvvaomUKemQqhTU2LMMsSK

@@ -162,7 +162,7 @@ h1 {
     gap: 2rem;
 }
 
-.section h3 {
+.section h2 {
     font-family: var(--font-display);
     font-size: 0.6875rem;
     font-weight: 500;

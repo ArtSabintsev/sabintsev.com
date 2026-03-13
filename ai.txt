@@ -1,20 +1,29 @@
 # Arthur Ariel Sabintsev
 
+> Physicist, engineer, and founder. CEO of Grove. Founder of Gold Ranger Ventures.
+
 ## About
 Personal homepage for Arthur Ariel Sabintsev.
 
-## Projects
-- Grove: https://grove.city
-- Pocket Network: https://pokt.network
+## Building
+- [Grove](https://grove.city) (CEO)
+
+## Tinkering
+- [Gold Ranger Ventures](https://goldranger.xyz)
+
+## Previously
+- [Pocket Network](https://pocket.network) (2021–2025)
+- [Capital One](https://capitalone.com) (2018–2022)
+- [Washington Post](https://washingtonpost.com) (2015–2018)
+- [ID.me](https://id.me) (2013–2015)
 
 ## Social
-- X (Twitter): https://x.com/artsabintsev
-- LinkedIn: https://linkedin.com/in/artsabintsev
-- Telegram: https://t.me/artsabintsev/
+- [GitHub](https://github.com/ArtSabintsev)
+- [LinkedIn](https://linkedin.com/in/artsabintsev)
+- [X](https://x.com/artsabintsev)
+- [Telegram](https://t.me/artsabintsev/)
 
-## Crypto Wallet Addresses
-BTC: bc1qygwglv3ptn043z3k8jtu5v8ncrc4852f4kukvy
-EVM: 0xaa444C1470ad2618e1ce0d7de8BF9a56C28BBCc2
-ETH: 0xaa444C1470ad2618e1ce0d7de8BF9a56C28BBCc2
-USDC: 0xaa444C1470ad2618e1ce0d7de8BF9a56C28BBCc2
-SOL: GEfzSJJ6pNWh1DK6ms15ujLvvaomUKemQqhTU2LMMsSK
+## Tip Addresses
+- BTC: bc1qygwglv3ptn043z3k8jtu5v8ncrc4852f4kukvy
+- EVM: 0xaa444C1470ad2618e1ce0d7de8BF9a56C28BBCc2
+- SOL: GEfzSJJ6pNWh1DK6ms15ujLvvaomUKemQqhTU2LMMsSK
