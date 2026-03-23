@@ -117,7 +117,7 @@ body {
     object-fit: cover;
     display: block;
     filter: sepia(15%) contrast(1.05);
-    transition: all 0.4s ease;
+    transition: filter 0.4s ease;
 }
 
 .profile:hover {
@@ -188,7 +188,7 @@ h1 {
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    transition: all 0.3s ease;
+    transition: border-color 0.3s ease, background 0.3s ease;
     position: relative;
 }
 
@@ -234,7 +234,7 @@ h1 {
     padding: 0.75rem 1.25rem;
     text-decoration: none;
     border-bottom: 1px solid var(--border);
-    transition: all 0.3s ease;
+    transition: background 0.3s ease;
 }
 
 .timeline a:last-child {
@@ -253,6 +253,7 @@ h1 {
     letter-spacing: 0.02em;
     transition: color 0.3s ease;
 }
+
 
 .timeline a:hover .company {
     color: var(--gold-light);
@@ -280,7 +281,7 @@ h1 {
     letter-spacing: 0.05em;
     text-align: center;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .timeline .timeline-link:hover {
@@ -307,7 +308,7 @@ h1 {
     color: var(--cream);
     text-decoration: none;
     letter-spacing: 0.03em;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .inline-row a:hover {
@@ -544,5 +545,15 @@ h1 {
     *, *::before, *::after {
         animation-duration: 0.01ms !important;
         transition-duration: 0.01ms !important;
+    }
+
+    .hero,
+    h1,
+    .tagline-wrapper,
+    .section,
+    .footer,
+    .profile-frame,
+    .hero .deco-line {
+        opacity: 1 !important;
     }
 }
