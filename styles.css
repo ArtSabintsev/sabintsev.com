@@ -5,7 +5,7 @@
     --gold-light: #e8d48b;
     --gold-dark: #8b7019;
     --cream: #f5f0e6;
-    --cream-muted: #a09a8c;
+    --cream-muted: #b8b1a1;
     --border: #2a2a35;
     --font-display: 'Cinzel', serif;
     --font-body: 'Raleway', sans-serif;
@@ -261,10 +261,11 @@ h1 {
 
 .timeline .years {
     font-family: var(--font-body);
-    font-size: 0.75rem;
-    font-weight: 300;
-    color: var(--gold-dark);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: var(--gold-light);
     letter-spacing: 0.05em;
+    font-variant-numeric: tabular-nums;
 }
 
 /* Timeline Link */
@@ -274,7 +275,7 @@ h1 {
     padding: 0.75rem 1.25rem;
     border-top: 1px solid var(--border);
     border-bottom: none;
-    color: var(--cream-muted);
+    color: var(--cream);
     font-family: var(--font-body);
     font-size: 0.8125rem;
     font-weight: 400;
