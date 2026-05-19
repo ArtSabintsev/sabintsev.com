@@ -17,7 +17,7 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned founder an
 
 ## Career History
 
-### Pocket Network (2018-2026)
+### Pocket Network (2018–2026)
 - Decentralized infrastructure protocol
 - **Website:** [pocket.network](https://pocket.network)
 
