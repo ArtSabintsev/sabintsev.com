@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur A. Sabintsev</title>
-    <meta name="description" content="Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.">
+    <meta name="description" content="Arthur A. Sabintsev. Physicist, engineer, founder. Building Grove. Running Gold Ranger Ventures.">
+    <meta name="theme-color" content="#FCF6EB">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Arthur A. Sabintsev">
-    <meta property="og:description" content="Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.">
     <meta property="og:type" content="website">
+    <meta property="og:title" content="Arthur A. Sabintsev">
+    <meta property="og:description" content="Physicist, engineer, founder. Building Grove. Running Gold Ranger Ventures.">
     <meta property="og:url" content="https://sabintsev.com">
     <meta property="og:image" content="https://sabintsev.com/images/profile.jpg">
 
@@ -18,16 +18,15 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@artsabintsev">
     <meta name="twitter:title" content="Arthur A. Sabintsev">
-    <meta name="twitter:description" content="Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.">
+    <meta name="twitter:description" content="Physicist, engineer, founder. Building Grove. Running Gold Ranger Ventures.">
     <meta name="twitter:image" content="https://sabintsev.com/images/profile.jpg">
 
-    <meta name="theme-color" content="#0d0d12">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <link rel="canonical" href="https://sabintsev.com/">
     <link rel="icon" href="/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <script type="application/ld+json">
     [
@@ -46,16 +45,17 @@
             "name": "Grove",
             "url": "https://grove.city"
           },
-          "description": "Physicist, engineer, founder. CEO of Grove. Founder of Gold Ranger Ventures.",
+          "description": "Physicist, engineer, founder. Building Grove. Running Gold Ranger Ventures.",
           "knowsAbout": ["Physics", "Software Engineering", "Entrepreneurship", "Decentralized Infrastructure"],
           "sameAs": [
             "https://github.com/ArtSabintsev",
             "https://linkedin.com/in/artsabintsev",
             "https://x.com/artsabintsev",
-            "https://t.me/artsabintsev/"
+            "https://t.me/artsabintsev/",
+            "https://artsabintsev.substack.com"
           ]
         },
-        "dateModified": "2026-02-18"
+        "dateModified": "2026-05-26"
       },
       {
         "@context": "https://schema.org",
@@ -71,97 +71,254 @@
       }
     ]
     </script>
+
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --gold-dark: #8B6608;
+            --gold-deep: #6E4F05;
+            --gold-light: #F4E1A1;
+            --ivory: #FCF6EB;
+            --ivory-warm: #FFFBF1;
+            --charcoal: #0D0D0D;
+            --muted: #5A5A5A;
+            --muted-soft: #7A7568;
+            --hairline: rgba(13, 13, 13, 0.09);
+            --hairline-gold: rgba(139, 102, 8, 0.22);
+            --font-display: "Cinzel", Georgia, serif;
+            --font-ui: "Inter", system-ui, sans-serif;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body {
+            background: var(--ivory);
+            color: var(--charcoal);
+            font-family: var(--font-ui);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 4rem 1.5rem 3.5rem;
+        }
+        .card {
+            width: 100%;
+            max-width: 432px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(6px);
+            animation: in 0.9s ease-out 0.1s forwards;
+        }
+        @keyframes in { to { opacity: 1; transform: none; } }
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; opacity: 1; transform: none; }
+        }
+
+        .monogram {
+            display: block;
+            margin: 0 auto 1.5rem;
+            width: 140px;
+            height: 140px;
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-size: 1.55rem;
+            font-weight: 600;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            margin-bottom: 0.55rem;
+        }
+        .tagline {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 500;
+            font-size: 0.9rem;
+            color: var(--gold-dark);
+            letter-spacing: 0.05em;
+            margin-bottom: 1.35rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            margin-bottom: 1.85rem;
+        }
+        .link {
+            position: relative;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 0.75rem;
+            padding: 0.9rem 1.4rem;
+            background: #fff;
+            border: 1px solid var(--hairline);
+            border-radius: 999px;
+            color: var(--charcoal);
+            text-decoration: none;
+            transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+        }
+        .link .label {
+            font-family: var(--font-display);
+            font-size: 0.95rem;
+            font-weight: 500;
+            letter-spacing: 0.07em;
+        }
+        .link .meta {
+            font-family: var(--font-ui);
+            font-size: 0.64rem;
+            text-transform: uppercase;
+            letter-spacing: 0.24em;
+            color: var(--gold-dark);
+            font-weight: 500;
+        }
+        .link:hover, .link:focus {
+            border-color: var(--gold);
+            background: var(--ivory-warm);
+            transform: translateY(-1px);
+        }
+        .link:focus-visible {
+            outline: 2px solid var(--gold);
+            outline-offset: 2px;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.55rem;
+            margin: 0 auto 1.4rem;
+            width: 92px;
+        }
+        .divider .line {
+            flex: 1;
+            height: 1px;
+            background: var(--hairline-gold);
+        }
+        .divider .dot {
+            width: 4px;
+            height: 4px;
+            transform: rotate(45deg);
+            background: var(--gold);
+        }
+
+        .social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.6rem;
+            font-size: 0.68rem;
+            letter-spacing: 0.24em;
+            text-transform: uppercase;
+            color: var(--muted-soft);
+        }
+        .social a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.42rem;
+            color: var(--muted-soft);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        .social a svg {
+            width: 12px;
+            height: 12px;
+            fill: currentColor;
+            opacity: 0.85;
+        }
+        .social a:hover, .social a:focus { color: var(--gold-deep); }
+        .social a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 2px; }
+
+        @media (max-width: 440px) {
+            body { padding: 3rem 1.25rem 2.5rem; }
+            .card { max-width: 100%; }
+            h1 { font-size: 1.28rem; letter-spacing: 0.08em; }
+            .monogram { width: 120px; height: 120px; }
+            .social { gap: 1.15rem; font-size: 0.65rem; letter-spacing: 0.2em; }
+            .social a svg { width: 11px; height: 11px; }
+        }
+    </style>
 </head>
-
 <body>
-    <div class="frame">
-        <div class="corner corner-tl"></div>
-        <div class="corner corner-tr"></div>
-        <div class="corner corner-bl"></div>
-        <div class="corner corner-br"></div>
+<main class="card">
+    <svg class="monogram" viewBox="0 0 140 140" role="img" aria-label="Portrait of Arthur A. Sabintsev with art-deco frame">
+        <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#F8E7A1"/>
+                <stop offset="45%" stop-color="#D4AF37"/>
+                <stop offset="100%" stop-color="#8B6608"/>
+            </linearGradient>
+            <clipPath id="portraitClip">
+                <circle cx="70" cy="70" r="50"/>
+            </clipPath>
+        </defs>
+        <image href="images/profile.jpg" x="20" y="20" width="100" height="100"
+               preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)"/>
+        <circle cx="70" cy="70" r="62" fill="none" stroke="url(#g)" stroke-width="1.5"/>
+        <circle cx="70" cy="70" r="55" fill="none" stroke="#8B6608" stroke-width="0.5" opacity="0.55"/>
+        <circle cx="70" cy="70" r="50" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.9"/>
+        <path d="M58 14 L70 4 L82 14" fill="none" stroke="#D4AF37" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M62 18 L70 12 L78 18" fill="none" stroke="#D4AF37" stroke-width="0.9" stroke-linecap="round" opacity="0.7"/>
+        <path d="M58 126 L70 136 L82 126" fill="none" stroke="#D4AF37" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M62 122 L70 128 L78 122" fill="none" stroke="#D4AF37" stroke-width="0.9" stroke-linecap="round" opacity="0.7"/>
+        <line x1="4" y1="70" x2="14" y2="70" stroke="#D4AF37" stroke-width="1"/>
+        <line x1="126" y1="70" x2="136" y2="70" stroke="#D4AF37" stroke-width="1"/>
+        <rect x="68" y="22" width="4" height="4" transform="rotate(45 70 24)" fill="#D4AF37"/>
+        <rect x="68" y="114" width="4" height="4" transform="rotate(45 70 116)" fill="#D4AF37"/>
+    </svg>
 
-        <main class="container">
-            <header class="hero">
-                <div class="deco-line"></div>
-                <div class="profile-frame">
-                    <img src="images/profile.jpg" alt="Arthur Ariel Sabintsev" class="profile" width="120" height="120">
-                </div>
-                <h1>Arthur A. Sabintsev</h1>
-                <div class="tagline-wrapper">
-                    <span class="deco-diamond">◆</span>
-                    <p class="tagline">Physicist → Engineer → Founder</p>
-                    <span class="deco-diamond">◆</span>
-                </div>
-                <div class="deco-line"></div>
-            </header>
+    <h1>Arthur A. Sabintsev</h1>
+    <p class="tagline">Physicist &rarr; Engineer &rarr; Founder</p>
 
-            <section class="sections">
-                <div class="section">
-                    <h2>Building</h2>
-                    <a href="https://grove.city" class="link-primary" target="_blank" rel="noopener">
-                        <span class="link-deco">❧</span>
-                        <span>Grove</span>
-                        <span class="link-deco">❧</span>
-                    </a>
-                </div>
-
-                <div class="section">
-                    <h2>Tinkering</h2>
-                    <a href="https://goldranger.xyz" class="link-primary" target="_blank" rel="noopener">
-                        <span class="link-deco">❧</span>
-                        <span>Gold Ranger Ventures</span>
-                        <span class="link-deco">❧</span>
-                    </a>
-                </div>
-
-                <div class="section">
-                    <h2>Writing</h2>
-                    <a href="https://artsabintsev.substack.com" class="link-primary" target="_blank" rel="noopener">
-                        <span class="link-deco">❧</span>
-                        <span>Substack</span>
-                        <span class="link-deco">❧</span>
-                    </a>
-                </div>
-
-                <div class="section">
-                    <h2>Previously</h2>
-                    <div class="timeline">
-                        <a href="https://capitalone.com" target="_blank" rel="noopener">
-                            <span class="company">Capital One</span>
-                            <span class="years">2018–2022</span>
-                        </a>
-                        <a href="https://washingtonpost.com" target="_blank" rel="noopener">
-                            <span class="company">Washington Post</span>
-                            <span class="years">2015–2018</span>
-                        </a>
-                        <a href="https://id.me" target="_blank" rel="noopener">
-                            <span class="company">ID.me</span>
-                            <span class="years">2013–2015</span>
-                        </a>
-                        <a href="https://linkedin.com/in/artsabintsev" class="timeline-link" target="_blank" rel="noopener">Full history on LinkedIn <span aria-hidden="true">↗</span></a>
-                    </div>
-                </div>
-
-                <div class="section connect-section">
-                    <div class="deco-line short"></div>
-                    <h2>Connect</h2>
-                    <div class="inline-row">
-                        <a href="https://github.com/ArtSabintsev" target="_blank" rel="noopener">GitHub</a>
-                        <span class="sep">◆</span>
-                        <a href="https://t.me/artsabintsev/" target="_blank" rel="noopener">Telegram</a>
-                        <span class="sep">◆</span>
-                        <a href="https://x.com/artsabintsev" target="_blank" rel="noopener">X</a>
-                    </div>
-                </div>
-            </section>
-
-            <footer class="footer">
-                <div class="sunburst">
-                    <span></span><span></span><span></span><span></span><span></span>
-                </div>
-            </footer>
-        </main>
+    <div class="divider" aria-hidden="true">
+        <span class="line"></span>
+        <span class="dot"></span>
+        <span class="line"></span>
     </div>
-</body>
 
+    <nav class="links" aria-label="Primary links">
+        <a class="link" href="https://grove.city" target="_blank" rel="noopener">
+            <span class="label">Grove</span>
+            <span class="meta">Building</span>
+        </a>
+        <a class="link" href="https://goldranger.xyz" target="_blank" rel="noopener">
+            <span class="label">Gold Ranger Ventures</span>
+            <span class="meta">Advising</span>
+        </a>
+        <a class="link" href="https://artsabintsev.substack.com" target="_blank" rel="noopener">
+            <span class="label">Substack</span>
+            <span class="meta">Writing</span>
+        </a>
+    </nav>
+
+    <div class="divider" aria-hidden="true">
+        <span class="line"></span>
+        <span class="dot"></span>
+        <span class="line"></span>
+    </div>
+
+    <nav class="social" aria-label="Social">
+        <a href="https://github.com/ArtSabintsev" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 014 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/artsabintsev" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.63 0H2.37C1.06 0 0 1.04 0 2.32v11.36C0 14.96 1.06 16 2.37 16h11.26c1.31 0 2.37-1.04 2.37-2.32V2.32C16 1.04 14.94 0 13.63 0zM4.94 13.63H2.97V6.04h1.97v7.59zM3.95 5.2A1.14 1.14 0 113.95 2.92a1.14 1.14 0 010 2.28zm9.68 8.43h-1.97V9.94c0-.88-.02-2.01-1.23-2.01-1.23 0-1.42.96-1.42 1.95v3.75H7.05V6.04h1.89v1.04h.03c.26-.5.91-1.03 1.87-1.03 2 0 2.37 1.32 2.37 3.03v4.55z"/></svg>
+            <span>LinkedIn</span>
+        </a>
+        <a href="https://t.me/artsabintsev/" target="_blank" rel="noopener" aria-label="Telegram">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M14.94 2.48 12.7 13.05c-.17.75-.61.93-1.24.58l-3.42-2.52-1.65 1.59c-.18.18-.34.34-.69.34l.25-3.49 6.36-5.74c.28-.25-.06-.39-.43-.14L3.99 9.62.6 8.56C-.13 8.33-.15 7.83.74 7.48l13.31-5.13c.61-.22 1.15.15.89 1.13z"/></svg>
+            <span>Telegram</span>
+        </a>
+        <a href="https://x.com/artsabintsev" target="_blank" rel="noopener" aria-label="X">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M12.27 0h2.46l-5.37 6.14L15.7 16h-4.95l-3.88-5.07L2.43 16H-.04l5.74-6.56L-.3 0h5.08l3.5 4.63L12.27 0zm-.86 14.52h1.36L4.66 1.4H3.2l8.21 13.12z"/></svg>
+            <span>X</span>
+        </a>
+    </nav>
+</main>
+</body>
 </html>
