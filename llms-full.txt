@@ -26,10 +26,12 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 - **Website:** [pocket.network](https://pocket.network)
 
 ### Capital One (2018–2022)
+- **Role:** Head of Mobile Payments
 - Financial services and technology
 - **Website:** [capitalone.com](https://capitalone.com)
 
 ### Washington Post (2015–2018)
+- **Role:** Head of Mobile Engineering
 - News media and publishing technology
 - **Website:** [washingtonpost.com](https://washingtonpost.com)
 
