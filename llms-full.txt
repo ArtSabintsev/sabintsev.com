@@ -1,24 +1,28 @@
 # Arthur A. Sabintsev
 
-> Physicist, engineer, and founder. CEO of Grove. Founder of Gold Ranger Ventures. A career spanning physics research, software engineering at major institutions, and technology entrepreneurship.
+> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Founder of Gold Ranger Ventures. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned founder and CEO. He leads [Grove](https://grove.city) as CEO and founded [Gold Ranger Ventures](https://goldranger.xyz). His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure at Pocket Network.
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network) — the decentralized network where machines pay machines for blockchain access billions of times a month — and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), where he runs fractional COO/CTO and advisory engagements for AI, crypto, and mobile founders. His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure.
 
 ## Current Work
 
 ### Grove
-- **Role:** CEO
+- **Role:** Co-founder
 - **Website:** [grove.city](https://grove.city)
+- **Context:** Grove is the team behind Pocket Network.
 
 ### Gold Ranger Ventures
 - **Role:** Founder
 - **Website:** [goldranger.xyz](https://goldranger.xyz)
+- **Practice:** Fractional COO/CTO and advisor for AI, crypto, and mobile founders. $200/hour, 15-minute blocks. First call complimentary.
 
 ## Career History
 
-### Pocket Network (2018–2026)
-- Decentralized infrastructure protocol
+### Pocket Network (2018–present)
+- Decentralized network for blockchain RPC access and AI inference
+- Co-founder via Grove
+- Took the POKT token past a $1B+ market cap
 - **Website:** [pocket.network](https://pocket.network)
 
 ### Capital One (2018–2022)
