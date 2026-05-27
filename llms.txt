@@ -3,7 +3,7 @@
 > Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Founder of Gold Ranger Ventures. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network) — the decentralized network where machines pay machines for blockchain access billions of times a month — and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), where he runs fractional COO/CTO and advisory engagements for AI, crypto, and mobile founders.
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), where he runs fractional COO/CTO and advisory engagements for AI, crypto, and mobile founders.
 
 ## Building
 - [Grove](https://grove.city) (CEO)
