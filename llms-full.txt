@@ -8,7 +8,7 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 ## Current Work
 
 ### Grove
-- **Role:** Co-founder
+- **Role:** Co-founder & CEO
 - **Website:** [grove.city](https://grove.city)
 - **Context:** Grove is the team behind Pocket Network.
 
@@ -19,7 +19,7 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 
 ## Career History
 
-### Pocket Network (2018–present)
+### Pocket Network (2018–2026)
 - Decentralized network for blockchain RPC access and AI inference
 - Co-founder via Grove
 - Took the POKT token past a $1B+ market cap

@@ -6,11 +6,11 @@
 Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind Pocket Network, the decentralized network for blockchain RPC and AI inference access, which took its token (POKT) past a $1B+ market cap. Also runs Gold Ranger Ventures, a fractional COO/CTO and advisory practice for AI, crypto, and mobile founders.
 
 ## Building
-- [Grove](https://grove.city) (Co-founder), team behind Pocket Network
+- [Grove](https://grove.city) (Co-founder & CEO), team behind Pocket Network
 - [Gold Ranger Ventures](https://goldranger.xyz) (Founder), fractional COO/CTO and advisor
 
 ## Previously
-- [Pocket Network](https://pocket.network) (2018–present, co-founder via Grove)
+- [Pocket Network](https://pocket.network) (2018–2026, co-founder via Grove)
 - [Capital One](https://capitalone.com) (2018–2022, Head of Mobile Payments)
 - [Washington Post](https://washingtonpost.com) (2015–2018, Head of Mobile Engineering)
 - [ID.me](https://id.me) (2013–2015)

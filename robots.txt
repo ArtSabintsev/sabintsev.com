@@ -32,9 +32,6 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-User-agent: xAI-Grok
-Allow: /
-
 User-agent: Grok
 Allow: /
 
