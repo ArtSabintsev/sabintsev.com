@@ -8,8 +8,10 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-foun
 ## Building
 - [Grove](https://grove.city) (CEO)
 
-## Tinkering
+## Advising
 - [Gold Ranger Ventures](https://goldranger.xyz) (Founder — consulting & venture studio; advisory, fractional COO/CTO, and incubations)
+
+## Incubating
 - [Jewish Mythology](https://jewishmythology.com) (Currently incubating — AI-searchable reference library for Jewish mythological texts)
 - [Commander Spellbook](https://commanderspellbook.com) (Incubated and sold, 2020–2021 — combo search engine for Magic: The Gathering)
 
