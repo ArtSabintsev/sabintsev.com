@@ -3,7 +3,7 @@
 > Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Founder of Gold Ranger Ventures. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), where he runs fractional COO/CTO and advisory engagements for AI, crypto, and mobile founders. His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure.
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), his consulting and venture studio, where he advises AI, crypto, and mobile founders, takes fractional COO/CTO roles, runs investor-side dealflow diligence, and incubates his own projects. His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure.
 
 ## Current Work
 
@@ -15,7 +15,8 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 ### Gold Ranger Ventures
 - **Role:** Founder
 - **Website:** [goldranger.xyz](https://goldranger.xyz)
-- **Practice:** Fractional COO/CTO and advisor for AI, crypto, and mobile founders. First call complimentary.
+- **What it is:** Arthur's consulting and venture studio — part advisory practice, part portfolio. He takes selective fractional COO/CTO and advisor engagements with AI, crypto, and mobile founders, runs investor-side dealflow diligence and interim executive roles, and incubates his own projects. First call complimentary.
+- **Incubations:** [Jewish Mythology](https://jewishmythology.com) (currently incubating — an AI-searchable reference library for Jewish mythological texts) and [Commander Spellbook](https://commanderspellbook.com) (built and sold, 2020–2021 — a combo search engine for Magic: The Gathering's Commander format).
 
 ## Career History
 

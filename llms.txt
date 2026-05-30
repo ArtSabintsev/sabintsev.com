@@ -3,13 +3,15 @@
 > Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Founder of Gold Ranger Ventures. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), where he runs fractional COO/CTO and advisory engagements for AI, crypto, and mobile founders.
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), his consulting and venture studio, where he advises AI, crypto, and mobile founders, takes fractional COO/CTO roles, and incubates his own projects.
 
 ## Building
 - [Grove](https://grove.city) (CEO)
 
 ## Tinkering
-- [Gold Ranger Ventures](https://goldranger.xyz)
+- [Gold Ranger Ventures](https://goldranger.xyz) (Founder — consulting & venture studio; advisory, fractional COO/CTO, and incubations)
+- [Jewish Mythology](https://jewishmythology.com) (Currently incubating — AI-searchable reference library for Jewish mythological texts)
+- [Commander Spellbook](https://commanderspellbook.com) (Incubated and sold, 2020–2021 — combo search engine for Magic: The Gathering)
 
 ## Previously
 - [Pocket Network](https://pocket.network) (2018–2026)
