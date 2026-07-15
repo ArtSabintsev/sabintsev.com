@@ -53,10 +53,10 @@ Arthur's background is in physics, with a career trajectory from research into s
 - Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
 - [GitHub](https://github.com/ArtSabintsev). Open source contributions and projects
 - [LinkedIn](https://linkedin.com/in/artsabintsev). Full professional history
-- [X / Twitter](https://x.com/artsabintsev). Updates and commentary
-- [Telegram](https://t.me/artsabintsev/). Direct messaging
 - [Substack profile](https://substack.com/@artsabintsev). Author profile
 - [Substack publication](https://artsabintsev.substack.com). Long-form writing
+- [Telegram](https://t.me/artsabintsev/). Direct messaging
+- [X / Twitter](https://x.com/artsabintsev). Updates and commentary
 
 ## Website
 - **URL:** [sabintsev.com](https://sabintsev.com)

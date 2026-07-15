@@ -24,6 +24,6 @@ Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind 
 - Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
 - [GitHub](https://github.com/ArtSabintsev)
 - [LinkedIn](https://linkedin.com/in/artsabintsev)
-- [X](https://x.com/artsabintsev)
-- [Telegram](https://t.me/artsabintsev/)
 - [Substack](https://substack.com/@artsabintsev)
+- [Telegram](https://t.me/artsabintsev/)
+- [X](https://x.com/artsabintsev)
