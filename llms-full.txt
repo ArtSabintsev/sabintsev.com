@@ -55,10 +55,11 @@ Arthur's background is in physics, with a career trajectory from research into s
 - [LinkedIn](https://linkedin.com/in/artsabintsev). Full professional history
 - [X / Twitter](https://x.com/artsabintsev). Updates and commentary
 - [Telegram](https://t.me/artsabintsev/). Direct messaging
-- [Substack](https://artsabintsev.substack.com). Long-form writing
+- [Substack profile](https://substack.com/@artsabintsev). Author profile
+- [Substack publication](https://artsabintsev.substack.com). Long-form writing
 
 ## Website
 - **URL:** [sabintsev.com](https://sabintsev.com)
 - **Type:** Personal homepage
-- **Content:** Portrait homepage with Grove / Ventures / Writing links, email and social icons
+- **Content:** Portrait homepage with Grove / Ventures / Writing links, email and social icons (including Substack profile)
 - **Agent files:** [llms.txt](https://sabintsev.com/llms.txt), [llms-full.txt](https://sabintsev.com/llms-full.txt), [ai.txt](https://sabintsev.com/ai.txt)
