@@ -142,13 +142,14 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: 50% 24%;
-            opacity: 0.65;
+            /* City skyline portrait — keep face mid-frame, horizon visible */
+            object-position: 50% 32%;
+            opacity: 0.62;
             transition: opacity 0.7s var(--ease-out);
         }
         .shell:has(.face-hit:hover) .backdrop img,
         .shell:has(.face-hit:focus-visible) .backdrop img {
-            opacity: 0.8;
+            opacity: 0.78;
         }
 
         .veil-top {
@@ -189,13 +190,13 @@
         /* Clickable figure zone → email */
         .face-hit {
             position: absolute;
-            top: 12%;
-            bottom: 28%;
-            left: 24%;
-            right: 24%;
+            top: 22%;
+            bottom: 22%;
+            left: 30%;
+            right: 30%;
             z-index: 5;
             cursor: pointer;
-            border-radius: 50%;
+            border-radius: 0.75rem;
         }
         .face-hit:focus-visible {
             outline: 2px solid var(--gold);
@@ -203,10 +204,10 @@
         }
         @media (min-width: 768px) {
             .face-hit {
-                top: 8%;
-                bottom: 20%;
-                left: 32%;
-                right: 32%;
+                top: 18%;
+                bottom: 18%;
+                left: 34%;
+                right: 34%;
             }
         }
 
@@ -365,8 +366,8 @@
         <img
             src="/images/backdrop.jpg"
             alt=""
-            width="724"
-            height="1086"
+            width="1024"
+            height="768"
             decoding="async"
             fetchpriority="high"
         >
