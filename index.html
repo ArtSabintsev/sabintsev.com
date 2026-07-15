@@ -258,56 +258,20 @@
         }
 
         .bottom {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.25rem;
             margin-top: 6rem;
-            align-items: end;
             opacity: 0;
             transform: translateY(16px);
             animation: rise 1.1s var(--ease-out) 0.5s forwards;
         }
         @media (min-width: 768px) {
             .bottom {
-                grid-template-columns: repeat(12, minmax(0, 1fr));
-                gap: 3rem;
+                align-items: flex-end;
                 margin-top: 0;
             }
-        }
-
-        .headline {
-            font-family: var(--font-display);
-            font-weight: 300;
-            font-size: clamp(1.5rem, 3.5vw, 2.25rem);
-            line-height: 1.12;
-            letter-spacing: -0.025em;
-            color: rgba(255, 255, 255, 0.92);
-            text-wrap: balance;
-            padding-bottom: 0.5rem;
-        }
-        @media (min-width: 768px) {
-            .headline { grid-column: span 7; }
-        }
-        @media (min-width: 1280px) {
-            .headline { grid-column: span 6; }
-        }
-        .headline span { display: block; }
-
-        .aside {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 1.25rem;
-        }
-        @media (min-width: 768px) {
-            .aside {
-                grid-column: span 5;
-                align-items: flex-end;
-                text-align: right;
-            }
-        }
-        @media (min-width: 1280px) {
-            .aside { grid-column: span 6; }
         }
 
         .actions {
@@ -436,31 +400,25 @@
         </header>
 
         <footer class="bottom">
-            <p class="headline">
-                <span>From physics and products</span>
-                <span>to machines paying machines.</span>
-            </p>
-            <div class="aside">
-                <nav class="actions" aria-label="Primary">
-                    <a class="primary" href="https://grove.city" target="_blank" rel="noopener noreferrer">Grove</a>
-                    <a href="https://artsabintsev.substack.com" target="_blank" rel="noopener noreferrer">Writing</a>
-                    <a href="mailto:arthur@sabintsev.com">Email</a>
-                </nav>
-                <nav class="social" aria-label="Social">
-                    <a href="https://github.com/ArtSabintsev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 014 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-                    </a>
-                    <a href="https://linkedin.com/in/artsabintsev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.63 0H2.37C1.06 0 0 1.04 0 2.32v11.36C0 14.96 1.06 16 2.37 16h11.26c1.31 0 2.37-1.04 2.37-2.32V2.32C16 1.04 14.94 0 13.63 0zM4.94 13.63H2.97V6.04h1.97v7.59zM3.95 5.2A1.14 1.14 0 113.95 2.92a1.14 1.14 0 010 2.28zm9.68 8.43h-1.97V9.94c0-.88-.02-2.01-1.23-2.01-1.23 0-1.42.96-1.42 1.95v3.75H7.05V6.04h1.89v1.04h.03c.26-.5.91-1.03 1.87-1.03 2 0 2.37 1.32 2.37 3.03v4.55z"/></svg>
-                    </a>
-                    <a href="https://t.me/artsabintsev/" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M14.94 2.48 12.7 13.05c-.17.75-.61.93-1.24.58l-3.42-2.52-1.65 1.59c-.18.18-.34.34-.69.34l.25-3.49 6.36-5.74c.28-.25-.06-.39-.43-.14L3.99 9.62.6 8.56C-.13 8.33-.15 7.83.74 7.48l13.31-5.13c.61-.22 1.15.15.89 1.13z"/></svg>
-                    </a>
-                    <a href="https://x.com/artsabintsev" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M12.27 0h2.46l-5.37 6.14L15.7 16h-4.95l-3.88-5.07L2.43 16H-.04l5.74-6.56L-.3 0h5.08l3.5 4.63L12.27 0zm-.86 14.52h1.36L4.66 1.4H3.2l8.21 13.12z"/></svg>
-                    </a>
-                </nav>
-            </div>
+            <nav class="actions" aria-label="Primary">
+                <a class="primary" href="https://grove.city" target="_blank" rel="noopener noreferrer">Grove</a>
+                <a href="https://artsabintsev.substack.com" target="_blank" rel="noopener noreferrer">Writing</a>
+                <a href="mailto:arthur@sabintsev.com">Email</a>
+            </nav>
+            <nav class="social" aria-label="Social">
+                <a href="https://github.com/ArtSabintsev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 014 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                </a>
+                <a href="https://linkedin.com/in/artsabintsev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.63 0H2.37C1.06 0 0 1.04 0 2.32v11.36C0 14.96 1.06 16 2.37 16h11.26c1.31 0 2.37-1.04 2.37-2.32V2.32C16 1.04 14.94 0 13.63 0zM4.94 13.63H2.97V6.04h1.97v7.59zM3.95 5.2A1.14 1.14 0 113.95 2.92a1.14 1.14 0 010 2.28zm9.68 8.43h-1.97V9.94c0-.88-.02-2.01-1.23-2.01-1.23 0-1.42.96-1.42 1.95v3.75H7.05V6.04h1.89v1.04h.03c.26-.5.91-1.03 1.87-1.03 2 0 2.37 1.32 2.37 3.03v4.55z"/></svg>
+                </a>
+                <a href="https://t.me/artsabintsev/" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M14.94 2.48 12.7 13.05c-.17.75-.61.93-1.24.58l-3.42-2.52-1.65 1.59c-.18.18-.34.34-.69.34l.25-3.49 6.36-5.74c.28-.25-.06-.39-.43-.14L3.99 9.62.6 8.56C-.13 8.33-.15 7.83.74 7.48l13.31-5.13c.61-.22 1.15.15.89 1.13z"/></svg>
+                </a>
+                <a href="https://x.com/artsabintsev" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M12.27 0h2.46l-5.37 6.14L15.7 16h-4.95l-3.88-5.07L2.43 16H-.04l5.74-6.56L-.3 0h5.08l3.5 4.63L12.27 0zm-.86 14.52h1.36L4.66 1.4H3.2l8.21 13.12z"/></svg>
+                </a>
+            </nav>
         </footer>
     </div>
 </div>
