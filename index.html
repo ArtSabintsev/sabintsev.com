@@ -267,11 +267,6 @@
             transform: translateY(16px);
             animation: rise 1.1s var(--ease-out) 0.5s forwards;
         }
-        @media (min-width: 768px) {
-            .bottom {
-                margin-top: 0;
-            }
-        }
 
         .actions {
             display: flex;
@@ -343,6 +338,64 @@
             to { opacity: 1; transform: none; }
         }
 
+        /* Desktop: text left, icons right along the bottom */
+        @media (min-width: 768px) {
+            .bottom {
+                margin-top: 0;
+            }
+        }
+
+        /* Mobile: icons stack top-right; three full-width action buttons at bottom */
+        @media (max-width: 767px) {
+            .identity {
+                max-width: calc(100% - 3.25rem);
+            }
+
+            .bottom {
+                margin-top: 4.5rem;
+                justify-content: stretch;
+            }
+
+            .actions {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5rem;
+                width: 100%;
+            }
+            .actions a {
+                min-height: 3rem;
+                padding: 0.55rem 0.4rem;
+                letter-spacing: 0.12em;
+                font-size: 0.68rem;
+                border-color: rgba(255, 255, 255, 0.16);
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 0.75rem;
+            }
+
+            .social {
+                position: absolute;
+                top: clamp(1.25rem, 4vw, 2.5rem);
+                right: clamp(1.25rem, 4vw, 2.5rem);
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 0.1rem;
+                z-index: 12;
+            }
+            .social a {
+                width: 2.65rem;
+                min-height: 2.65rem;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .actions a {
+                letter-spacing: 0.08em;
+                font-size: 0.62rem;
+                padding: 0.5rem 0.25rem;
+            }
+        }
+
         @media (prefers-reduced-motion: reduce) {
             .identity, .bottom {
                 animation: none;
@@ -352,12 +405,6 @@
             .backdrop img { transition: none; }
             .social a { transition: color 0.2s ease; }
             .social a:hover, .social a:focus-visible { transform: none; }
-        }
-
-        @media (max-width: 480px) {
-            .actions a { letter-spacing: 0.1em; font-size: 0.65rem; padding: 0.4rem 0.45rem; }
-            .social a { width: 2.15rem; }
-            .bottom { margin-top: 4.5rem; gap: 0.5rem; }
         }
     </style>
 </head>
