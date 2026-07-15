@@ -4,7 +4,7 @@ Personal homepage for Arthur A. Sabintsev. Live at [sabintsev.com](https://sabin
 
 ## What it is
 
-A single-file static personal site: short bio, building (Grove), writing (Substack), email (`arthur@sabintsev.com`), and social links.
+A single-file static personal site in a full-bleed portrait style: large photo background, name and role, short headline, Grove / Writing / Email, and social links.
 
 ## Local development
 
@@ -25,6 +25,6 @@ Pushing to `master` on `origin` publishes via GitHub Pages (`CNAME` → sabintse
 ## Structure
 
 - `index.html` — page + embedded styles
-- `images/profile.jpg` — portrait
+- `images/profile.jpg` — full-bleed portrait
 - `llms.txt`, `llms-full.txt`, `ai.txt` — agent-readable public summary
 - `robots.txt`, `sitemap.xml` — crawl metadata
