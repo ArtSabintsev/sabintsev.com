@@ -275,7 +275,7 @@
 
         .actions {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 0.35rem;
             width: 100%;
         }
@@ -353,7 +353,10 @@
         }
 
         @media (max-width: 480px) {
-            .actions a { letter-spacing: 0.12em; font-size: 0.65rem; }
+            .actions {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .actions a { letter-spacing: 0.1em; font-size: 0.65rem; }
             .bottom { margin-top: 4.5rem; width: min(100%, 20rem); }
         }
     </style>
@@ -388,6 +391,7 @@
         <footer class="bottom">
             <nav class="actions" aria-label="Primary">
                 <a href="https://grove.city" target="_blank" rel="noopener noreferrer">Grove</a>
+                <a href="https://goldranger.xyz" target="_blank" rel="noopener noreferrer">Ventures</a>
                 <a href="https://artsabintsev.substack.com" target="_blank" rel="noopener noreferrer">Writing</a>
                 <a href="mailto:arthur@sabintsev.com">Email</a>
             </nav>
