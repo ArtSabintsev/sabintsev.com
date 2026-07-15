@@ -338,14 +338,47 @@
             to { opacity: 1; transform: none; }
         }
 
-        /* Desktop: text left, icons right along the bottom */
+        /* Desktop only: text links bottom-left, social icons bottom-right (horizontal) */
         @media (min-width: 768px) {
+            .identity {
+                max-width: none;
+            }
+
             .bottom {
                 margin-top: 0;
+                justify-content: space-between;
+            }
+
+            .actions {
+                display: flex;
+                flex-wrap: wrap;
+                width: auto;
+            }
+            .actions a {
+                min-height: 2.75rem;
+                padding: 0.4rem 0.65rem;
+                letter-spacing: 0.18em;
+                font-size: 0.7rem;
+                border-color: transparent;
+                background: transparent;
+                border-radius: 999px;
+            }
+
+            .social {
+                position: static;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 0.15rem;
+                z-index: auto;
+            }
+            .social a {
+                width: 2.5rem;
+                min-height: 2.75rem;
             }
         }
 
-        /* Mobile: icons stack top-right; three full-width action buttons at bottom */
+        /* Mobile only: social vertical top-right; three equal full-width buttons at bottom */
         @media (max-width: 767px) {
             .identity {
                 max-width: calc(100% - 3.25rem);
