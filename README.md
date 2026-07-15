@@ -1,6 +1,6 @@
 # sabintsev.com
 
-Personal homepage for Arthur A. Sabintsev. Live at [sabintsev.com](https://sabintsev.com).
+Personal homepage for Arthur Sabintsev. Live at [sabintsev.com](https://sabintsev.com).
 
 ## What it is
 
