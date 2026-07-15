@@ -7,7 +7,7 @@
     <meta name="description" content="Arthur A. Sabintsev — physicist, engineer, two-time founder. Co-founder of Grove, the team behind Pocket Network. Writing, building, and open to email.">
     <meta name="keywords" content="Arthur Sabintsev, Arthur Ariel Sabintsev, Grove co-founder, Pocket Network, founder, physicist, engineer, Substack">
     <meta name="author" content="Arthur Ariel Sabintsev">
-    <meta name="theme-color" content="#0a0806">
+    <meta name="theme-color" content="#030303">
     <meta name="color-scheme" content="dark">
 
     <!-- Open Graph -->
@@ -32,7 +32,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     <script type="application/ld+json">
     [
@@ -87,19 +87,16 @@
 
     <style>
         :root {
-            --bg: #0a0806;
-            --fg: #fcf6eb;
-            --ivory: #fcf6eb;
-            --muted: #b8a98a;
-            --muted-soft: #8a7d66;
+            --bg: #030303;
+            --fg: #fafafa;
+            --muted: #a3a3a3;
+            --muted-soft: #737373;
+            --muted-dim: #525252;
             --gold: #d4af37;
-            --gold-light: #f4e1a1;
-            --gold-dark: #8b6608;
-            --gold-deep: #6e4f05;
-            --hairline-gold: rgba(212, 175, 55, 0.35);
-            --hairline-gold-soft: rgba(212, 175, 55, 0.18);
-            --font-display: "Cinzel", Georgia, "Times New Roman", serif;
-            --font-ui: "Inter", system-ui, sans-serif;
+            --gold-soft: #c4a35a;
+            --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+            --font-sans: "Outfit", system-ui, sans-serif;
+            --font-mono: "JetBrains Mono", ui-monospace, monospace;
             --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
         }
 
@@ -109,7 +106,7 @@
             min-height: 100%;
             background: var(--bg);
             color: var(--fg);
-            font-family: var(--font-ui);
+            font-family: var(--font-sans);
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
             text-rendering: optimizeLegibility;
@@ -121,8 +118,8 @@
         }
 
         ::selection {
-            background: var(--gold);
-            color: var(--bg);
+            background: #fff;
+            color: #000;
         }
 
         .shell {
@@ -146,14 +143,13 @@
             height: 100%;
             object-fit: cover;
             object-position: 50% 22%;
-            opacity: 0.62;
+            opacity: 0.68;
             transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
             transform: scale(1.02);
-            filter: saturate(0.92) contrast(1.05);
         }
         .shell:has(.face-hit:hover) .backdrop img,
         .shell:has(.face-hit:focus-visible) .backdrop img {
-            opacity: 0.78;
+            opacity: 0.82;
             transform: scale(1.04);
         }
 
@@ -162,98 +158,37 @@
             inset: 0;
             z-index: 1;
             pointer-events: none;
-            background: linear-gradient(
-                to bottom,
-                rgba(10, 8, 6, 0.94) 0%,
-                rgba(10, 8, 6, 0.45) 28%,
-                transparent 48%,
-                transparent 52%,
-                rgba(10, 8, 6, 0.5) 100%
-            );
+            background: linear-gradient(to bottom, rgba(3, 3, 3, 0.92) 0%, transparent 42%, transparent 55%, rgba(3, 3, 3, 0.55) 100%);
         }
         .veil-side {
             position: absolute;
             inset: 0;
             z-index: 1;
             pointer-events: none;
-            background: linear-gradient(
-                to right,
-                rgba(10, 8, 6, 0.88) 0%,
-                transparent 46%,
-                rgba(10, 8, 6, 0.4) 100%
-            );
+            background: linear-gradient(to right, rgba(3, 3, 3, 0.82) 0%, transparent 48%, rgba(3, 3, 3, 0.35) 100%);
         }
         .veil-bottom {
             position: absolute;
             left: 0;
             right: 0;
             bottom: 0;
-            height: 58%;
+            height: 55%;
             z-index: 1;
             pointer-events: none;
-            background: linear-gradient(
-                to top,
-                #0a0806 0%,
-                rgba(10, 8, 6, 0.92) 28%,
-                rgba(10, 8, 6, 0.55) 55%,
-                transparent 100%
-            );
-        }
-        .veil-gold {
-            position: absolute;
-            inset: 0;
-            z-index: 2;
-            pointer-events: none;
-            background: radial-gradient(
-                ellipse 70% 55% at 50% 28%,
-                rgba(212, 175, 55, 0.08) 0%,
-                transparent 65%
-            );
+            background: linear-gradient(to top, #030303 0%, rgba(3, 3, 3, 0.85) 35%, transparent 100%);
         }
         .grain {
             position: absolute;
             inset: 0;
-            z-index: 3;
+            z-index: 2;
             pointer-events: none;
-            opacity: 0.1;
+            opacity: 0.12;
             mix-blend-mode: overlay;
             background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
             background-size: 180px 180px;
         }
 
-        /* Double-line Art Deco frame */
-        .frame {
-            position: fixed;
-            inset: 0.85rem;
-            z-index: 4;
-            pointer-events: none;
-            border: 1px solid var(--hairline-gold-soft);
-        }
-        .frame::before {
-            content: "";
-            position: absolute;
-            inset: 0.4rem;
-            border: 1px solid rgba(212, 175, 55, 0.12);
-        }
-        .frame-corner {
-            position: absolute;
-            width: 1.1rem;
-            height: 1.1rem;
-            border-color: var(--gold);
-            border-style: solid;
-            opacity: 0.75;
-        }
-        .frame-corner.tl { top: -1px; left: -1px; border-width: 2px 0 0 2px; }
-        .frame-corner.tr { top: -1px; right: -1px; border-width: 2px 2px 0 0; }
-        .frame-corner.bl { bottom: -1px; left: -1px; border-width: 0 0 2px 2px; }
-        .frame-corner.br { bottom: -1px; right: -1px; border-width: 0 2px 2px 0; }
-        @media (min-width: 768px) {
-            .frame { inset: 1.15rem; }
-            .frame::before { inset: 0.5rem; }
-            .frame-corner { width: 1.35rem; height: 1.35rem; }
-        }
-
-        /* Clickable face zone → email */
+        /* Clickable face zone → email (Sam links face to about) */
         .face-hit {
             position: absolute;
             top: 14%;
@@ -285,10 +220,11 @@
             flex-direction: column;
             justify-content: space-between;
             min-height: 100dvh;
-            padding: clamp(1.75rem, 5vw, 3rem);
+            padding: clamp(1.25rem, 4vw, 2.5rem);
             pointer-events: none;
         }
-        .content a {
+        .content a,
+        .content button {
             pointer-events: auto;
         }
 
@@ -304,53 +240,32 @@
         }
         h1 {
             font-family: var(--font-display);
-            font-size: clamp(1.35rem, 3.8vw, 2.15rem);
+            font-size: clamp(1.85rem, 5vw, 3rem);
             font-weight: 600;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            line-height: 1.2;
-            margin-bottom: 0.85rem;
-            color: var(--ivory);
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 0.75rem;
         }
         .role {
-            font-family: var(--font-display);
-            font-style: italic;
+            font-size: 0.75rem;
             font-weight: 500;
-            font-size: clamp(0.8rem, 1.6vw, 0.95rem);
-            letter-spacing: 0.08em;
-            color: var(--gold);
-            margin-bottom: 1rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted);
         }
-
-        .divider {
-            display: flex;
-            align-items: center;
-            gap: 0.55rem;
-            width: 5.5rem;
-        }
-        .divider .line {
-            flex: 1;
-            height: 1px;
-            background: linear-gradient(to right, var(--hairline-gold), transparent);
-        }
-        .divider .dot {
-            width: 5px;
-            height: 5px;
-            transform: rotate(45deg);
-            background: var(--gold);
-            flex-shrink: 0;
-            box-shadow: 0 0 10px rgba(212, 175, 55, 0.35);
+        @media (min-width: 768px) {
+            .role { font-size: 0.875rem; }
         }
 
         .bottom {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 2.25rem;
-            margin-top: 5.5rem;
+            gap: 2.5rem;
+            margin-top: 6rem;
             align-items: end;
             opacity: 0;
             transform: translateY(16px);
-            animation: rise 1.1s var(--ease-out) 0.45s forwards;
+            animation: rise 1.1s var(--ease-out) 0.5s forwards;
         }
         @media (min-width: 768px) {
             .bottom {
@@ -360,36 +275,29 @@
             }
         }
 
-        .headline-block {
-            max-width: 36rem;
-        }
-        @media (min-width: 768px) {
-            .headline-block { grid-column: span 7; }
-        }
-        @media (min-width: 1280px) {
-            .headline-block { grid-column: span 6; }
-        }
         .headline {
             font-family: var(--font-display);
-            font-weight: 400;
-            font-size: clamp(1.25rem, 2.8vw, 1.85rem);
-            line-height: 1.35;
-            letter-spacing: 0.04em;
-            color: rgba(252, 246, 235, 0.92);
+            font-weight: 300;
+            font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+            line-height: 1.12;
+            letter-spacing: -0.025em;
+            color: rgba(255, 255, 255, 0.92);
             text-wrap: balance;
+            padding-bottom: 0.5rem;
+        }
+        @media (min-width: 768px) {
+            .headline { grid-column: span 7; }
+        }
+        @media (min-width: 1280px) {
+            .headline { grid-column: span 6; }
         }
         .headline span { display: block; }
-        .headline em {
-            font-style: italic;
-            font-weight: 500;
-            color: var(--gold-light);
-        }
 
         .aside {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 1.35rem;
+            gap: 1.25rem;
         }
         @media (min-width: 768px) {
             .aside {
@@ -405,71 +313,51 @@
         .actions {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.55rem;
+            gap: 0.5rem 0.35rem;
         }
         @media (min-width: 768px) {
             .actions { justify-content: flex-end; }
         }
         .actions a {
-            position: relative;
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            min-height: 2.85rem;
-            padding: 0.55rem 1.15rem;
-            color: var(--ivory);
+            min-height: 2.75rem;
+            padding: 0.4rem 0.85rem;
+            color: var(--muted);
             text-decoration: none;
-            font-family: var(--font-display);
-            font-size: 0.72rem;
+            font-size: 0.7rem;
             font-weight: 500;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.18em;
             text-transform: uppercase;
-            border: 1px solid var(--hairline-gold);
-            background: rgba(10, 8, 6, 0.35);
-            overflow: hidden;
-            isolation: isolate;
-            transition: border-color 0.25s ease, color 0.25s ease, transform 0.25s var(--ease-out);
-        }
-        .actions a::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 0;
-            background: var(--gold-deep);
-            transform: translateY(101%);
-            transition: transform 0.45s var(--ease-out);
-        }
-        .actions a span {
-            position: relative;
-            z-index: 1;
-        }
-        .actions a:hover::before,
-        .actions a:focus-visible::before {
-            transform: translateY(0);
+            border: 1px solid transparent;
+            border-radius: 999px;
+            transition: color 0.25s ease, border-color 0.25s ease, background 0.25s ease;
         }
         .actions a:hover,
         .actions a:focus-visible {
-            border-color: var(--gold);
-            color: var(--ivory);
-            transform: translateY(-1px);
+            color: var(--fg);
+            border-color: rgba(255, 255, 255, 0.18);
+            background: rgba(255, 255, 255, 0.06);
         }
         .actions a:focus-visible {
-            outline: 2px solid var(--gold-light);
-            outline-offset: 3px;
+            outline: 2px solid var(--gold);
+            outline-offset: 2px;
         }
         .actions a.primary {
-            border-color: rgba(212, 175, 55, 0.55);
-            color: var(--gold-light);
+            color: var(--fg);
+            border-color: rgba(212, 175, 55, 0.35);
         }
         .actions a.primary:hover,
         .actions a.primary:focus-visible {
-            color: var(--ivory);
+            border-color: var(--gold-soft);
+            color: var(--gold);
+            background: rgba(212, 175, 55, 0.08);
         }
 
         .social {
             display: grid;
             grid-template-columns: repeat(4, minmax(2.75rem, auto));
-            gap: 0.25rem 0.35rem;
+            gap: 0.35rem 0.5rem;
         }
         @media (min-width: 768px) {
             .social { justify-content: end; }
@@ -481,22 +369,22 @@
             width: 2.75rem;
             height: 2.75rem;
             color: var(--muted-soft);
-            transition: color 0.25s ease, transform 0.3s var(--ease-out);
+            transition: color 0.3s ease, transform 0.3s var(--ease-out);
         }
         .social a svg {
-            width: 1.15rem;
-            height: 1.15rem;
+            width: 1.25rem;
+            height: 1.25rem;
             fill: currentColor;
         }
         .social a:hover,
         .social a:focus-visible {
-            color: var(--gold);
-            transform: translateY(-2px);
+            color: #fff;
+            transform: translateY(-2px) scale(1.08);
         }
         .social a:focus-visible {
             outline: 2px solid var(--gold);
             outline-offset: 3px;
-            border-radius: 2px;
+            border-radius: 4px;
         }
 
         @keyframes rise {
@@ -510,21 +398,13 @@
                 transform: none;
             }
             .backdrop img { transition: none; transform: none; }
-            .actions a::before { transition: none; }
             .social a { transition: color 0.2s ease; }
             .social a:hover, .social a:focus-visible { transform: none; }
-            .actions a:hover, .actions a:focus-visible { transform: none; }
         }
 
         @media (max-width: 480px) {
-            .actions a {
-                letter-spacing: 0.14em;
-                padding-inline: 0.9rem;
-                font-size: 0.68rem;
-            }
-            .bottom { margin-top: 4rem; }
-            h1 { letter-spacing: 0.1em; }
-            .frame { inset: 0.55rem; }
+            .actions a { letter-spacing: 0.12em; padding-inline: 0.7rem; }
+            .bottom { margin-top: 4.5rem; }
         }
     </style>
 </head>
@@ -542,15 +422,7 @@
         <div class="veil-top"></div>
         <div class="veil-side"></div>
         <div class="veil-bottom"></div>
-        <div class="veil-gold"></div>
         <div class="grain"></div>
-    </div>
-
-    <div class="frame" aria-hidden="true">
-        <span class="frame-corner tl"></span>
-        <span class="frame-corner tr"></span>
-        <span class="frame-corner bl"></span>
-        <span class="frame-corner br"></span>
     </div>
 
     <a class="face-hit" href="mailto:arthur@sabintsev.com" aria-label="Email Arthur at arthur@sabintsev.com"></a>
@@ -559,26 +431,20 @@
         <header class="top">
             <div class="identity">
                 <h1>Arthur A. Sabintsev</h1>
-                <p class="role">Physicist &rarr; Engineer &rarr; Founder</p>
-                <div class="divider" aria-hidden="true">
-                    <span class="dot"></span>
-                    <span class="line"></span>
-                </div>
+                <p class="role">Physicist · Engineer · Founder</p>
             </div>
         </header>
 
         <footer class="bottom">
-            <div class="headline-block">
-                <p class="headline">
-                    <span>From physics and products</span>
-                    <span>to <em>machines paying machines.</em></span>
-                </p>
-            </div>
+            <p class="headline">
+                <span>From physics and products</span>
+                <span>to machines paying machines.</span>
+            </p>
             <div class="aside">
                 <nav class="actions" aria-label="Primary">
-                    <a class="primary" href="https://grove.city" target="_blank" rel="noopener noreferrer"><span>Grove</span></a>
-                    <a href="https://artsabintsev.substack.com" target="_blank" rel="noopener noreferrer"><span>Writing</span></a>
-                    <a href="mailto:arthur@sabintsev.com"><span>Email</span></a>
+                    <a class="primary" href="https://grove.city" target="_blank" rel="noopener noreferrer">Grove</a>
+                    <a href="https://artsabintsev.substack.com" target="_blank" rel="noopener noreferrer">Writing</a>
+                    <a href="mailto:arthur@sabintsev.com">Email</a>
                 </nav>
                 <nav class="social" aria-label="Social">
                     <a href="https://github.com/ArtSabintsev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
