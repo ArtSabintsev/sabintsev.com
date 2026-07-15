@@ -238,7 +238,8 @@
         }
         .portrait-inner {
             position: relative;
-            aspect-ratio: 1 / 1;
+            /* Tall crop: head + upper shoulders, not full torso */
+            aspect-ratio: 4 / 5;
             overflow: hidden;
             background: var(--bg-elevated);
         }
@@ -246,13 +247,14 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: center center;
+            /* Bias to face/upper chest on the vertical portrait */
+            object-position: 50% 18%;
             display: block;
             filter: contrast(1.04) saturate(0.95);
             transition: transform 0.7s var(--ease-out);
         }
         .portrait-frame:hover img {
-            transform: scale(1.015);
+            transform: scale(1.02);
         }
         @media (prefers-reduced-motion: reduce) {
             .portrait-frame:hover img { transform: none; }
@@ -550,8 +552,8 @@
                         <img
                             src="/images/profile.jpg"
                             alt="Portrait of Arthur A. Sabintsev"
-                            width="1717"
-                            height="1717"
+                            width="724"
+                            height="1086"
                             decoding="async"
                             fetchpriority="high"
                         >
