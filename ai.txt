@@ -1,6 +1,6 @@
 # Arthur Ariel Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove (the team behind Pocket Network). Contact: arthur@sabintsev.com.
+> Physicist, engineer, and two-time founder. Co-founder of Grove (the team behind Pocket Network). Contact: arthur.sabintsev@gmail.com.
 
 ## About
 Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind Pocket Network, the decentralized network for blockchain RPC and AI inference access, which took its token (POKT) past a $1B+ market cap. Writes on AI agents, stablecoins, and operator craft.
@@ -21,7 +21,7 @@ Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind 
 - [ID.me](https://id.me) (2013–2015)
 
 ## Social
-- Email: [arthur@sabintsev.com](mailto:arthur@sabintsev.com)
+- Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
 - [GitHub](https://github.com/ArtSabintsev)
 - [LinkedIn](https://linkedin.com/in/artsabintsev)
 - [X](https://x.com/artsabintsev)

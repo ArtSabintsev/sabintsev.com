@@ -1,6 +1,6 @@
 # Arthur Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
+> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
 
 ## About
 Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com). His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure.
@@ -46,7 +46,7 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 Arthur's background is in physics, with a career trajectory from research into software engineering and ultimately into founding and leading technology companies. He has experience across mobile development, web engineering, decentralized infrastructure, and venture building.
 
 ## Social Profiles
-- Email: [arthur@sabintsev.com](mailto:arthur@sabintsev.com)
+- Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
 - [GitHub](https://github.com/ArtSabintsev). Open source contributions and projects
 - [LinkedIn](https://linkedin.com/in/artsabintsev). Full professional history
 - [X / Twitter](https://x.com/artsabintsev). Updates and commentary
