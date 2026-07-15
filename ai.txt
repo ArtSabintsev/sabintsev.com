@@ -1,13 +1,15 @@
 # Arthur Ariel Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove (the team behind Pocket Network). Founder of Gold Ranger Ventures. Contact: arthur@sabintsev.com.
+> Physicist, engineer, and two-time founder. Co-founder of Grove (the team behind Pocket Network). Contact: arthur@sabintsev.com.
 
 ## About
-Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind Pocket Network, the decentralized network for blockchain RPC and AI inference access, which took its token (POKT) past a $1B+ market cap. Also runs Gold Ranger Ventures, a fractional COO/CTO and advisory practice for AI, crypto, and mobile founders.
+Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind Pocket Network, the decentralized network for blockchain RPC and AI inference access, which took its token (POKT) past a $1B+ market cap. Writes on AI agents, stablecoins, and operator craft.
 
 ## Building
 - [Grove](https://grove.city) (Co-founder & CEO), team behind Pocket Network
-- [Gold Ranger Ventures](https://goldranger.xyz) (Founder), fractional COO/CTO and advisor
+
+## Writing
+- [Substack](https://artsabintsev.substack.com)
 
 ## Previously
 - [Pocket Network](https://pocket.network) (2018–2026, co-founder via Grove)
@@ -16,6 +18,7 @@ Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind 
 - [ID.me](https://id.me) (2013–2015)
 
 ## Social
+- Email: [arthur@sabintsev.com](mailto:arthur@sabintsev.com)
 - [GitHub](https://github.com/ArtSabintsev)
 - [LinkedIn](https://linkedin.com/in/artsabintsev)
 - [X](https://x.com/artsabintsev)

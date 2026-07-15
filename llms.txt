@@ -1,15 +1,15 @@
 # Arthur A. Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Founder of Gold Ranger Ventures. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
+> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), his consulting and venture studio, where he advises AI, crypto, and mobile founders, takes fractional COO/CTO roles, and incubates his own projects.
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
 
 ## Building
 - [Grove](https://grove.city) (CEO)
 
-## Advising
-- [Gold Ranger Ventures](https://goldranger.xyz) (Founder — consulting & venture studio; advisory, fractional COO/CTO, and incubations)
+## Writing
+- [Substack](https://artsabintsev.substack.com)
 
 ## Incubating
 - [Jewish Mythology](https://jewishmythology.com) (Currently incubating — AI-searchable reference library for Jewish mythological texts)
@@ -22,6 +22,7 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-foun
 - [ID.me](https://id.me) (2013–2015)
 
 ## Connect
+- Email: [arthur@sabintsev.com](mailto:arthur@sabintsev.com)
 - [GitHub](https://github.com/ArtSabintsev)
 - [LinkedIn](https://linkedin.com/in/artsabintsev)
 - [Telegram](https://t.me/artsabintsev/)

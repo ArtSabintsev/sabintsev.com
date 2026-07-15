@@ -1,9 +1,9 @@
 # Arthur A. Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Founder of Gold Ranger Ventures. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
+> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur@sabintsev.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He also founded [Gold Ranger Ventures](https://goldranger.xyz), his consulting and venture studio, where he advises AI, crypto, and mobile founders, takes fractional COO/CTO roles, runs investor-side dealflow diligence, and incubates his own projects. His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure.
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com). His career spans physics research, mobile and web engineering at organizations including the Washington Post and Capital One, and leadership in decentralized infrastructure.
 
 ## Current Work
 
@@ -12,11 +12,13 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 - **Website:** [grove.city](https://grove.city)
 - **Context:** Grove is the team behind Pocket Network.
 
-### Gold Ranger Ventures
-- **Role:** Founder
-- **Website:** [goldranger.xyz](https://goldranger.xyz)
-- **What it is:** Arthur's consulting and venture studio — part advisory practice, part portfolio. He takes selective fractional COO/CTO and advisor engagements with AI, crypto, and mobile founders, runs investor-side dealflow diligence and interim executive roles, and incubates his own projects. First call complimentary.
-- **Incubations:** [Jewish Mythology](https://jewishmythology.com) (currently incubating — an AI-searchable reference library for Jewish mythological texts) and [Commander Spellbook](https://commanderspellbook.com) (built and sold, 2020–2021 — a combo search engine for Magic: The Gathering's Commander format).
+### Writing
+- **Publication:** [artsabintsev.substack.com](https://artsabintsev.substack.com)
+- **Topics:** AI agents, stablecoins, onchain products, operator craft, knowledge systems, mobile.
+
+### Incubations
+- [Jewish Mythology](https://jewishmythology.com) (currently incubating — an AI-searchable reference library for Jewish mythological texts)
+- [Commander Spellbook](https://commanderspellbook.com) (built and sold, 2020–2021 — a combo search engine for Magic: The Gathering's Commander format)
 
 ## Career History
 
@@ -44,12 +46,14 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 Arthur's background is in physics, with a career trajectory from research into software engineering and ultimately into founding and leading technology companies. He has experience across mobile development, web engineering, decentralized infrastructure, and venture building.
 
 ## Social Profiles
+- Email: [arthur@sabintsev.com](mailto:arthur@sabintsev.com)
 - [GitHub](https://github.com/ArtSabintsev). Open source contributions and projects
 - [LinkedIn](https://linkedin.com/in/artsabintsev). Full professional history
 - [X / Twitter](https://x.com/artsabintsev). Updates and commentary
 - [Telegram](https://t.me/artsabintsev/). Direct messaging
+- [Substack](https://artsabintsev.substack.com). Long-form writing
 
 ## Website
 - **URL:** [sabintsev.com](https://sabintsev.com)
 - **Type:** Personal homepage
-- **Content:** Career overview, current projects, social links
+- **Content:** Short bio, current work, writing, email contact, social links
