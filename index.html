@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur Sabintsev</title>
     <meta name="description" content="Arthur Sabintsev — physicist, engineer, two-time founder. Co-founder of Grove, the team behind Pocket Network. Writing, building, and open to email.">
-    <meta name="keywords" content="Arthur Sabintsev, Arthur Ariel Sabintsev, Grove co-founder, Pocket Network, founder, physicist, engineer, Substack">
+    <meta name="keywords" content="Arthur Sabintsev, Arthur Ariel Sabintsev, Grove co-founder, Pocket Network, founder, physicist, engineer, Substack, Gold Ranger Ventures">
     <meta name="author" content="Arthur Ariel Sabintsev">
     <meta name="theme-color" content="#030303">
     <meta name="color-scheme" content="dark">
 
     <!-- Open Graph -->
     <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Arthur Sabintsev">
     <meta property="og:title" content="Arthur Sabintsev">
     <meta property="og:description" content="Physicist, engineer, two-time founder. Co-founded Grove, the team behind Pocket Network.">
     <meta property="og:url" content="https://sabintsev.com/">
     <meta property="og:image" content="https://sabintsev.com/images/backdrop.jpg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="768">
+    <meta property="og:image:alt" content="Arthur Sabintsev">
     <meta property="profile:first_name" content="Arthur">
     <meta property="profile:last_name" content="Sabintsev">
 
@@ -26,9 +30,13 @@
     <meta name="twitter:title" content="Arthur Sabintsev">
     <meta name="twitter:description" content="Physicist, engineer, two-time founder. Co-founded Grove, the team behind Pocket Network.">
     <meta name="twitter:image" content="https://sabintsev.com/images/backdrop.jpg">
+    <meta name="twitter:image:alt" content="Arthur Sabintsev">
 
     <link rel="canonical" href="https://sabintsev.com/">
     <link rel="icon" href="/favicon.ico">
+    <link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt">
+    <link rel="alternate" type="text/plain" title="LLM full summary" href="/llms-full.txt">
+    <link rel="alternate" type="text/plain" title="AI usage guidance" href="/ai.txt">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,20 +60,23 @@
             "name": "Grove",
             "url": "https://grove.city"
           },
-          "description": "Physicist, engineer, and two-time founder. Co-founded Grove, the team behind Pocket Network, which took its token past a $1B+ market cap. Writes on AI agents, stablecoins, and operator craft.",
+          "description": "Physicist, engineer, and two-time founder. Co-founded Grove, the team behind Pocket Network, which took its token past a $1B+ market cap. Writes on AI agents, stablecoins, and operator craft. Runs Gold Ranger Ventures.",
           "email": "arthur.sabintsev@gmail.com",
           "knowsAbout": [
             "Physics", "Software Engineering", "Entrepreneurship",
             "Decentralized Infrastructure", "Pocket Network", "blockchain RPC",
             "AI agentic payments", "x402", "AP2", "USDC settlement",
-            "iOS engineering", "App Store policy", "token economics"
+            "iOS engineering", "App Store policy", "token economics",
+            "venture investing", "advising", "incubation"
           ],
           "sameAs": [
             "https://github.com/ArtSabintsev",
             "https://linkedin.com/in/artsabintsev",
             "https://x.com/artsabintsev",
             "https://t.me/artsabintsev/",
-            "https://artsabintsev.substack.com"
+            "https://artsabintsev.substack.com",
+            "https://goldranger.xyz",
+            "https://grove.city"
           ]
         },
         "dateModified": "2026-07-15"
@@ -78,8 +89,9 @@
         "description": "Personal homepage of Arthur Sabintsev — physicist, engineer, founder.",
         "author": {
           "@type": "Person",
+          "@id": "https://sabintsev.com/#person",
           "name": "Arthur Ariel Sabintsev",
-          "url": "https://sabintsev.com"
+          "url": "https://sabintsev.com/"
         }
       }
     ]
@@ -91,9 +103,7 @@
             --fg: #fafafa;
             --muted: #a3a3a3;
             --muted-soft: #737373;
-            --muted-dim: #525252;
             --gold: #d4af37;
-            --gold-soft: #c4a35a;
             --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
             --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
         }
@@ -185,7 +195,7 @@
             background-size: 180px 180px;
         }
 
-        /* Clickable figure zone → email */
+        /* Clickable figure zone → X */
         .face-hit {
             position: absolute;
             top: 22%;
@@ -222,8 +232,7 @@
             row-gap: 1rem;
             pointer-events: none;
         }
-        .content a,
-        .content button {
+        .content a {
             pointer-events: auto;
         }
 
@@ -340,18 +349,13 @@
             to { opacity: 1; transform: none; }
         }
 
-        /* Desktop: text bottom-left, social bottom-right horizontal */
+        /* Desktop: social bottom-right horizontal (text stays bottom-left) */
         @media (min-width: 768px) {
             .social {
                 grid-column: 2;
                 grid-row: 2;
                 align-self: end;
                 flex-direction: row;
-            }
-
-            .bottom {
-                grid-column: 1;
-                grid-row: 2;
             }
         }
 

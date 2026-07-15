@@ -12,6 +12,10 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 - **Website:** [grove.city](https://grove.city)
 - **Context:** Grove is the team behind Pocket Network.
 
+### Ventures
+- **Studio:** [Gold Ranger Ventures](https://goldranger.xyz)
+- **Scope:** investing, advising, incubation
+
 ### Writing
 - **Publication:** [artsabintsev.substack.com](https://artsabintsev.substack.com)
 - **Topics:** AI agents, stablecoins, onchain products, operator craft, knowledge systems, mobile.
@@ -56,4 +60,5 @@ Arthur's background is in physics, with a career trajectory from research into s
 ## Website
 - **URL:** [sabintsev.com](https://sabintsev.com)
 - **Type:** Personal homepage
-- **Content:** Short bio, current work, writing, email contact, social links
+- **Content:** Portrait homepage with Grove / Ventures / Writing links, email and social icons
+- **Agent files:** [llms.txt](https://sabintsev.com/llms.txt), [llms-full.txt](https://sabintsev.com/llms-full.txt), [ai.txt](https://sabintsev.com/ai.txt)
