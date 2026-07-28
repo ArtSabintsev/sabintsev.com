@@ -3,9 +3,6 @@
  * - Link response headers (RFC 8288 / RFC 9727)
  * - Accept: text/markdown negotiation → /index.md
  * - Correct Content-Type for /.well-known/api-catalog
- *
- * Origin is GitHub Pages. Same-zone fetch() from a Worker is sent to origin
- * (not re-routed through this Worker), which avoids infinite loops.
  */
 
 const LINK_VALUES = [
@@ -56,7 +53,6 @@ function withAgentHeaders(headers, { contentType, markdownTokens } = {}) {
     }
   }
 
-  // Body changed: drop length/encoding/validators that no longer match
   if (contentType || markdownTokens != null) {
     next.delete("Content-Length");
     next.delete("Content-Encoding");
@@ -67,14 +63,17 @@ function withAgentHeaders(headers, { contentType, markdownTokens } = {}) {
   return next;
 }
 
-async function fetchOrigin(request) {
-  // Clone to a plain Request so Workers runtime sends it to the zone origin
-  return fetch(new Request(request.url, {
-    method: request.method,
-    headers: request.headers,
-    body: request.method === "GET" || request.method === "HEAD" ? undefined : request.body,
-    redirect: "manual",
-  }));
+/**
+ * Fetch the zone origin (GitHub Pages). Same-zone Worker subrequests go to
+ * origin rather than re-entering this script.
+ */
+function fetchOrigin(url, init = {}) {
+  return fetch(url, {
+    ...init,
+    // Ensure we do not send the client Accept: text/markdown to origin asset
+    // fetches in a way that confuses intermediate caches.
+    redirect: init.redirect ?? "manual",
+  });
 }
 
 export default {
@@ -84,29 +83,41 @@ export default {
 
       // Markdown for Agents: homepage only
       if (wantsMarkdown(request) && isHomepage(url.pathname) && request.method === "GET") {
-        const mdUrl = new URL("/index.md", url.origin);
-        const mdRes = await fetch(mdUrl.toString(), {
+        const mdUrl = new URL("/index.md", url.origin).toString();
+        const mdRes = await fetchOrigin(mdUrl, {
           method: "GET",
           headers: {
-            Accept: "text/plain, text/markdown, */*",
+            Accept: "*/*",
             "User-Agent": "sabintsev-agent-edge",
           },
-          redirect: "follow",
-          cf: { cacheTtl: 300, cacheEverything: true },
         });
 
         if (mdRes.ok) {
           const body = await mdRes.text();
-          const headers = withAgentHeaders(mdRes.headers, {
-            contentType: "text/markdown; charset=utf-8",
-            markdownTokens: estimateTokens(body),
-          });
-          return new Response(body, { status: 200, headers });
+          if (
+            body &&
+            !body.trimStart().toLowerCase().startsWith("<!doctype") &&
+            !body.trimStart().toLowerCase().startsWith("<html")
+          ) {
+            const headers = withAgentHeaders(mdRes.headers, {
+              contentType: "text/markdown; charset=utf-8",
+              markdownTokens: estimateTokens(body),
+            });
+            return new Response(body, { status: 200, headers });
+          }
         }
-        // Fall through to HTML if index.md not published yet
+        // Fall through to HTML if markdown is unavailable
       }
 
-      const response = await fetchOrigin(request);
+      const response = await fetchOrigin(request.url, {
+        method: request.method,
+        headers: request.headers,
+        body:
+          request.method === "GET" || request.method === "HEAD"
+            ? undefined
+            : request.body,
+      });
+
       const headers = withAgentHeaders(response.headers);
 
       if (url.pathname === "/.well-known/api-catalog") {
@@ -124,19 +135,32 @@ export default {
         }
       }
 
+      // Help caches separate HTML vs markdown variants of /
+      if (isHomepage(url.pathname)) {
+        const vary = headers.get("Vary");
+        if (!vary) {
+          headers.set("Vary", "Accept");
+        } else if (!vary.toLowerCase().includes("accept")) {
+          headers.set("Vary", `${vary}, Accept`);
+        }
+      }
+
       return new Response(response.body, {
         status: response.status,
         statusText: response.statusText,
         headers,
       });
     } catch (err) {
-      return new Response(`agent-edge error: ${err && err.message ? err.message : String(err)}`, {
-        status: 502,
-        headers: {
-          "content-type": "text/plain; charset=utf-8",
-          "x-sabintsev-agent-edge": "error",
-        },
-      });
+      return new Response(
+        `agent-edge error: ${err && err.message ? err.message : String(err)}`,
+        {
+          status: 502,
+          headers: {
+            "content-type": "text/plain; charset=utf-8",
+            "x-sabintsev-agent-edge": "error",
+          },
+        }
+      );
     }
   },
 };
