@@ -3,10 +3,10 @@
 > Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington DC–Baltimore). He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), and helped take its token (POKT) past a $1B+ market cap. Earlier: experimental nuclear physics at Jefferson Lab and GW; iOS engineering; mobile leadership at ID.me, the Washington Post (Arc XP), and Capital One. Writes on AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
 
 ## Building
-- [Grove](https://grove.city) (CEO)
+- [Grove](https://grove.city) (Co-founder & CEO)
 
 ## Ventures
 - [Gold Ranger Ventures](https://goldranger.xyz) (studio LLC — investing, advising, incubation)
@@ -19,10 +19,16 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-foun
 - [Commander Spellbook](https://commanderspellbook.com) (Incubated and sold, 2020–2021 — combo search engine for Magic: The Gathering)
 
 ## Previously
-- [Pocket Network](https://pocket.network) (2018–2026)
-- [Capital One](https://capitalone.com) (2018–2022, Head of Mobile Payments)
-- [Washington Post](https://washingtonpost.com) (2015–2018, Head of Mobile Engineering)
-- [ID.me](https://id.me) (2013–2015)
+- [Pocket Network](https://pocket.network) (co-founder via Grove)
+- [Capital One](https://capitalone.com) (2018–2022; mobile payments / platform / growth leadership)
+- [Washington Post](https://washingtonpost.com) (2015–2018, Head of Mobile Engineering on Arc XP)
+- [ID.me](https://id.me) (2013–2015, Lead Mobile Architect)
+- Shelby.tv, Fueled (senior iOS)
+- Jefferson Lab / GW (experimental nuclear physics)
+
+## Education
+- M.Sc. Physics, George Washington University (left PhD track with master's)
+- B.S. Physics / Biophysics, George Washington University
 
 ## Connect
 - Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
@@ -34,6 +40,7 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-foun
 
 ## Agent discovery
 - [Markdown homepage](https://sabintsev.com/index.md) (`Accept: text/markdown` also works)
+- [Full summary](https://sabintsev.com/llms-full.txt)
 - [API catalog](https://sabintsev.com/.well-known/api-catalog)
 - [Agent skills](https://sabintsev.com/.well-known/agent-skills/index.json)
 - [auth.md](https://sabintsev.com/auth.md) — public site; no OAuth on this origin

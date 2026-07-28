@@ -3,7 +3,7 @@
 > Physicist, engineer, and two-time founder. Co-founder of Grove (the team behind Pocket Network). Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind Pocket Network, the decentralized network for blockchain RPC and AI inference access, which took its token (POKT) past a $1B+ market cap. Writes on AI agents, stablecoins, and operator craft.
+Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). Co-founded Grove, the team behind Pocket Network, the decentralized network for blockchain RPC and AI inference access, which took its token (POKT) past a $1B+ market cap. Background: experimental nuclear physics (Jefferson Lab, GW), iOS engineering, mobile leadership at ID.me / Washington Post Arc XP / Capital One. Writes on AI agents, stablecoins, and operator craft.
 
 ## Building
 - [Grove](https://grove.city) (Co-founder & CEO), team behind Pocket Network
@@ -15,10 +15,14 @@ Personal homepage for Arthur Ariel Sabintsev. Co-founded Grove, the team behind 
 - [Substack](https://artsabintsev.substack.com)
 
 ## Previously
-- [Pocket Network](https://pocket.network) (2018–2026, co-founder via Grove)
-- [Capital One](https://capitalone.com) (2018–2022, Head of Mobile Payments)
-- [Washington Post](https://washingtonpost.com) (2015–2018, Head of Mobile Engineering)
-- [ID.me](https://id.me) (2013–2015)
+- [Pocket Network](https://pocket.network) (co-founder via Grove)
+- [Capital One](https://capitalone.com) (2018–2022, mobile payments / platform / growth)
+- [Washington Post](https://washingtonpost.com) (2015–2018, Head of Mobile Engineering on Arc XP)
+- [ID.me](https://id.me) (2013–2015, Lead Mobile Architect)
+- Shelby.tv, Fueled (senior iOS); Jefferson Lab / GW (physics research)
+
+## Education
+- M.Sc. Physics & B.S. Physics/Biophysics — The George Washington University
 
 ## Social
 - Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
