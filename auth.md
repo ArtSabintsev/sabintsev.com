@@ -1,49 +1,86 @@
 # auth.md
 
-Agent registration and authentication for **sabintsev.com**.
+You are an agent discovering how to register and authenticate against **sabintsev.com**.
 
-## Audience
+This origin is a **public personal homepage**, not a multi-tenant API product. There is no agentic registration endpoint, no OAuth authorization server, and no access tokens to issue.
 
-AI agents discovering how to interact with this site.
+## Hosts
 
-## Auth posture
+- **Resource / site** — `https://sabintsev.com` — public HTML, markdown, and discovery files
+- **No auth server** — there is no `https://auth.sabintsev.com` (or equivalent) for this site
 
-This is a **public personal homepage**. There are no protected APIs, no OAuth/OIDC authorization server, and no bearer-token resource endpoints on this origin.
+## Current state
 
-Agents should treat all published content as public read-only:
+sabintsev.com does **not** support agent registration today.
 
-| Surface | Auth |
-| --- | --- |
-| `/`, `/index.md` | none (public) |
-| `/llms.txt`, `/llms-full.txt`, `/ai.txt` | none (public) |
-| `/.well-known/*` discovery files | none (public) |
-| WebMCP tools in the browser | none (client-side, page context only) |
+- Do **not** call `POST /agent/identity`, `POST /agent/auth`, or `POST /oauth2/token` on this origin
+- Do **not** invent OAuth clients, API keys, or bearer credentials for this domain
+- Treat every published surface as **public read-only** (no login, no scopes, no claim ceremony)
 
-## Registration
+## Discover
 
-There is no automated agent registration endpoint and no Dynamic Client Registration.
+There is no Protected Resource Metadata for protected APIs on this origin. Prefer these public discovery files instead:
 
-To contact the site owner (humans or agents acting on behalf of a human):
+1. [llms.txt](https://sabintsev.com/llms.txt) — short profile summary
+2. [llms-full.txt](https://sabintsev.com/llms-full.txt) — full profile summary
+3. [index.md](https://sabintsev.com/index.md) — markdown homepage (`Accept: text/markdown` on `/` also works)
+4. [API catalog](https://sabintsev.com/.well-known/api-catalog) — RFC 9727 linkset (no callable APIs)
+5. [Agent skills](https://sabintsev.com/.well-known/agent-skills/index.json) — skill index
+6. WebMCP tools on the homepage (`get_profile`, `get_contact`, `list_links`) when `navigator.modelContext` is available
 
-1. **Email** — [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
-2. Subject line should identify the agent or product when relevant
-3. Do not invent credentials, tokens, or OAuth clients for this domain
+If you receive a `401` from this origin, treat it as a misconfiguration or edge error — not as an invitation to register.
 
-## Supported methods
+## Supported registration methods
 
-| Method | Status |
-| --- | --- |
-| Public read of agent surfaces | supported |
-| OAuth 2.0 / OIDC | not offered |
-| API keys | not offered |
-| x402 / paid tools | not offered on this origin |
+| Method | Status | Notes |
+| --- | --- | --- |
+| `identity_assertion` / ID-JAG | not supported | no authorization server |
+| `service_auth` / claim ceremony | not supported | no claim or verification URI |
+| `anonymous` registration | not supported | no pre-claim credentials |
+| Out-of-band API key | not supported | no API keys on this origin |
+| Public read (no registration) | **supported** | default and only method |
 
-## Credential use
+### How to "register" for public access
 
-No credentials are issued by sabintsev.com. If another service (for example Grove or a third-party API) requires auth, obtain tokens from that service's own discovery and authorization endpoints — not from this site.
+No registration is required. Proceed without credentials:
 
-## Related discovery
+```http
+GET /llms.txt HTTP/1.1
+Host: sabintsev.com
+Accept: text/plain
+```
 
-- [API catalog](https://sabintsev.com/.well-known/api-catalog)
-- [llms.txt](https://sabintsev.com/llms.txt)
-- [Agent skills](https://sabintsev.com/.well-known/agent-skills/index.json)
+```http
+GET / HTTP/1.1
+Host: sabintsev.com
+Accept: text/markdown
+```
+
+## Contact (human provisioning only)
+
+If a human needs to reach Arthur (not an automated registration flow):
+
+1. Email [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
+2. Identify your agent or product in the subject when relevant
+3. Do not send passwords, private keys, or OAuth client secrets
+
+There is no automated provisioning endpoint and no device-authorization claim flow on this site.
+
+## Credentials and use
+
+No credentials are issued by sabintsev.com. Do not present `Authorization: Bearer` headers to this origin expecting a protected API.
+
+If you need authenticated access to **other** products Arthur is associated with (for example Grove), obtain tokens from **that** product's own `auth.md` / OAuth discovery documents — never from sabintsev.com.
+
+## Errors
+
+| Situation | Meaning | What to do |
+| --- | --- | --- |
+| `404` on `/.well-known/oauth-protected-resource` | expected | public site; no PRM |
+| `404` on `/.well-known/oauth-authorization-server` | expected | no AS on this origin |
+| `401` / `403` on public paths | unexpected | retry; do not attempt registration |
+| `429` | rate limited | back off and retry |
+
+## Revocation
+
+Nothing to revoke. No access tokens or agent registrations are minted here.
