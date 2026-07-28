@@ -34,9 +34,13 @@
 
     <link rel="canonical" href="https://sabintsev.com/">
     <link rel="icon" href="/favicon.ico">
+    <link rel="alternate" type="text/markdown" title="Markdown" href="/index.md">
     <link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt">
     <link rel="alternate" type="text/plain" title="LLM full summary" href="/llms-full.txt">
     <link rel="alternate" type="text/plain" title="AI usage guidance" href="/ai.txt">
+    <link rel="api-catalog" href="/.well-known/api-catalog">
+    <link rel="describedby" href="/.well-known/agent-skills/index.json" title="Agent Skills">
+    <link rel="describedby" href="/auth.md" title="auth.md">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,7 +84,7 @@
             "https://grove.city"
           ]
         },
-        "dateModified": "2026-07-15"
+        "dateModified": "2026-07-28"
       },
       {
         "@context": "https://schema.org",
@@ -512,5 +516,144 @@
         </footer>
     </div>
 </div>
+<script>
+(function () {
+  if (typeof navigator === "undefined" || !("modelContext" in navigator)) return;
+
+  var PROFILE = {
+    name: "Arthur Ariel Sabintsev",
+    alternateNames: ["Arthur Sabintsev", "Arthur A. Sabintsev"],
+    role: "Physicist · Engineer · Founder",
+    summary:
+      "Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network.",
+    email: "arthur.sabintsev@gmail.com",
+    site: "https://sabintsev.com/",
+    links: {
+      grove: "https://grove.city",
+      ventures: "https://goldranger.xyz",
+      writing: "https://artsabintsev.substack.com",
+      github: "https://github.com/ArtSabintsev",
+      linkedin: "https://linkedin.com/in/artsabintsev",
+      substack: "https://substack.com/@artsabintsev",
+      telegram: "https://t.me/artsabintsev/",
+      x: "https://x.com/artsabintsev"
+    },
+    agentResources: {
+      llms: "https://sabintsev.com/llms.txt",
+      llmsFull: "https://sabintsev.com/llms-full.txt",
+      ai: "https://sabintsev.com/ai.txt",
+      markdown: "https://sabintsev.com/index.md",
+      apiCatalog: "https://sabintsev.com/.well-known/api-catalog",
+      agentSkills: "https://sabintsev.com/.well-known/agent-skills/index.json",
+      auth: "https://sabintsev.com/auth.md"
+    }
+  };
+
+  function textResult(obj) {
+    return {
+      content: [{ type: "text", text: JSON.stringify(obj, null, 2) }]
+    };
+  }
+
+  var ctx = navigator.modelContext;
+  var register = ctx.registerTool
+    ? function (tool) { return ctx.registerTool(tool); }
+    : ctx.provideContext
+      ? function (tool) {
+          return ctx.provideContext({ tools: [tool] });
+        }
+      : null;
+
+  if (!register) return;
+
+  register({
+    name: "get_profile",
+    description:
+      "Return Arthur Sabintsev's public profile: name, role, summary, primary destinations (Grove, ventures, writing), and agent resource URLs.",
+    inputSchema: {
+      type: "object",
+      properties: {},
+      additionalProperties: false
+    },
+    annotations: { readOnlyHint: true },
+    execute: async function () {
+      return textResult({
+        name: PROFILE.name,
+        alternateNames: PROFILE.alternateNames,
+        role: PROFILE.role,
+        summary: PROFILE.summary,
+        site: PROFILE.site,
+        primary: {
+          grove: PROFILE.links.grove,
+          ventures: PROFILE.links.ventures,
+          writing: PROFILE.links.writing
+        },
+        agentResources: PROFILE.agentResources
+      });
+    }
+  });
+
+  register({
+    name: "get_contact",
+    description:
+      "Return public contact channels for Arthur Sabintsev (email and social profile URLs).",
+    inputSchema: {
+      type: "object",
+      properties: {},
+      additionalProperties: false
+    },
+    annotations: { readOnlyHint: true },
+    execute: async function () {
+      return textResult({
+        email: PROFILE.email,
+        mailto: "mailto:arthur.sabintsev@gmail.com?subject=Hey%20from%20Sabintsev.com",
+        social: {
+          github: PROFILE.links.github,
+          linkedin: PROFILE.links.linkedin,
+          substack: PROFILE.links.substack,
+          telegram: PROFILE.links.telegram,
+          x: PROFILE.links.x
+        }
+      });
+    }
+  });
+
+  register({
+    name: "list_links",
+    description:
+      "List primary outbound links from sabintsev.com (Grove, ventures, writing) and optional social links.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        includeSocial: {
+          type: "boolean",
+          description: "If true, include GitHub, LinkedIn, Substack, Telegram, and X."
+        }
+      },
+      additionalProperties: false
+    },
+    annotations: { readOnlyHint: true },
+    execute: async function (input) {
+      var out = {
+        primary: [
+          { name: "Grove", url: PROFILE.links.grove },
+          { name: "Ventures", url: PROFILE.links.ventures },
+          { name: "Writing", url: PROFILE.links.writing }
+        ]
+      };
+      if (input && input.includeSocial) {
+        out.social = [
+          { name: "GitHub", url: PROFILE.links.github },
+          { name: "LinkedIn", url: PROFILE.links.linkedin },
+          { name: "Substack", url: PROFILE.links.substack },
+          { name: "Telegram", url: PROFILE.links.telegram },
+          { name: "X", url: PROFILE.links.x }
+        ];
+      }
+      return textResult(out);
+    }
+  });
+})();
+</script>
 </body>
 </html>

@@ -31,3 +31,9 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder. He co-foun
 - [Substack](https://substack.com/@artsabintsev)
 - [Telegram](https://t.me/artsabintsev/)
 - [X](https://x.com/artsabintsev)
+
+## Agent discovery
+- [Markdown homepage](https://sabintsev.com/index.md) (`Accept: text/markdown` also works)
+- [API catalog](https://sabintsev.com/.well-known/api-catalog)
+- [Agent skills](https://sabintsev.com/.well-known/agent-skills/index.json)
+- [auth.md](https://sabintsev.com/auth.md) — public site; no OAuth on this origin

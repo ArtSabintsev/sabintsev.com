@@ -1,0 +1,35 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://sabintsev.com/",
+      "service-doc": [
+        {
+          "href": "https://sabintsev.com/llms.txt",
+          "type": "text/plain"
+        },
+        {
+          "href": "https://sabintsev.com/llms-full.txt",
+          "type": "text/plain"
+        },
+        {
+          "href": "https://sabintsev.com/ai.txt",
+          "type": "text/plain"
+        },
+        {
+          "href": "https://sabintsev.com/auth.md",
+          "type": "text/markdown"
+        },
+        {
+          "href": "https://sabintsev.com/index.md",
+          "type": "text/markdown"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "https://sabintsev.com/.well-known/agent-skills/index.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

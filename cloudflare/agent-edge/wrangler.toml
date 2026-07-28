@@ -1,0 +1,14 @@
+name = "sabintsev-agent-edge"
+main = "src/worker.js"
+compatibility_date = "2026-07-01"
+workers_dev = false
+
+# Proxied custom domain: GitHub Pages origin + CF orange cloud.
+# This Worker rewrites Accept: text/markdown → /index.md and injects Link headers.
+[[routes]]
+pattern = "sabintsev.com/*"
+zone_name = "sabintsev.com"
+
+[[routes]]
+pattern = "www.sabintsev.com/*"
+zone_name = "sabintsev.com"

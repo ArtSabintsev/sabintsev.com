@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
+# Content Signals: search + agent input allowed; foundation-model training declined.
+# See https://contentsignals.org/ and draft-romm-aipref-contentsignals
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 
 # AI search and assistant crawlers
 User-agent: GPTBot
@@ -73,6 +76,10 @@ Disallow: /
 # LLM-readable summary: https://sabintsev.com/llms.txt
 # Extended LLM-readable summary: https://sabintsev.com/llms-full.txt
 # AI usage guidance: https://sabintsev.com/ai.txt
+# Markdown homepage: https://sabintsev.com/index.md
+# API catalog: https://sabintsev.com/.well-known/api-catalog
+# Agent skills: https://sabintsev.com/.well-known/agent-skills/index.json
+# Auth posture: https://sabintsev.com/auth.md
 
 # Sitemap
 Sitemap: https://sabintsev.com/sitemap.xml

@@ -63,3 +63,8 @@ Arthur's background is in physics, with a career trajectory from research into s
 - **Type:** Personal homepage
 - **Content:** Portrait homepage with Grove / Ventures / Writing links, email and social icons (including Substack profile)
 - **Agent files:** [llms.txt](https://sabintsev.com/llms.txt), [llms-full.txt](https://sabintsev.com/llms-full.txt), [ai.txt](https://sabintsev.com/ai.txt)
+- **Markdown:** [index.md](https://sabintsev.com/index.md) (also via `Accept: text/markdown` on `/`)
+- **API catalog (RFC 9727):** [/.well-known/api-catalog](https://sabintsev.com/.well-known/api-catalog)
+- **Agent skills:** [/.well-known/agent-skills/index.json](https://sabintsev.com/.well-known/agent-skills/index.json)
+- **Auth posture:** [auth.md](https://sabintsev.com/auth.md) — public read-only; no OAuth/OIDC on this origin
+- **WebMCP:** `get_profile`, `get_contact`, `list_links` when the browser supports `navigator.modelContext`
