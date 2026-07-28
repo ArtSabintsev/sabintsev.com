@@ -3,7 +3,7 @@
 > Physicist, engineer, and two-time founder. Co-founder of Grove (the team behind Pocket Network). Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). Co-founded Grove, the team behind Pocket Network, the decentralized network for blockchain RPC and AI inference access, which took its token (POKT) past a $1B+ market cap. Background: experimental nuclear physics (Jefferson Lab, GW), iOS engineering, mobile leadership at ID.me / Washington Post Arc XP / Capital One. Writes on AI agents, stablecoins, and operator craft.
+Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). Co-founded Grove / Pocket Network (trillion+ API requests; POKT $1B+ market cap; later agentic micropayments via USDC/x402). Path: experimental nuclear physics (Jefferson Lab, GW) → iOS (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure. Writes on AI agents, stablecoins, and operator craft. Full background: [llms-full.txt](https://sabintsev.com/llms-full.txt).
 
 ## Building
 - [Grove](https://grove.city) (Co-founder & CEO), team behind Pocket Network
@@ -16,13 +16,13 @@ Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). Co-fou
 
 ## Previously
 - [Pocket Network](https://pocket.network) (co-founder via Grove)
-- [Capital One](https://capitalone.com) (2018–2022, mobile payments / platform / growth)
-- [Washington Post](https://washingtonpost.com) (2015–2018, Head of Mobile Engineering on Arc XP)
+- [Capital One](https://capitalone.com) (2018–2022, mobile platform / payments / growth)
+- [Washington Post](https://washingtonpost.com) / Arc XP (2015–2018, Head of Mobile Engineering)
 - [ID.me](https://id.me) (2013–2015, Lead Mobile Architect)
-- Shelby.tv, Fueled (senior iOS); Jefferson Lab / GW (physics research)
+- Shelby.tv, Fueled (senior iOS); Jefferson Lab / GW / UMMC (research)
 
 ## Education
-- M.Sc. Physics & B.S. Physics/Biophysics — The George Washington University
+- M.Sc. Experimental Nuclear Physics & B.S. Biophysics — The George Washington University
 
 ## Social
 - Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)

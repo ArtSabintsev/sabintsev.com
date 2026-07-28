@@ -3,14 +3,17 @@
 > Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network), the decentralized network where machines pay machines for blockchain access billions of times a month, and helped take its token (POKT) past a $1B+ market cap. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com). His career spans experimental nuclear physics research at Jefferson Lab, iOS engineering and mobile leadership at Fueled, Shelby.tv, ID.me, the Washington Post, and Capital One, and founding/operating decentralized infrastructure and venture studios.
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started in experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD track to build products instead of papers. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network)—a decentralized infrastructure protocol that has processed over a trillion API requests and whose chain reached a $1B+ market cap multiple times. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
+
+Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure and agentic payments (Grove / Pocket).
 
 ## Current Work
 
 ### Grove
-- **Role:** Co-founder & CEO (previously COO)
+- **Role:** Co-founder & CEO (Sep 2024–present); previously COO (Feb 2022–Sep 2024)
 - **Website:** [grove.city](https://grove.city)
-- **Context:** Grove is the team behind Pocket Network.
+- **Context:** Grove was Pocket Network’s founding team and core blockchain developers. After shipping and scaling Pocket, Grove pivoted (late 2025) toward an agentic micropayments platform—USDC over Base and x402—so humans and AI agents can pay creators for content.
+- **Scale (Pocket era):** $18M+ raised across equity and token rounds; 100+ person organization across 17 countries; partnerships including Google Cloud, Coinbase, Ripple, Aave, Polygon, Frax, and others; major network upgrades, validator migrations, and economics revisions
 
 ### Ventures
 - **Studio:** [Gold Ranger Ventures](https://goldranger.xyz)
@@ -28,42 +31,57 @@ Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time f
 
 ### Grove / Pocket Network
 - **Grove** — Co-founder; COO (~2022–2024), CEO (from ~2024)
-- **Pocket Network** — decentralized network for blockchain RPC access and AI inference; co-founded via Grove; POKT past a $1B+ market cap
+- **Pocket Network** — decentralized network for blockchain RPC / data access and later AI inference rails; co-founded via Grove; POKT past a $1B+ market cap; trillion+ API requests
 - **Websites:** [grove.city](https://grove.city), [pocket.network](https://pocket.network)
 
-### Capital One (2018–2022)
-Roles progressed across mobile product and platform leadership in McLean, VA:
-- Senior Manager, Mobile Payments (~2018–2019)
-- Head of Mobile Platform (~2019–2020)
-- Head of Mobile Payments (~2020–2021)
-- Head of Mobile Growth Initiatives (~2021–2022)
+### Capital One (Aug 2018–Feb 2022) — McLean, VA
+Accountable engineering leadership across mobile product and platform:
+
+- **Senior Manager, Mobile Payments** (Aug 2018–Dec 2019) — AutoPay, small-business card payments integration, 100% VoiceOver coverage on payments features, credit-limit-increase-on-payment flows
+- **Head of Mobile Platform** (Dec 2019–Nov 2020) — cut average iOS app size ~470 MB → ~170 MB; launch time ~13 s → ~3 s; led ~800-file Objective-C → Swift conversion; UIWebView → WKWebView migrations; App Store release sign-off; ownership tooling for 3000+ unowned files; GitHub-triggered beta/ad-hoc deploys; sandbox API monitoring dashboard
+- **Head of Mobile Payments** (Nov 2020–Oct 2021) — accountable eng lead for credit-card payments on Android & iOS (one-time pay, AutoPay, remediation, etc.); multi-team people leader
+- **Head of Mobile Growth Initiatives** (Oct 2021–Feb 2022) — new growth on Android & iOS (cross-sell, referrals, Capital One Shopping, etc.)
 - **Website:** [capitalone.com](https://capitalone.com)
 
-### The Washington Post (2015–2018)
-- **Role:** Head of Mobile Engineering on Arc XP
-- News media and publishing technology (Arc XP CMS / mobile)
-- **Website:** [washingtonpost.com](https://washingtonpost.com)
+### The Washington Post / Arc XP (Jul 2015–Aug 2018)
+- **Role:** Head of Mobile Engineering on Arc XP (The Washington Post’s publishing SaaS)
+- Built and led mobile apps for other publishers on Arc, including Los Angeles Times, New York Daily News, Chicago Tribune, Boston Globe, The Globe and Mail, Salt Lake Tribune, Raycom Media (40+ local news apps), Alaska Dispatch News / Arctic Now, Infobae Argentina & America
+- Earlier on the New Experiences team: Floppy Candidate, Washington Post Live, PostRecruit, Uber trip experience in the flagship app; also flagship news apps and shared iOS libraries
+- **Websites:** [washingtonpost.com](https://washingtonpost.com), [arcxp.com](https://www.arcxp.com)
 
-### ID.me (2013–2015)
-- **Role:** Lead Mobile Architect
-- Digital identity verification
+### ID.me (Apr 2013–Jul 2015) — Washington, DC
+- **Role:** Lead Mobile Architect — owned mobile development, design, and PM across the product portfolio
+- Helped close Series A (client/partner/investor travel with the founder); company growth past 1M users
+- Shipped closed-source libraries, enterprise apps, and App Store products; managed in-house engineers and agencies
 - **Website:** [id.me](https://id.me)
 
 ### Earlier engineering
-- **Shelby.tv** (2012–2013) — Senior iOS Engineer (NYC)
-- **Fueled** (2011–2012) — Senior iOS Engineer (NYC)
+- **Shelby.tv** (Apr 2012–Apr 2013, NYC) — Senior iOS Engineer; video playback and caching; company later acquired by Samsung (2014)
+- **Fueled** (Jun 2011–Apr 2012, NYC) — Senior iOS Engineer; developed, maintained, and consulted on many apps
 
-### Physics research (2008–2011)
-- Started career in experimental nuclear physics
-- **Jefferson Lab** (Newport News, VA) — experimental nuclear physics research; CLAS / Hall-B photoproduction (including g9a/FROST linear polarization and time-of-flight calibration work)
-- **University of Glasgow** (2009) — experimental nuclear physics collaboration
-- **The George Washington University** — Graduate Research Assistant and Graduate Teaching Assistant
+### Physics and research (2007–2011)
+- **Jefferson Lab** (May 2008–May 2011, Newport News, VA) — experimental nuclear physicist; CLAS6 time-of-flight calibrations; linear polarization for photoproduction (g9a/FROST); talks/posters at APS, DNP, MENU, Hadron Spectroscopy, etc.
+- **University of Glasgow** (May–Aug 2009) — software suite to extract linear polarization data (0.7–2.4 GeV) for baryon spectroscopy at JLab
+- **The George Washington University** — Graduate Research Assistant (experimental nuclear physics, quantum computing, physics education); Graduate Teaching Assistant for Intro Astronomy, Intro Physics, Intermediate Physics Lab
+- **University of Maryland Medical Center** (Jun 2007–May 2008) — Medical Physics Research Fellow; C++/MATLAB software for 4D lung-tumor data used in radiation dosage planning
 
 ## Education
 
 ### The George Washington University
-- **M.Sc., Physics** (2008–2011) — full-ride PhD track; left with a Master of Science to pursue product and engineering
-- **B.S., Physics / Biophysics** (2004–2008)
+- **M.Sc., Experimental Nuclear Physics** (2008–2011) — fully funded PhD track; left with a master’s to pursue product and engineering
+- **B.S., Biophysics** (2004–2008)
+
+## Open source (selected)
+Active on [GitHub](https://github.com/ArtSabintsev) since 2011 (60+ public repos). Notable Swift/iOS libraries (stars approximate):
+
+| Project | Focus |
+| --- | --- |
+| [Siren](https://github.com/ArtSabintsev/Siren) / [Harpy](https://github.com/ArtSabintsev/Harpy) | In-app version update prompts (thousands of stars) |
+| [FontBlaster](https://github.com/ArtSabintsev/FontBlaster) | Programmatic custom font loading (iOS/macOS/tvOS) |
+| [Zephyr](https://github.com/ArtSabintsev/Zephyr) | UserDefaults sync over iCloud |
+| [Guitar](https://github.com/ArtSabintsev/Guitar) | Cross-platform string / regex library in Swift |
+| [UIFloatLabelTextField](https://github.com/ArtSabintsev/UIFloatLabelTextField) / TextView | Float-label UI pattern |
+| [Freedom](https://github.com/ArtSabintsev/Freedom) | Open URLs in third-party browsers via custom UIActivity |
 
 ## Teaching, community, and publications
 
@@ -81,7 +99,7 @@ Roles progressed across mobile product and platform leadership in McLean, VA:
 - APS abstracts on linear polarization for pseudoscalar meson photoproduction / Hall-B tagged photon beam
 
 ## Skills and focus areas
-iOS/Swift/Objective-C and mobile platforms; mobile payments and commerce; identity; decentralized infrastructure and blockchain RPC; AI agentic payments (x402, AP2, USDC settlement); experimental/nuclear physics background; teaching and open source.
+iOS/Swift/Objective-C and mobile platforms; mobile payments and commerce; digital identity; decentralized infrastructure and blockchain RPC; AI agentic payments (x402, AP2, USDC settlement); experimental/nuclear physics; teaching and open source; people leadership and multi-team engineering orgs.
 
 ## Languages
 - English — native or bilingual
@@ -93,7 +111,7 @@ Washington DC–Baltimore area, United States
 ## Social Profiles
 - Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
 - [GitHub](https://github.com/ArtSabintsev) — open source (active since 2011; 60+ public repos)
-- [LinkedIn](https://linkedin.com/in/artsabintsev) — full professional history
+- [LinkedIn](https://linkedin.com/in/artsabintsev) — full professional history (~7K followers)
 - [Substack profile](https://substack.com/@artsabintsev)
 - [Substack publication](https://artsabintsev.substack.com)
 - [Telegram](https://t.me/artsabintsev/)

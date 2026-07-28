@@ -64,7 +64,7 @@
             "name": "Grove",
             "url": "https://grove.city"
           },
-          "description": "Physicist, engineer, and two-time founder. Co-founded Grove, the team behind Pocket Network, which took its token past a $1B+ market cap. Experimental nuclear physics background (Jefferson Lab, GW). Mobile leadership at Capital One, Washington Post Arc XP, and ID.me. Writes on AI agents, stablecoins, and operator craft. Runs Gold Ranger Ventures.",
+          "description": "Physicist, engineer, and two-time founder. Left a fully funded experimental nuclear physics PhD track to build. Co-founded Grove, the team behind Pocket Network (trillion+ API requests; POKT past a $1B+ market cap; later agentic micropayments). Mobile leadership at Capital One, Washington Post Arc XP, and ID.me. Open-source iOS libraries (Siren, FontBlaster, Zephyr). Writes on AI agents, stablecoins, and operator craft.",
           "email": "arthur.sabintsev@gmail.com",
           "homeLocation": {
             "@type": "Place",
@@ -77,14 +77,17 @@
               "url": "https://www.gwu.edu/"
             }
           ],
-          "knowsLanguage": ["en", "ru"],
+          "knowsLanguage": [
+            { "@type": "Language", "name": "English", "alternateName": "en" },
+            { "@type": "Language", "name": "Russian", "alternateName": "ru" }
+          ],
           "knowsAbout": [
             "Physics", "Experimental nuclear physics", "Software Engineering",
             "Entrepreneurship", "Decentralized Infrastructure", "Pocket Network",
             "blockchain RPC", "AI agentic payments", "x402", "AP2", "USDC settlement",
-            "iOS engineering", "Swift", "mobile payments", "App Store policy",
-            "token economics", "venture investing", "advising", "incubation",
-            "Arc XP", "digital identity"
+            "iOS engineering", "Swift", "Objective-C", "mobile payments",
+            "App Store policy", "token economics", "venture investing", "advising",
+            "incubation", "Arc XP", "digital identity", "open source"
           ],
           "sameAs": [
             "https://github.com/ArtSabintsev",
@@ -537,8 +540,21 @@
     name: "Arthur Ariel Sabintsev",
     alternateNames: ["Arthur Sabintsev", "Arthur A. Sabintsev"],
     role: "Physicist · Engineer · Founder",
+    location: "Washington DC-Baltimore Area",
+    languages: ["English", "Russian"],
     summary:
-      "Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network.",
+      "Physicist, engineer, and two-time founder. Left a fully funded experimental nuclear physics PhD track to build. Co-founder & CEO of Grove (team behind Pocket Network; later agentic micropayments via USDC/x402).",
+    education: {
+      ms: "M.Sc. Experimental Nuclear Physics, George Washington University",
+      bs: "B.S. Biophysics, George Washington University"
+    },
+    highlights: [
+      "Grove co-founder & CEO (prev. COO); Pocket Network trillion+ API requests, POKT $1B+ market cap",
+      "Capital One Head of Mobile Platform/Payments/Growth (2018–2022)",
+      "Washington Post Arc XP Head of Mobile Engineering (2015–2018)",
+      "ID.me Lead Mobile Architect (2013–2015)",
+      "Open source: Siren/Harpy, FontBlaster, Zephyr, Guitar"
+    ],
     email: "arthur.sabintsev@gmail.com",
     site: "https://sabintsev.com/",
     links: {
@@ -549,7 +565,8 @@
       linkedin: "https://linkedin.com/in/artsabintsev",
       substack: "https://substack.com/@artsabintsev",
       telegram: "https://t.me/artsabintsev/",
-      x: "https://x.com/artsabintsev"
+      x: "https://x.com/artsabintsev",
+      fullBio: "https://sabintsev.com/llms-full.txt"
     },
     agentResources: {
       llms: "https://sabintsev.com/llms.txt",
@@ -594,12 +611,17 @@
         name: PROFILE.name,
         alternateNames: PROFILE.alternateNames,
         role: PROFILE.role,
+        location: PROFILE.location,
+        languages: PROFILE.languages,
         summary: PROFILE.summary,
+        education: PROFILE.education,
+        highlights: PROFILE.highlights,
         site: PROFILE.site,
         primary: {
           grove: PROFILE.links.grove,
           ventures: PROFILE.links.ventures,
-          writing: PROFILE.links.writing
+          writing: PROFILE.links.writing,
+          fullBio: PROFILE.links.fullBio
         },
         agentResources: PROFILE.agentResources
       });

@@ -7,19 +7,20 @@ description: Physicist, engineer, two-time founder. Co-founded Grove, the team b
 
 Physicist · Engineer · Founder
 
-> Physicist, engineer, and two-time founder (Washington DC–Baltimore). Co-founder of Grove, the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder (Washington DC–Baltimore). Left a fully funded nuclear physics PhD track to build. Co-founder of Grove, the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
 
 ## Primary links
 
-- [Grove](https://grove.city) — Co-founder & CEO; team behind Pocket Network
+- [Grove](https://grove.city) — Co-founder & CEO; team behind Pocket Network → agentic micropayments
 - [Gold Ranger Ventures](https://goldranger.xyz) — studio LLC (investing, advising, incubation)
 - [Writing on Substack](https://artsabintsev.substack.com)
 
 ## Snapshot
 
-- **Education:** M.Sc. Physics (GW); B.S. Physics/Biophysics (GW); experimental nuclear physics research at Jefferson Lab
-- **Previously:** Capital One (mobile payments/platform/growth), Washington Post Arc XP (Head of Mobile Engineering), ID.me (Lead Mobile Architect), senior iOS at Shelby.tv and Fueled
-- **Also:** taught iOS/Swift at General Assembly and Betamore; open source on [GitHub](https://github.com/ArtSabintsev)
+- **Education:** M.Sc. Experimental Nuclear Physics (GW); B.S. Biophysics (GW); research at Jefferson Lab, Glasgow, UMMC medical physics
+- **Previously:** Capital One (mobile platform / payments / growth — e.g. iOS app 470→170 MB, launch 13s→3s); Washington Post Arc XP (Head of Mobile Engineering for publisher apps worldwide); ID.me (Lead Mobile Architect); senior iOS at Shelby.tv and Fueled
+- **Open source:** [Siren](https://github.com/ArtSabintsev/Siren), FontBlaster, Zephyr, Guitar, and more on [GitHub](https://github.com/ArtSabintsev)
+- **Full bio:** [llms-full.txt](https://sabintsev.com/llms-full.txt)
 
 ## Contact and social
 
