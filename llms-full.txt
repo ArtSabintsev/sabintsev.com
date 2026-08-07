@@ -109,18 +109,17 @@ iOS/Swift/Objective-C and mobile platforms; mobile payments and commerce; digita
 Washington DC–Baltimore area, United States
 
 ## Social Profiles
-- Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
-- [GitHub](https://github.com/ArtSabintsev) — open source (active since 2011; 60+ public repos)
 - [LinkedIn](https://linkedin.com/in/artsabintsev) — full professional history (~7K followers)
+- [X / Twitter](https://x.com/artsabintsev)
+- [GitHub](https://github.com/ArtSabintsev) — open source (active since 2011; 60+ public repos)
+- Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
 - [Substack profile](https://substack.com/@artsabintsev)
 - [Substack publication](https://artsabintsev.substack.com)
-- [Telegram](https://t.me/artsabintsev/)
-- [X / Twitter](https://x.com/artsabintsev)
 
 ## Website
 - **URL:** [sabintsev.com](https://sabintsev.com)
 - **Type:** Personal homepage
-- **Content:** Portrait homepage with Modern Intelligence / Ventures / Writing links, email and social icons
+- **Content:** Portrait homepage with Modern Intelligence / Ventures / Writing links; social icons (LinkedIn, X, GitHub, email)
 - **Agent files:** [llms.txt](https://sabintsev.com/llms.txt), [llms-full.txt](https://sabintsev.com/llms-full.txt), [ai.txt](https://sabintsev.com/ai.txt)
 - **Markdown:** [index.md](https://sabintsev.com/index.md) (also via `Accept: text/markdown` on `/`)
 - **API catalog (RFC 9727):** [/.well-known/api-catalog](https://sabintsev.com/.well-known/api-catalog)

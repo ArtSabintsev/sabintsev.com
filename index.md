@@ -24,12 +24,11 @@ Physicist · Engineer · Founder
 
 ## Contact and social
 
-- Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
-- [GitHub](https://github.com/ArtSabintsev)
 - [LinkedIn](https://linkedin.com/in/artsabintsev)
-- [Substack profile](https://substack.com/@artsabintsev)
-- [Telegram](https://t.me/artsabintsev/)
 - [X](https://x.com/artsabintsev)
+- [GitHub](https://github.com/ArtSabintsev)
+- Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
+- [Substack profile](https://substack.com/@artsabintsev)
 
 ## Agent resources
 

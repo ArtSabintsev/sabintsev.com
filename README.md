@@ -4,7 +4,7 @@ Personal homepage for Arthur Sabintsev. Live at [sabintsev.com](https://sabintse
 
 ## What it is
 
-A single-file static personal site in a full-bleed portrait style: large photo background, name and role, Modern Intelligence / Ventures / Writing, and social links (email, GitHub, LinkedIn, Substack, Telegram, X).
+A single-file static personal site in a full-bleed portrait style: large photo background, name and role, Modern Intelligence / Ventures / Writing, and social links (LinkedIn, X, GitHub, email).
 
 ## Local development
 
