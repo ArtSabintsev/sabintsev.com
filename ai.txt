@@ -1,12 +1,12 @@
 # Arthur Ariel Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove (the team behind Pocket Network). Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder. Co-founder of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove (the team behind Pocket Network). Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). Co-founded Grove / Pocket Network (trillion+ API requests; POKT $1B+ market cap; later agentic micropayments via USDC/x402). Path: experimental nuclear physics (Jefferson Lab, GW) → iOS (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure. Writes on AI agents, stablecoins, and operator craft. Full background: [llms-full.txt](https://sabintsev.com/llms-full.txt).
+Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). Co-founded [Modern Intelligence](https://modernintelligence.ai) — defense AI for ATR (automatic target recognition), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously co-founded Grove / Pocket Network (trillion+ API requests; POKT $1B+ market cap; later agentic micropayments via USDC/x402). Path: experimental nuclear physics (Jefferson Lab, GW) → iOS (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure → defense AI. Writes on AI agents, stablecoins, and operator craft. Full background: [llms-full.txt](https://sabintsev.com/llms-full.txt).
 
 ## Building
-- [Grove](https://grove.city) (Co-founder & CEO), team behind Pocket Network
+- [Modern Intelligence](https://modernintelligence.ai) (Co-founder) — ATR, terminal guidance, counter-UAS / counter-UAV (C-UAS / CUAS / CUAV), total domain awareness
 
 ## Ventures
 - [Gold Ranger Ventures](https://goldranger.xyz) (studio LLC — investing, advising, incubation)
@@ -15,6 +15,7 @@ Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). Co-fou
 - [Substack](https://artsabintsev.substack.com)
 
 ## Previously
+- [Grove](https://grove.city) (co-founder; COO then CEO) — team behind Pocket Network
 - [Pocket Network](https://pocket.network) (co-founder via Grove)
 - [Capital One](https://capitalone.com) (2018–2022, mobile platform / payments / growth)
 - [Washington Post](https://washingtonpost.com) / Arc XP (2015–2018, Head of Mobile Engineering)

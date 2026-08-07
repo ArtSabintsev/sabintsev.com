@@ -1,12 +1,12 @@
 # Arthur Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder. Co-founder of Modern Intelligence (defense AI). Previously co-founder & CEO of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington DC–Baltimore). He left a fully funded experimental nuclear physics PhD track (Jefferson Lab / GW) to build products. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network)—trillion+ API requests, POKT past a $1B+ market cap—and later agentic micropayments (USDC / x402). Writes on AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com). Full bio: [llms-full.txt](https://sabintsev.com/llms-full.txt).
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington DC–Baltimore). He left a fully funded experimental nuclear physics PhD track (Jefferson Lab / GW) to build products. He co-founded [Modern Intelligence](https://modernintelligence.ai) — defense AI spanning automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously he co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network)—trillion+ API requests, POKT past a $1B+ market cap—and later agentic micropayments (USDC / x402). Writes on AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com). Full bio: [llms-full.txt](https://sabintsev.com/llms-full.txt).
 
 ## Building
-- [Grove](https://grove.city) (Co-founder & CEO; previously COO)
+- [Modern Intelligence](https://modernintelligence.ai) (Co-founder) — defense AI: ATR, terminal guidance, counter-UAS / counter-UAV (C-UAS / CUAS / CUAV), total domain awareness
 
 ## Ventures
 - [Gold Ranger Ventures](https://goldranger.xyz) (studio LLC — investing, advising, incubation)
@@ -19,6 +19,7 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington
 - [Commander Spellbook](https://commanderspellbook.com) (Incubated and sold, 2020–2021 — combo search engine for Magic: The Gathering)
 
 ## Previously
+- [Grove](https://grove.city) (co-founder; COO ~2022–2024, CEO from ~2024) — team behind Pocket Network
 - [Pocket Network](https://pocket.network) (co-founder via Grove; $18M+ raised across equity/token rounds)
 - [Capital One](https://capitalone.com) (2018–2022; Head of Mobile Platform / Payments / Growth)
 - [Washington Post](https://washingtonpost.com) / Arc XP (2015–2018, Head of Mobile Engineering)

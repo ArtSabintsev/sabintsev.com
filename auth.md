@@ -70,7 +70,7 @@ There is no automated provisioning endpoint and no device-authorization claim fl
 
 No credentials are issued by sabintsev.com. Do not present `Authorization: Bearer` headers to this origin expecting a protected API.
 
-If you need authenticated access to **other** products Arthur is associated with (for example Grove), obtain tokens from **that** product's own `auth.md` / OAuth discovery documents — never from sabintsev.com.
+If you need authenticated access to **other** products Arthur is associated with (for example Modern Intelligence), obtain tokens from **that** product's own `auth.md` / OAuth discovery documents — never from sabintsev.com.
 
 ## Errors
 

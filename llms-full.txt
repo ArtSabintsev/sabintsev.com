@@ -1,19 +1,18 @@
 # Arthur Sabintsev
 
-> Physicist, engineer, and two-time founder. Co-founder of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder. Co-founder of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started in experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD track to build products instead of papers. He co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network)—a decentralized infrastructure protocol that has processed over a trillion API requests and whose chain reached a $1B+ market cap multiple times. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started in experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD track to build products instead of papers. He co-founded [Modern Intelligence](https://modernintelligence.ai) — defense AI for automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously he co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network)—a decentralized infrastructure protocol that has processed over a trillion API requests and whose chain reached a $1B+ market cap multiple times. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
 
-Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure and agentic payments (Grove / Pocket).
+Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure and agentic payments (Grove / Pocket) → defense AI (Modern Intelligence).
 
 ## Current Work
 
-### Grove
-- **Role:** Co-founder & CEO (Sep 2024–present); previously COO (Feb 2022–Sep 2024)
-- **Website:** [grove.city](https://grove.city)
-- **Context:** Grove was Pocket Network’s founding team and core blockchain developers. After shipping and scaling Pocket, Grove pivoted (late 2025) toward an agentic micropayments platform—USDC over Base and x402—so humans and AI agents can pay creators for content.
-- **Scale (Pocket era):** $18M+ raised across equity and token rounds; 100+ person organization across 17 countries; partnerships including Google Cloud, Coinbase, Ripple, Aave, Polygon, Frax, and others; major network upgrades, validator migrations, and economics revisions
+### Modern Intelligence
+- **Role:** Co-founder
+- **Website:** [modernintelligence.ai](https://modernintelligence.ai)
+- **Context:** Defense AI — the new standard for artificial intelligence in defense. Focus areas include automatic target recognition (ATR), terminal guidance, counter-unmanned aircraft systems / counter-UAV (C-UAS, CUAS, CUAV), high-fidelity target analysis, total domain awareness, and real-time perception for the modern warfighter.
 
 ### Ventures
 - **Studio:** [Gold Ranger Ventures](https://goldranger.xyz)
@@ -30,8 +29,9 @@ Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile
 ## Career History
 
 ### Grove / Pocket Network
-- **Grove** — Co-founder; COO (~2022–2024), CEO (from ~2024)
+- **Grove** — Co-founder; COO (~2022–2024), CEO (from ~2024). Pocket Network’s founding team and core blockchain developers. After shipping and scaling Pocket, Grove pivoted (late 2025) toward an agentic micropayments platform—USDC over Base and x402—so humans and AI agents can pay creators for content.
 - **Pocket Network** — decentralized network for blockchain RPC / data access and later AI inference rails; co-founded via Grove; POKT past a $1B+ market cap; trillion+ API requests
+- **Scale (Pocket era):** $18M+ raised across equity and token rounds; 100+ person organization across 17 countries; partnerships including Google Cloud, Coinbase, Ripple, Aave, Polygon, Frax, and others; major network upgrades, validator migrations, and economics revisions
 - **Websites:** [grove.city](https://grove.city), [pocket.network](https://pocket.network)
 
 ### Capital One (Aug 2018–Feb 2022) — McLean, VA
@@ -99,7 +99,7 @@ Active on [GitHub](https://github.com/ArtSabintsev) since 2011 (60+ public repos
 - APS abstracts on linear polarization for pseudoscalar meson photoproduction / Hall-B tagged photon beam
 
 ## Skills and focus areas
-iOS/Swift/Objective-C and mobile platforms; mobile payments and commerce; digital identity; decentralized infrastructure and blockchain RPC; AI agentic payments (x402, AP2, USDC settlement); experimental/nuclear physics; teaching and open source; people leadership and multi-team engineering orgs.
+iOS/Swift/Objective-C and mobile platforms; mobile payments and commerce; digital identity; decentralized infrastructure and blockchain RPC; defense AI (ATR / automatic target recognition, terminal guidance, counter-UAS / counter-UAV / C-UAS / CUAS / CUAV, total domain awareness, target analysis, perception AI); AI agentic payments (x402, AP2, USDC settlement); experimental/nuclear physics; teaching and open source; people leadership and multi-team engineering orgs.
 
 ## Languages
 - English — native or bilingual
@@ -120,7 +120,7 @@ Washington DC–Baltimore area, United States
 ## Website
 - **URL:** [sabintsev.com](https://sabintsev.com)
 - **Type:** Personal homepage
-- **Content:** Portrait homepage with Grove / Ventures / Writing links, email and social icons
+- **Content:** Portrait homepage with Modern Intelligence / Ventures / Writing links, email and social icons
 - **Agent files:** [llms.txt](https://sabintsev.com/llms.txt), [llms-full.txt](https://sabintsev.com/llms-full.txt), [ai.txt](https://sabintsev.com/ai.txt)
 - **Markdown:** [index.md](https://sabintsev.com/index.md) (also via `Accept: text/markdown` on `/`)
 - **API catalog (RFC 9727):** [/.well-known/api-catalog](https://sabintsev.com/.well-known/api-catalog)
