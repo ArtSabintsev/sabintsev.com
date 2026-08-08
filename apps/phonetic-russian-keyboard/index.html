@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonetic Russian Keyboard — Support</title>
+    <meta name="description" content="Support for Phonetic Russian Keyboard — a phonetic ЯВЕРТЫ iOS keyboard. Setup help, FAQs, and contact.">
+    <meta name="author" content="Arthur Ariel Sabintsev">
+    <meta name="theme-color" content="#030303">
+    <meta name="color-scheme" content="dark">
+    <meta name="robots" content="index,follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Arthur Sabintsev">
+    <meta property="og:title" content="Phonetic Russian Keyboard — Support">
+    <meta property="og:description" content="Setup help, FAQs, and contact for the Phonetic Russian Keyboard iOS app.">
+    <meta property="og:url" content="https://sabintsev.com/apps/phonetic-russian-keyboard/">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Phonetic Russian Keyboard — Support">
+    <meta name="twitter:description" content="Setup help, FAQs, and contact for the Phonetic Russian Keyboard iOS app.">
+
+    <link rel="canonical" href="https://sabintsev.com/apps/phonetic-russian-keyboard/">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #030303;
+            --fg: #fafafa;
+            --muted: #a3a3a3;
+            --muted-soft: #737373;
+            --gold: #d4af37;
+            --card: rgba(255, 255, 255, 0.04);
+            --border: rgba(255, 255, 255, 0.12);
+            --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            min-height: 100%;
+            background: var(--bg);
+            color: var(--fg);
+            font-family: var(--font-sans);
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            line-height: 1.6;
+        }
+
+        ::selection { background: #fff; color: #000; }
+
+        a { color: var(--gold); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .wrap {
+            max-width: 40rem;
+            margin: 0 auto;
+            padding: clamp(1.5rem, 4vw, 2.75rem) clamp(1.25rem, 4vw, 1.75rem) 4rem;
+        }
+
+        .crumb {
+            font-size: 0.8rem;
+            color: var(--muted-soft);
+            margin-bottom: 1.75rem;
+        }
+        .crumb a { color: var(--muted); }
+
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 600;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 0.5rem;
+        }
+
+        .lede {
+            color: var(--muted);
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            margin: 2rem 0 0.75rem;
+        }
+
+        p, li { color: var(--fg); font-size: 0.98rem; }
+        p + p { margin-top: 0.75rem; }
+
+        ol, ul {
+            padding-left: 1.25rem;
+            margin: 0.5rem 0 0;
+        }
+        li + li { margin-top: 0.45rem; }
+        li::marker { color: var(--muted-soft); }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 0.85rem;
+            padding: 1.1rem 1.2rem;
+            margin-top: 0.75rem;
+        }
+
+        .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1rem;
+            margin-top: 0.35rem;
+            font-size: 0.88rem;
+            color: var(--muted);
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--muted-soft);
+        }
+        .footer a { color: var(--muted); }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <p class="crumb"><a href="/">sabintsev.com</a> · Apps · Phonetic Russian Keyboard</p>
+
+        <h1>Phonetic Russian Keyboard</h1>
+        <p class="lede">Support for the free iOS keyboard that lets you type Cyrillic by sound (ЯВЕРТЫ phonetic layout).</p>
+
+        <div class="card">
+            <strong>Need help?</strong>
+            <p style="margin-top:0.4rem;color:var(--muted)">Email Arthur Sabintsev at
+                <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Support">arthur.sabintsev@gmail.com</a>.
+                Please include your iOS version and a short description of the issue.
+            </p>
+            <p class="meta">
+                <span>Privacy policy:
+                    <a href="/apps/phonetic-russian-keyboard/privacy/">sabintsev.com/…/privacy</a>
+                </span>
+            </p>
+        </div>
+
+        <h2>Enable the keyboard</h2>
+        <ol>
+            <li>Install <strong>Phonetic Russian Keyboard</strong> from the App Store.</li>
+            <li>Open the host app and follow the Setup steps, or go to
+                <strong>Settings → General → Keyboard → Keyboards → Add New Keyboard…</strong>.</li>
+            <li>Choose <strong>Phonetic Russian</strong> (under the Phonetic Russian Keyboard app).</li>
+            <li>In any text field, tap the <strong>globe</strong> key and select <strong>Phonetic RU</strong>.</li>
+        </ol>
+        <p style="margin-top:0.85rem;color:var(--muted)">Tip: in the Simulator or with a hardware keyboard connected, use <strong>⌘K</strong> to toggle the software keyboard.</p>
+
+        <h2>What this keyboard is</h2>
+        <ul>
+            <li><strong>Phonetic / homophonic:</strong> one key → one letter by sound (ЯВЕРТЫ sticker map).</li>
+            <li><strong>Cyrillic-only key faces</strong> — designed so Latin-keyboard users can type Russian without learning ЙЦУКЕН.</li>
+            <li><strong>Not</strong> Windows Russian Mnemonic multi-key combos, and not a multi-letter transliteration keyboard.</li>
+        </ul>
+
+        <h2>Privacy</h2>
+        <p>The keyboard runs fully on your device. No Full Access, no network, no analytics, no keylogging.
+            See the <a href="/apps/phonetic-russian-keyboard/privacy/">privacy policy</a>.</p>
+
+        <h2>Common questions</h2>
+        <p><strong>I installed the app but don’t see the keyboard.</strong><br>
+            The App Store app is the setup host. You still need to add the keyboard under
+            Settings → General → Keyboard → Keyboards, then pick <strong>Phonetic RU</strong> with the globe key.</p>
+        <p><strong>Does it need Full Access?</strong><br>
+            No. Leave Full Access off. Typing stays on-device.</p>
+        <p><strong>Does it collect what I type?</strong><br>
+            No. Typed text is only inserted into the active field on your device.</p>
+
+        <p class="footer">
+            © Arthur Sabintsev ·
+            <a href="/">Home</a> ·
+            <a href="/apps/phonetic-russian-keyboard/privacy/">Privacy</a> ·
+            <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Support">Contact</a>
+        </p>
+    </main>
+</body>
+</html>

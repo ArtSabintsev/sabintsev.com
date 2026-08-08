@@ -37,6 +37,7 @@ DNS-AID records are **not** in this repo (they live in the Cloudflare DNS zone).
 - `index.html` — page + styles + SEO/JSON-LD + WebMCP tools
 - `index.md` — markdown homepage (`Accept: text/markdown` via Worker)
 - `images/backdrop.jpg` — full-bleed portrait
+- `apps/phonetic-russian-keyboard/` — public App Store Support + Privacy pages (GitHub Pages; must stay public)
 - `llms.txt`, `llms-full.txt`, `ai.txt` — agent-readable public summary
 - `auth.md` — agent auth posture (public site; no OAuth on this origin)
 - `robots.txt`, `sitemap.xml` — crawl metadata + Content Signals

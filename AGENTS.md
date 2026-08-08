@@ -36,6 +36,7 @@ If the private remote cannot be cloned because GitHub auth is unavailable, repor
 Sabintsev.com is Arthur Ariel Sabintsev's personal site, served via GitHub Pages from this repo with the `sabintsev.com` CNAME.
 
 - Main page: `index.html` (single-file static site)
+- App Store legal/support pages: `apps/phonetic-russian-keyboard/` (Support) and `apps/phonetic-russian-keyboard/privacy/` (Privacy). These must remain public and functional — App Review rejects private GitHub links.
 - Public metadata: `llms.txt`, `llms-full.txt`, `ai.txt`, `robots.txt`, `sitemap.xml`
 - Deploy: pushing to `master` on `origin` publishes via GitHub Pages — no build step.
 - Local development: open `index.html` directly in a browser; no build step or dev server is required.
