@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy — Phonetic Russian Keyboard</title>
-    <meta name="description" content="Privacy policy for Phonetic Russian Keyboard. No data collection, no network from the keyboard extension.">
+    <meta name="description" content="Privacy policy for Phonetic Russian Keyboard. No data collection.">
     <meta name="author" content="Arthur Ariel Sabintsev">
     <meta name="theme-color" content="#f6f5f2">
     <meta name="color-scheme" content="light">
@@ -15,16 +15,12 @@
     <meta property="og:description" content="No data collection. Keyboard runs fully on-device.">
     <meta property="og:url" content="https://sabintsev.com/apps/phonetic-russian-keyboard/privacy/">
     <meta property="og:image" content="https://sabintsev.com/apps/phonetic-russian-keyboard/icon-1024.png">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Privacy Policy — Phonetic Russian Keyboard">
-    <meta name="twitter:description" content="No data collection. Keyboard runs fully on-device.">
-    <meta name="twitter:image" content="https://sabintsev.com/apps/phonetic-russian-keyboard/icon-1024.png">
     <link rel="canonical" href="https://sabintsev.com/apps/phonetic-russian-keyboard/privacy/">
-    <link rel="icon" type="image/png" href="/apps/phonetic-russian-keyboard/icon-64.png?v=4">
-    <link rel="apple-touch-icon" href="/apps/phonetic-russian-keyboard/apple-touch-icon.png?v=4">
+    <link rel="icon" type="image/png" href="/apps/phonetic-russian-keyboard/icon-64.png?v=5">
+    <link rel="apple-touch-icon" href="/apps/phonetic-russian-keyboard/apple-touch-icon.png?v=5">
     <style>
-/* Phonetic Russian Keyboard — Support + Privacy (shared)
-   Paper document. Styles inlined on pages too; this file is the source of truth. */
+/* Phonetic Russian Keyboard — Support + Privacy (shared shell)
+   Source of truth; also inlined into both HTML pages. */
 
 :root {
   --bg: #f6f5f2;
@@ -35,7 +31,6 @@
   --line: #e4e1db;
   --accent: #5c3d99;
   --accent-2: #47307a;
-  --radius: 8px;
   --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --measure: 40rem;
 }
@@ -59,99 +54,77 @@ a:hover { color: var(--accent-2); }
 a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .wrap {
   max-width: calc(var(--measure) + 2rem);
   margin: 0 auto;
-  padding: 1.25rem 1.15rem 3rem;
+  padding: 1.35rem 1.15rem 2.5rem;
 }
 
-/* Header */
+/* Header: product identity + the only two pages */
 .bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.15rem;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.7rem;
+  gap: 0.65rem;
   text-decoration: none;
   color: var(--ink);
-  min-width: 0;
-}
-.brand:hover { color: var(--ink); text-decoration: none; }
-
-.brand img {
-  width: 40px;
-  height: 40px;
-  border-radius: 9px;
-  flex-shrink: 0;
-  box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 4px 12px rgb(70 50 120 / 0.12);
-}
-
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-  min-width: 0;
-}
-.brand-text strong {
   font-size: 0.95rem;
   font-weight: 650;
   letter-spacing: -0.02em;
-  line-height: 1.2;
+  min-width: 0;
 }
-.brand-text span {
-  font-size: 0.78rem;
-  color: var(--muted);
-  font-weight: 500;
+.brand:hover { color: var(--ink); text-decoration: none; }
+.brand img {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.brand span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .nav {
   display: flex;
-  gap: 0.35rem;
+  gap: 1rem;
   flex-shrink: 0;
+  font-size: 0.9rem;
 }
 .nav a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2.25rem;
-  padding: 0.35rem 0.7rem;
-  border-radius: 6px;
+  color: var(--muted);
   text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 550;
-  color: var(--ink-2);
+  font-weight: 500;
 }
-.nav a:hover {
-  background: rgb(0 0 0 / 0.04);
-  color: var(--ink);
-  text-decoration: none;
-}
+.nav a:hover { color: var(--ink); }
 .nav a[aria-current="page"] {
-  background: var(--surface);
   color: var(--ink);
-  box-shadow: 0 0 0 1px var(--line);
   font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
 }
 
-/* Panel */
+/* Document panel */
 .panel {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 12px;
-  padding: 1.5rem 1.35rem 1.6rem;
-  box-shadow: 0 1px 2px rgb(26 23 20 / 0.04);
+  padding: 1.5rem 1.35rem 1.65rem;
 }
 
 .panel > h1 {
-  font-size: clamp(1.55rem, 4vw, 1.85rem);
+  font-size: clamp(1.5rem, 4vw, 1.8rem);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.15;
@@ -161,29 +134,26 @@ a:focus-visible {
 .lede {
   color: var(--ink-2);
   font-size: 1.02rem;
-  margin-bottom: 0;
   max-width: 36rem;
 }
 
 .when {
-  margin-top: 0.55rem;
+  margin-top: 0.5rem;
   font-size: 0.88rem;
   color: var(--muted);
 }
 
-/* Sections inside panel */
 .block {
-  margin-top: 1.5rem;
-  padding-top: 1.35rem;
+  margin-top: 1.45rem;
+  padding-top: 1.3rem;
   border-top: 1px solid var(--line);
 }
 .block h2 {
   font-size: 0.98rem;
   font-weight: 700;
   letter-spacing: -0.015em;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.5rem;
 }
-
 .block p + p { margin-top: 0.65rem; }
 
 .block ol,
@@ -195,93 +165,31 @@ a:focus-visible {
 .block li::marker { color: var(--muted); }
 
 .hint {
-  margin-top: 0.75rem;
+  margin-top: 0.7rem;
   font-size: 0.92rem;
   color: var(--muted);
 }
 
-/* Contact */
-.help {
-  margin-top: 1.25rem;
-  padding: 1rem 1.05rem;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-}
-.help p {
-  color: var(--ink-2);
-  font-size: 0.98rem;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.65rem 1rem;
-  margin-top: 0.8rem;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2.6rem;
-  padding: 0.5rem 1rem;
-  border-radius: 7px;
-  background: var(--ink);
-  color: #fff !important;
-  text-decoration: none !important;
-  font-size: 0.95rem;
-  font-weight: 600;
-  border: 1px solid var(--ink);
-}
-.btn:hover {
-  background: #000;
-  color: #fff !important;
-}
-.btn:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.quiet {
-  font-size: 0.95rem;
-  font-weight: 550;
-  color: var(--accent);
-  text-decoration: none;
-}
-.quiet:hover { text-decoration: underline; }
-
-/* FAQ */
 .qa { margin-top: 0.95rem; }
-.qa:first-of-type { margin-top: 0.35rem; }
+.qa:first-of-type { margin-top: 0.3rem; }
 .qa dt {
   font-weight: 650;
-  color: var(--ink);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.15rem;
 }
 .qa dd {
   color: var(--ink-2);
   font-size: 0.98rem;
 }
 
-/* Footer */
+/* Footer: ownership only */
 .foot {
-  margin-top: 1.35rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem 1rem;
-  font-size: 0.86rem;
+  margin-top: 1.15rem;
+  font-size: 0.85rem;
   color: var(--muted);
 }
-.foot nav {
-  display: flex;
-  gap: 0.85rem;
-}
 .foot a {
-  color: var(--ink-2);
+  color: var(--muted);
   text-decoration: none;
-  font-weight: 500;
 }
 .foot a:hover { color: var(--accent); }
 
@@ -289,10 +197,8 @@ a:focus-visible {
   .bar {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.65rem;
   }
-  .nav { width: 100%; }
-  .nav a { flex: 1; justify-content: center; }
-  .row .btn { width: 100%; }
 }
 
     </style>
@@ -301,11 +207,8 @@ a:focus-visible {
     <div class="wrap">
         <header class="bar">
             <a class="brand" href="/apps/phonetic-russian-keyboard/">
-                <img src="/apps/phonetic-russian-keyboard/icon-64.png?v=4" width="40" height="40" alt="">
-                <span class="brand-text">
-                    <strong>Phonetic Russian Keyboard</strong>
-                    <span>ЯВЕРТЫ · iOS</span>
-                </span>
+                <img src="/apps/phonetic-russian-keyboard/icon-64.png?v=5" width="36" height="36" alt="">
+                <span>Phonetic Russian Keyboard</span>
             </a>
             <nav class="nav" aria-label="App pages">
                 <a href="/apps/phonetic-russian-keyboard/">Support</a>
@@ -316,7 +219,7 @@ a:focus-visible {
         <main class="panel">
             <h1>Privacy Policy</h1>
             <p class="lede">
-                Simple policy: the keyboard does not collect, store, or transmit what you type.
+                The keyboard does not collect, store, or transmit what you type.
             </p>
             <p class="when">Last updated: August 8, 2026</p>
 
@@ -366,21 +269,14 @@ a:focus-visible {
 
             <section class="block" aria-labelledby="contact">
                 <h2 id="contact">Contact</h2>
-                <div class="help">
-                    <p>
-                        Arthur Sabintsev<br>
-                        <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Privacy">arthur.sabintsev@gmail.com</a>
-                    </p>
-                </div>
+                <p>
+                    <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Privacy">arthur.sabintsev@gmail.com</a>
+                </p>
             </section>
         </main>
 
         <footer class="foot">
-            <span>© Arthur Sabintsev</span>
-            <nav aria-label="Footer">
-                <a href="/apps/phonetic-russian-keyboard/">Support</a>
-                <a href="/">sabintsev.com</a>
-            </nav>
+            <a href="/">© Arthur Sabintsev</a>
         </footer>
     </div>
 </body>
