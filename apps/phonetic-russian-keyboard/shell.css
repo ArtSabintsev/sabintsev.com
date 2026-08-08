@@ -31,15 +31,51 @@ body {
 }
 
 a {
-  color: var(--accent);
+  color: var(--ink-2);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.14em;
 }
-a:hover { color: var(--accent-hover); }
+/* Same color for all link states — no browser blue/purple visited */
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: var(--ink-2);
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
 a:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--ink);
   outline-offset: 3px;
   border-radius: 2px;
+  color: var(--ink);
+}
+/* Nav keeps its own palette (not “links”) */
+.nav a:link,
+.nav a:visited,
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
+  color: var(--muted);
+}
+.nav a:hover { color: var(--ink); }
+.nav a[aria-current="page"],
+.nav a[aria-current="page"]:link,
+.nav a[aria-current="page"]:visited,
+.nav a[aria-current="page"]:hover,
+.nav a[aria-current="page"]:active {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+.brand:link,
+.brand:visited,
+.brand:hover,
+.brand:active {
+  color: var(--ink);
+  text-decoration: none;
 }
 
 .wrap {
