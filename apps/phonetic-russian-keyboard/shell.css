@@ -1,17 +1,19 @@
-/* Phonetic Russian Keyboard — Support + Privacy (shared shell)
-   Source of truth; also inlined into both HTML pages. */
+/* Phonetic Russian Keyboard — Support + Privacy
+   Single shell. Inlined into both pages by build (see index.html / privacy/).
+   Cache-bust id: shell-20260808-c */
 
 :root {
-  --bg: #f6f5f2;
+  --bg: #f5f4f1;
   --surface: #ffffff;
   --ink: #1a1714;
   --ink-2: #3f3a34;
   --muted: #6b6560;
-  --line: #e4e1db;
+  --line: #e3e0da;
   --accent: #5c3d99;
-  --accent-2: #47307a;
+  --accent-hover: #47307a;
   --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --measure: 40rem;
+  --pad: 1.15rem;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -28,8 +30,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--accent); }
-a:hover { color: var(--accent-2); }
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+a:hover { color: var(--accent-hover); }
 a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
@@ -39,131 +45,151 @@ a:focus-visible {
 .wrap {
   max-width: calc(var(--measure) + 2rem);
   margin: 0 auto;
-  padding: 1.35rem 1.15rem 2.5rem;
+  padding: 1.25rem var(--pad) 2.75rem;
 }
 
-/* Header: product identity + the only two pages */
+/* —— Header (identical on both pages) —— */
 .bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1.15rem;
+  margin-bottom: 1.1rem;
+  min-height: 2.5rem;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
-  text-decoration: none;
+  gap: 0.6rem;
+  min-width: 0;
   color: var(--ink);
   font-size: 0.95rem;
   font-weight: 650;
   letter-spacing: -0.02em;
-  min-width: 0;
+  text-decoration: none;
 }
-.brand:hover { color: var(--ink); text-decoration: none; }
+.brand:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
 .brand img {
   width: 36px;
   height: 36px;
   border-radius: 8px;
   flex-shrink: 0;
+  display: block;
 }
-.brand span {
+.brand .name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
+/* Nav: plain text only. Current = darker + heavier. No pill, no underline. */
 .nav {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  gap: 1.1rem;
   flex-shrink: 0;
-  font-size: 0.9rem;
 }
 .nav a {
   color: var(--muted);
-  text-decoration: none;
+  font-size: 0.9rem;
   font-weight: 500;
+  text-decoration: none;
+  line-height: 1.2;
 }
-.nav a:hover { color: var(--ink); }
+.nav a:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
 .nav a[aria-current="page"] {
   color: var(--ink);
-  font-weight: 650;
-  text-decoration: underline;
-  text-underline-offset: 0.22em;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-/* Document panel */
+/* —— Document panel —— */
 .panel {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 12px;
-  padding: 1.5rem 1.35rem 1.65rem;
+  padding: 1.45rem 1.3rem 1.6rem;
 }
 
 .panel > h1 {
-  font-size: clamp(1.5rem, 4vw, 1.8rem);
+  font-size: clamp(1.5rem, 4vw, 1.75rem);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.15;
-  margin-bottom: 0.45rem;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
 }
 
 .lede {
+  margin: 0;
   color: var(--ink-2);
   font-size: 1.02rem;
   max-width: 36rem;
 }
 
 .when {
-  margin-top: 0.5rem;
-  font-size: 0.88rem;
+  margin: 0.45rem 0 0;
+  font-size: 0.875rem;
   color: var(--muted);
 }
 
 .block {
-  margin-top: 1.45rem;
-  padding-top: 1.3rem;
+  margin-top: 1.35rem;
+  padding-top: 1.25rem;
   border-top: 1px solid var(--line);
 }
 .block h2 {
+  margin: 0 0 0.45rem;
   font-size: 0.98rem;
   font-weight: 700;
   letter-spacing: -0.015em;
-  margin-bottom: 0.5rem;
+  color: var(--ink);
 }
-.block p + p { margin-top: 0.65rem; }
+.block p {
+  margin: 0;
+  color: var(--ink);
+}
+.block p + p { margin-top: 0.6rem; }
+.block p.muted { color: var(--ink-2); }
 
 .block ol,
 .block ul {
-  margin: 0.35rem 0 0;
+  margin: 0.3rem 0 0;
   padding-left: 1.2rem;
 }
-.block li + li { margin-top: 0.4rem; }
+.block li { color: var(--ink); }
+.block li + li { margin-top: 0.38rem; }
 .block li::marker { color: var(--muted); }
 
 .hint {
-  margin-top: 0.7rem;
+  margin: 0.65rem 0 0;
   font-size: 0.92rem;
   color: var(--muted);
 }
 
-.qa { margin-top: 0.95rem; }
-.qa:first-of-type { margin-top: 0.3rem; }
+.qa { margin-top: 0.9rem; }
+.qa:first-of-type { margin-top: 0.25rem; }
 .qa dt {
+  margin: 0 0 0.12rem;
   font-weight: 650;
-  margin-bottom: 0.15rem;
+  color: var(--ink);
 }
 .qa dd {
+  margin: 0;
   color: var(--ink-2);
   font-size: 0.98rem;
 }
 
 @media (max-width: 520px) {
   .bar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.65rem;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
   }
 }
