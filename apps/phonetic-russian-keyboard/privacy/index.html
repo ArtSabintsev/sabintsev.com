@@ -6,8 +6,8 @@
     <title>Privacy Policy — Phonetic Russian Keyboard</title>
     <meta name="description" content="Privacy policy for Phonetic Russian Keyboard. No data collection, no network from the keyboard extension.">
     <meta name="author" content="Arthur Ariel Sabintsev">
-    <meta name="theme-color" content="#030303">
-    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#e8e5f2">
+    <meta name="color-scheme" content="light">
     <meta name="robots" content="index,follow">
 
     <meta property="og:type" content="website">
@@ -25,133 +25,92 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        :root {
-            --bg: #030303;
-            --fg: #fafafa;
-            --muted: #a3a3a3;
-            --muted-soft: #737373;
-            --gold: #d4af37;
-            --border: rgba(255, 255, 255, 0.12);
-            --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-
-        html, body {
-            min-height: 100%;
-            background: var(--bg);
-            color: var(--fg);
-            font-family: var(--font-sans);
-            -webkit-font-smoothing: antialiased;
-            text-rendering: optimizeLegibility;
-            line-height: 1.65;
-        }
-
-        ::selection { background: #fff; color: #000; }
-
-        a { color: var(--gold); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-
-        .wrap {
-            max-width: 40rem;
-            margin: 0 auto;
-            padding: clamp(1.5rem, 4vw, 2.75rem) clamp(1.25rem, 4vw, 1.75rem) 4rem;
-        }
-
-        .crumb {
-            font-size: 0.8rem;
-            color: var(--muted-soft);
-            margin-bottom: 1.75rem;
-        }
-        .crumb a { color: var(--muted); }
-
-        h1 {
-            font-size: clamp(1.75rem, 4vw, 2.25rem);
-            font-weight: 600;
-            letter-spacing: -0.03em;
-            line-height: 1.15;
-            margin-bottom: 0.45rem;
-        }
-
-        .updated {
-            color: var(--muted);
-            font-size: 0.9rem;
-            margin-bottom: 1.75rem;
-        }
-
-        h2 {
-            font-size: 1.05rem;
-            font-weight: 600;
-            margin: 1.75rem 0 0.65rem;
-        }
-
-        p, li { font-size: 0.98rem; }
-        p + p { margin-top: 0.75rem; }
-
-        ul {
-            padding-left: 1.25rem;
-            margin: 0.5rem 0 0;
-        }
-        li + li { margin-top: 0.4rem; }
-        li::marker { color: var(--muted-soft); }
-
-        .footer {
-            margin-top: 3rem;
-            padding-top: 1.25rem;
-            border-top: 1px solid var(--border);
-            font-size: 0.85rem;
-            color: var(--muted-soft);
-        }
-        .footer a { color: var(--muted); }
-    </style>
+    <link rel="stylesheet" href="/apps/phonetic-russian-keyboard/app.css">
 </head>
 <body>
-    <main class="wrap">
-        <p class="crumb">
-            <a href="/">sabintsev.com</a> ·
-            <a href="/apps/phonetic-russian-keyboard/">Phonetic Russian Keyboard</a> ·
-            Privacy
-        </p>
+    <div class="page">
+        <header class="topbar">
+            <a class="brand-link" href="/">
+                <span class="keycap" aria-hidden="true">Л<small>L</small></span>
+                <span>Arthur Sabintsev</span>
+            </a>
+            <nav class="top-nav" aria-label="Page">
+                <a href="/apps/phonetic-russian-keyboard/">Support</a>
+                <a href="/apps/phonetic-russian-keyboard/privacy/" aria-current="page">Privacy</a>
+            </nav>
+        </header>
 
-        <h1>Privacy Policy</h1>
-        <p class="updated">Phonetic Russian Keyboard · Last updated: August 8, 2026</p>
+        <main>
+            <section class="hero">
+                <p class="eyebrow">
+                    <span class="badge">Privacy</span>
+                    Phonetic Russian Keyboard
+                </p>
+                <h1>Privacy Policy</h1>
+                <p class="lede">
+                    Simple policy: the keyboard does not collect, store, or transmit what you type.
+                </p>
+                <p class="meta-line">Last updated: August 8, 2026</p>
+            </section>
 
-        <p>Phonetic Russian Keyboard (“the App”) is a custom iOS keyboard and companion host app published by Arthur Sabintsev.</p>
+            <article class="card prose">
+                <p>
+                    Phonetic Russian Keyboard (“the App”) is a custom iOS keyboard and companion
+                    host app published by Arthur Sabintsev.
+                </p>
 
-        <h2>Data collection</h2>
-        <p>We do <strong>not</strong> collect, store, transmit, or sell personal data or keystroke data.</p>
-        <ul>
-            <li>The keyboard extension does not require Full Access.</li>
-            <li>The keyboard does not use the network.</li>
-            <li>There is no analytics, advertising, or account system.</li>
-        </ul>
+                <h2>Data collection</h2>
+                <p>We do <strong>not</strong> collect, store, transmit, or sell personal data or keystroke data.</p>
+                <ul>
+                    <li>The keyboard extension does not require Full Access.</li>
+                    <li>The keyboard does not use the network.</li>
+                    <li>There is no analytics, advertising, or account system.</li>
+                </ul>
 
-        <h2>Data use</h2>
-        <p>Typed text is only inserted into the active text field on your device via the iOS text input system. We never receive that text.</p>
+                <h2>Data use</h2>
+                <p>
+                    Typed text is only inserted into the active text field on your device via the
+                    iOS text input system. We never receive that text.
+                </p>
 
-        <h2>Third parties</h2>
-        <p>The App does not integrate third-party SDKs for tracking, advertising, or analytics.</p>
+                <h2>Third parties</h2>
+                <p>The App does not integrate third-party SDKs for tracking, advertising, or analytics.</p>
 
-        <h2>Children</h2>
-        <p>The App does not knowingly collect any data from anyone, including children under 13.</p>
+                <h2>Children</h2>
+                <p>The App does not knowingly collect any data from anyone, including children under 13.</p>
 
-        <h2>Changes</h2>
-        <p>If this policy changes, the “Last updated” date above will be revised and the new policy published at this URL.</p>
+                <h2>Changes</h2>
+                <p>
+                    If this policy changes, the “Last updated” date above will be revised and the
+                    new policy published at this URL.
+                </p>
 
-        <h2>Contact</h2>
-        <p>
-            Arthur Sabintsev<br>
-            Email: <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Privacy">arthur.sabintsev@gmail.com</a><br>
-            Support: <a href="/apps/phonetic-russian-keyboard/">sabintsev.com/apps/phonetic-russian-keyboard</a>
-        </p>
+                <h2>Contact</h2>
+                <p>
+                    Arthur Sabintsev<br>
+                    Email:
+                    <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Privacy">arthur.sabintsev@gmail.com</a><br>
+                    Support:
+                    <a href="/apps/phonetic-russian-keyboard/">sabintsev.com/apps/phonetic-russian-keyboard</a>
+                </p>
 
-        <p class="footer">
-            © Arthur Sabintsev ·
-            <a href="/apps/phonetic-russian-keyboard/">Support</a> ·
-            <a href="/">Home</a>
-        </p>
-    </main>
+                <div class="cta-row">
+                    <a class="btn btn-secondary" href="/apps/phonetic-russian-keyboard/">Back to support</a>
+                    <a class="btn btn-primary"
+                       href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Privacy">
+                        Email about privacy
+                    </a>
+                </div>
+            </article>
+        </main>
+
+        <footer class="footer">
+            <span>© Arthur Sabintsev</span>
+            <nav aria-label="Footer">
+                <a href="/apps/phonetic-russian-keyboard/">Support</a>
+                <a href="/">Home</a>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>

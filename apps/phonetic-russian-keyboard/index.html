@@ -6,8 +6,8 @@
     <title>Phonetic Russian Keyboard — Support</title>
     <meta name="description" content="Support for Phonetic Russian Keyboard — a phonetic ЯВЕРТЫ iOS keyboard. Setup help, FAQs, and contact.">
     <meta name="author" content="Arthur Ariel Sabintsev">
-    <meta name="theme-color" content="#030303">
-    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#e8e5f2">
+    <meta name="color-scheme" content="light">
     <meta name="robots" content="index,follow">
 
     <meta property="og:type" content="website">
@@ -25,163 +25,129 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        :root {
-            --bg: #030303;
-            --fg: #fafafa;
-            --muted: #a3a3a3;
-            --muted-soft: #737373;
-            --gold: #d4af37;
-            --card: rgba(255, 255, 255, 0.04);
-            --border: rgba(255, 255, 255, 0.12);
-            --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-
-        html, body {
-            min-height: 100%;
-            background: var(--bg);
-            color: var(--fg);
-            font-family: var(--font-sans);
-            -webkit-font-smoothing: antialiased;
-            text-rendering: optimizeLegibility;
-            line-height: 1.6;
-        }
-
-        ::selection { background: #fff; color: #000; }
-
-        a { color: var(--gold); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-
-        .wrap {
-            max-width: 40rem;
-            margin: 0 auto;
-            padding: clamp(1.5rem, 4vw, 2.75rem) clamp(1.25rem, 4vw, 1.75rem) 4rem;
-        }
-
-        .crumb {
-            font-size: 0.8rem;
-            color: var(--muted-soft);
-            margin-bottom: 1.75rem;
-        }
-        .crumb a { color: var(--muted); }
-
-        h1 {
-            font-size: clamp(1.75rem, 4vw, 2.25rem);
-            font-weight: 600;
-            letter-spacing: -0.03em;
-            line-height: 1.15;
-            margin-bottom: 0.5rem;
-        }
-
-        .lede {
-            color: var(--muted);
-            font-size: 1.05rem;
-            margin-bottom: 2rem;
-        }
-
-        h2 {
-            font-size: 1.05rem;
-            font-weight: 600;
-            letter-spacing: -0.01em;
-            margin: 2rem 0 0.75rem;
-        }
-
-        p, li { color: var(--fg); font-size: 0.98rem; }
-        p + p { margin-top: 0.75rem; }
-
-        ol, ul {
-            padding-left: 1.25rem;
-            margin: 0.5rem 0 0;
-        }
-        li + li { margin-top: 0.45rem; }
-        li::marker { color: var(--muted-soft); }
-
-        .card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 0.85rem;
-            padding: 1.1rem 1.2rem;
-            margin-top: 0.75rem;
-        }
-
-        .meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem 1rem;
-            margin-top: 0.35rem;
-            font-size: 0.88rem;
-            color: var(--muted);
-        }
-
-        .footer {
-            margin-top: 3rem;
-            padding-top: 1.25rem;
-            border-top: 1px solid var(--border);
-            font-size: 0.85rem;
-            color: var(--muted-soft);
-        }
-        .footer a { color: var(--muted); }
-    </style>
+    <link rel="stylesheet" href="/apps/phonetic-russian-keyboard/app.css">
 </head>
 <body>
-    <main class="wrap">
-        <p class="crumb"><a href="/">sabintsev.com</a> · Apps · Phonetic Russian Keyboard</p>
+    <div class="page">
+        <header class="topbar">
+            <a class="brand-link" href="/">
+                <span class="keycap" aria-hidden="true">Л<small>L</small></span>
+                <span>Arthur Sabintsev</span>
+            </a>
+            <nav class="top-nav" aria-label="Page">
+                <a href="/apps/phonetic-russian-keyboard/" aria-current="page">Support</a>
+                <a href="/apps/phonetic-russian-keyboard/privacy/">Privacy</a>
+            </nav>
+        </header>
 
-        <h1>Phonetic Russian Keyboard</h1>
-        <p class="lede">Support for the free iOS keyboard that lets you type Cyrillic by sound (ЯВЕРТЫ phonetic layout).</p>
+        <main>
+            <section class="hero">
+                <p class="eyebrow">
+                    <span class="badge">ЯВЕРТЫ</span>
+                    iOS keyboard
+                </p>
+                <h1>Phonetic Russian Keyboard</h1>
+                <p class="lede">
+                    Type Cyrillic by sound. Free keyboard with a phonetic layout —
+                    one key, one letter. Setup help, FAQs, and contact below.
+                </p>
+            </section>
 
-        <div class="card">
-            <strong>Need help?</strong>
-            <p style="margin-top:0.4rem;color:var(--muted)">Email Arthur Sabintsev at
-                <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Support">arthur.sabintsev@gmail.com</a>.
-                Please include your iOS version and a short description of the issue.
-            </p>
-            <p class="meta">
-                <span>Privacy policy:
-                    <a href="/apps/phonetic-russian-keyboard/privacy/">sabintsev.com/…/privacy</a>
-                </span>
-            </p>
-        </div>
+            <div class="stack">
+                <section class="card" aria-labelledby="help-heading">
+                    <h2 id="help-heading">Need help?</h2>
+                    <p class="quiet">
+                        Email Arthur Sabintsev. Include your iOS version and a short
+                        description of the issue — usually enough to sort it out.
+                    </p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary"
+                           href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Support">
+                            Email support
+                        </a>
+                        <a class="btn btn-secondary" href="/apps/phonetic-russian-keyboard/privacy/">
+                            Privacy policy
+                        </a>
+                    </div>
+                </section>
 
-        <h2>Enable the keyboard</h2>
-        <ol>
-            <li>Install <strong>Phonetic Russian Keyboard</strong> from the App Store.</li>
-            <li>Open the host app and follow the Setup steps, or go to
-                <strong>Settings → General → Keyboard → Keyboards → Add New Keyboard…</strong>.</li>
-            <li>Choose <strong>Phonetic Russian</strong> (under the Phonetic Russian Keyboard app).</li>
-            <li>In any text field, tap the <strong>globe</strong> key and select <strong>Phonetic RU</strong>.</li>
-        </ol>
-        <p style="margin-top:0.85rem;color:var(--muted)">Tip: in the Simulator or with a hardware keyboard connected, use <strong>⌘K</strong> to toggle the software keyboard.</p>
+                <section class="card" aria-labelledby="enable-heading">
+                    <h2 id="enable-heading">Enable the keyboard</h2>
+                    <ol class="steps">
+                        <li>
+                            <span class="step-num" aria-hidden="true">1</span>
+                            <span>Install <strong>Phonetic Russian Keyboard</strong> from the App Store.</span>
+                        </li>
+                        <li>
+                            <span class="step-num" aria-hidden="true">2</span>
+                            <span>Open the app and follow Setup, or go to
+                            <strong>Settings → General → Keyboard → Keyboards → Add New Keyboard…</strong></span>
+                        </li>
+                        <li>
+                            <span class="step-num" aria-hidden="true">3</span>
+                            <span>Choose <strong>Phonetic Russian</strong> under the Phonetic Russian Keyboard app.</span>
+                        </li>
+                        <li>
+                            <span class="step-num" aria-hidden="true">4</span>
+                            <span>In any text field, tap the <strong>globe</strong> key and select
+                            <strong>Phonetic RU</strong>.</span>
+                        </li>
+                    </ol>
+                    <p class="tip">
+                        <strong>Tip:</strong> With a hardware keyboard (or in Simulator), press
+                        <strong>⌘K</strong> to show or hide the software keyboard.
+                    </p>
+                </section>
 
-        <h2>What this keyboard is</h2>
-        <ul>
-            <li><strong>Phonetic / homophonic:</strong> one key → one letter by sound (ЯВЕРТЫ sticker map).</li>
-            <li><strong>Cyrillic-only key faces</strong> — designed so Latin-keyboard users can type Russian without learning ЙЦУКЕН.</li>
-            <li><strong>Not</strong> Windows Russian Mnemonic multi-key combos, and not a multi-letter transliteration keyboard.</li>
-        </ul>
+                <section class="card" aria-labelledby="about-heading">
+                    <h2 id="about-heading">What this keyboard is</h2>
+                    <ul class="bullets">
+                        <li><strong>Phonetic / homophonic:</strong> one key → one letter by sound (ЯВЕРТЫ sticker map).</li>
+                        <li><strong>Cyrillic-only key faces</strong> — type Russian without learning ЙЦУКЕН.</li>
+                        <li><strong>Not</strong> Windows Russian Mnemonic multi-key combos, and not multi-letter transliteration.</li>
+                    </ul>
+                </section>
 
-        <h2>Privacy</h2>
-        <p>The keyboard runs fully on your device. No Full Access, no network, no analytics, no keylogging.
-            See the <a href="/apps/phonetic-russian-keyboard/privacy/">privacy policy</a>.</p>
+                <section class="card" aria-labelledby="privacy-heading">
+                    <h2 id="privacy-heading">Privacy</h2>
+                    <p>
+                        Fully on-device. No Full Access, no network, no analytics, no keylogging.
+                        See the <a href="/apps/phonetic-russian-keyboard/privacy/">privacy policy</a>.
+                    </p>
+                </section>
 
-        <h2>Common questions</h2>
-        <p><strong>I installed the app but don’t see the keyboard.</strong><br>
-            The App Store app is the setup host. You still need to add the keyboard under
-            Settings → General → Keyboard → Keyboards, then pick <strong>Phonetic RU</strong> with the globe key.</p>
-        <p><strong>Does it need Full Access?</strong><br>
-            No. Leave Full Access off. Typing stays on-device.</p>
-        <p><strong>Does it collect what I type?</strong><br>
-            No. Typed text is only inserted into the active field on your device.</p>
+                <section class="card" aria-labelledby="faq-heading">
+                    <h2 id="faq-heading">Common questions</h2>
+                    <div class="faq">
+                        <details>
+                            <summary>I installed the app but don’t see the keyboard</summary>
+                            <p>
+                                The App Store app is the setup host. You still need to add the keyboard under
+                                Settings → General → Keyboard → Keyboards, then pick
+                                <strong>Phonetic RU</strong> with the globe key.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>Does it need Full Access?</summary>
+                            <p>No. Leave Full Access off. Typing stays on your device.</p>
+                        </details>
+                        <details>
+                            <summary>Does it collect what I type?</summary>
+                            <p>No. Typed text is only inserted into the active field on your device.</p>
+                        </details>
+                    </div>
+                </section>
+            </div>
+        </main>
 
-        <p class="footer">
-            © Arthur Sabintsev ·
-            <a href="/">Home</a> ·
-            <a href="/apps/phonetic-russian-keyboard/privacy/">Privacy</a> ·
-            <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Support">Contact</a>
-        </p>
-    </main>
+        <footer class="footer">
+            <span>© Arthur Sabintsev</span>
+            <nav aria-label="Footer">
+                <a href="/">Home</a>
+                <a href="/apps/phonetic-russian-keyboard/privacy/">Privacy</a>
+                <a href="mailto:arthur.sabintsev@gmail.com?subject=Phonetic%20Russian%20Keyboard%20Support">Contact</a>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
