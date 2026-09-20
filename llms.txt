@@ -1,12 +1,12 @@
 # Arthur Sabintsev
 
-> Physicist, engineer, and two-time founder. COO of Modern Intelligence (defense AI). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington DC–Baltimore). He left a fully funded experimental nuclear physics PhD track (Jefferson Lab / GW) to build products. He is COO of [Modern Intelligence](https://modernintelligence.ai) — defense AI spanning automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously he co-founded [Grove](https://grove.city) (wound down 2026), the team behind [Pocket Network](https://pocket.network)—trillion+ API requests, POKT past a $1B+ market cap. Pocket continues via the Pocket Network Foundation. Writes on AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com). Full bio: [llms-full.txt](https://sabintsev.com/llms-full.txt).
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington DC–Baltimore). He started experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD because he wanted to build, not publish. He is COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: onboard targeting software that manufacturers and integrators install on UAVs, USVs, UUVs, and other unmanned vehicles. It runs on the vehicle’s computer — detect, classify, and track from onboard cameras, keep identity when the picture breaks up, terminal guidance into impact — and keeps working when GPS is out and the radio is jammed (GNSS-denied / EW). Previously he co-founded [Grove](https://grove.city) (wound down 2026) and built [Pocket Network](https://pocket.network) into a premier decentralized infrastructure protocol ($18M raised, trillion+ API requests, $1B+ market cap, still running). Grove’s last chapter was x402 agentic micropayments. Writes on [Substack](https://artsabintsev.substack.com). Full bio: [llms-full.txt](https://sabintsev.com/llms-full.txt).
 
 ## Building
-- [Modern Intelligence](https://modernintelligence.ai) (COO) — defense AI: ATR, terminal guidance, counter-UAS / counter-UAV (C-UAS / CUAS / CUAV), total domain awareness
+- [Modern Intelligence](https://modernintelligence.ai) (COO) — Sovereign onboard targeting for unmanned systems (ATR, terminal guidance, GNSS-denied / EW); DoW contracts including AFSOC and SOCOM; $12M+ raised (Bedrock, Vine, Contrary, Air Street, Caffeinated, Champion Hill, Swell, Myelin, and others)
 
 ## Ventures
 - [Gold Ranger Ventures](https://goldranger.xyz) (studio LLC — investing, advising, incubation)
@@ -19,11 +19,11 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington
 - [Commander Spellbook](https://commanderspellbook.com) (Incubated and sold, 2020–2021 — combo search engine for Magic: The Gathering)
 
 ## Previously
-- [Grove](https://grove.city) (co-founder; COO ~2022–2024, CEO from ~2024; wound down 2026) — team behind Pocket Network
-- [Pocket Network](https://pocket.network) (co-founded; $18M+ raised across equity/token rounds; now stewarded by the Pocket Network Foundation)
-- [Capital One](https://capitalone.com) (2018–2022; Head of Mobile Platform / Payments / Growth)
-- [Washington Post](https://washingtonpost.com) / Arc XP (2015–2018, Head of Mobile Engineering)
-- [ID.me](https://id.me) (2013–2015, Lead Mobile Architect)
+- [Grove](https://grove.city) (co-founder & CEO; wound down 2026) — Pocket Network; last chapter was x402 agentic micropayments
+- [Pocket Network](https://pocket.network) (co-founded; $18M raised; trillion+ API requests; $1B+ market cap; continues via the Foundation)
+- [Capital One](https://capitalone.com) (2018–2022; led Payments)
+- [Washington Post](https://washingtonpost.com) / Arc XP Mobile (2015–2018, publishing SaaS)
+- [ID.me](https://id.me) (2013–2015, first mobile engineer; helped raise the $10M Series A)
 - Shelby.tv, Fueled (senior iOS); Jefferson Lab / GW / UMMC (physics & medical physics research)
 
 ## Education

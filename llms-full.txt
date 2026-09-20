@@ -1,9 +1,9 @@
 # Arthur Sabintsev
 
-> Physicist, engineer, and two-time founder. COO of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started in experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD track to build products instead of papers. He is COO of [Modern Intelligence](https://modernintelligence.ai) — defense AI for automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously he co-founded [Grove](https://grove.city) (wound down 2026), the team behind [Pocket Network](https://pocket.network)—a decentralized infrastructure protocol that has processed over a trillion API requests and whose chain reached a $1B+ market cap multiple times. Pocket continues via the Pocket Network Foundation. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD because he wanted to build, not publish. He is COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: targeting software for unmanned systems. Manufacturers and integrators install it on UAVs, USVs, UUVs, and other unmanned vehicles. Sovereign runs on the vehicle’s computer. It detects, classifies, and tracks targets from the onboard cameras, keeps identity when the picture breaks up, and can run terminal guidance into impact. It keeps working when GPS is out and the radio is jammed (GNSS-denied / EW). Previously he was co-founder and CEO of [Grove](https://grove.city) (wound down 2026). His team built [Pocket Network](https://pocket.network) into a premier decentralized infrastructure protocol: $18M raised, over a trillion API requests processed, $1B+ market cap on multiple occasions, still running via the Pocket Network Foundation. Grove’s last chapter was agentic payments — AI agents and fans paying creators instantly with x402 micropayments. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
 
 Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure (Grove / Pocket) → defense AI (Modern Intelligence).
 
@@ -12,7 +12,9 @@ Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile
 ### Modern Intelligence
 - **Role:** COO (Chief Operating Officer)
 - **Website:** [modernintelligence.ai](https://modernintelligence.ai)
-- **Context:** Defense AI — the new standard for artificial intelligence in defense. Focus areas include automatic target recognition (ATR), terminal guidance, counter-unmanned aircraft systems / counter-UAV (C-UAS, CUAS, CUAV), high-fidelity target analysis, total domain awareness, and real-time perception for the modern warfighter.
+- **Product:** **Sovereign** — onboard targeting software for unmanned systems. OEMs and integrators drop it onto UAVs, USVs, UUVs, and other unmanned vehicles. It runs on the vehicle’s computer: automatic target recognition (detect, classify, track), identity when the picture breaks up, and terminal guidance into impact. Works in GNSS-denied / EW conditions (GPS out, radio jammed) on any airframe.
+- **Customers / contracts:** Department of War contracts, including Air Force Special Operations and SOCOM.
+- **Capital:** more than $12 million from Bedrock, Vine, Contrary, Air Street, Caffeinated, Champion Hill, Swell, Myelin, and others.
 
 ### Ventures
 - **Studio:** [Gold Ranger Ventures](https://goldranger.xyz)
@@ -29,9 +31,9 @@ Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile
 ## Career History
 
 ### Grove / Pocket Network
-- **Grove** — Co-founder; COO (~2022–2024), CEO (from ~2024). Wound down in 2026. Pocket Network’s founding team and core blockchain developers. Built and scaled Pocket, then (late 2025) an agentic micropayments experiment (USDC / x402) before the company closed.
-- **Pocket Network** — decentralized network for blockchain RPC / data access and later AI inference rails; co-founded at Grove; POKT past a $1B+ market cap; trillion+ API requests. Continues permissionless via the [Pocket Network Foundation](https://pocket.network).
-- **Scale (Pocket era):** $18M+ raised across equity and token rounds; 100+ person organization across 17 countries; partnerships including Google Cloud, Coinbase, Ripple, Aave, Polygon, Frax, and others; major network upgrades, validator migrations, and economics revisions
+- **Grove** — Co-founder and CEO (prev. COO). Wound down in 2026. His team built Pocket Network into a premier decentralized infrastructure protocol. Last chapter: agentic payments — AI agents and fans paid creators instantly using x402 micropayments.
+- **Pocket Network** — decentralized RPC / data access; $18M raised; over a trillion API requests; $1B+ market cap on multiple occasions; still running via the [Pocket Network Foundation](https://pocket.network).
+- **Scale (Pocket era):** 100+ person organization across 17 countries; partnerships including Google Cloud, Coinbase, Ripple, Aave, Polygon, Frax, and others; major network upgrades, validator migrations, and economics revisions
 - **Websites:** [grove.city](https://grove.city) (historical), [pocket.network](https://pocket.network)
 
 ### Capital One (Aug 2018–Feb 2022) — McLean, VA
@@ -44,14 +46,14 @@ Accountable engineering leadership across mobile product and platform:
 - **Website:** [capitalone.com](https://capitalone.com)
 
 ### The Washington Post / Arc XP (Jul 2015–Aug 2018)
-- **Role:** Head of Mobile Engineering on Arc XP (The Washington Post’s publishing SaaS)
+- **Role:** Led Arc XP Mobile — The Washington Post’s publishing SaaS platform
 - Built and led mobile apps for other publishers on Arc, including Los Angeles Times, New York Daily News, Chicago Tribune, Boston Globe, The Globe and Mail, Salt Lake Tribune, Raycom Media (40+ local news apps), Alaska Dispatch News / Arctic Now, Infobae Argentina & America
 - Earlier on the New Experiences team: Floppy Candidate, Washington Post Live, PostRecruit, Uber trip experience in the flagship app; also flagship news apps and shared iOS libraries
 - **Websites:** [washingtonpost.com](https://washingtonpost.com), [arcxp.com](https://www.arcxp.com)
 
 ### ID.me (Apr 2013–Jul 2015) — Washington, DC
-- **Role:** Lead Mobile Architect — owned mobile development, design, and PM across the product portfolio
-- Helped close Series A (client/partner/investor travel with the founder); company growth past 1M users
+- **Role:** First mobile engineer, later Lead Mobile Architect — owned mobile development, design, and PM across the product portfolio
+- Helped raise the $10M Series A (client/partner/investor travel with the founder); company growth past 1M users
 - Shipped closed-source libraries, enterprise apps, and App Store products; managed in-house engineers and agencies
 - **Website:** [id.me](https://id.me)
 
@@ -99,7 +101,7 @@ Active on [GitHub](https://github.com/ArtSabintsev) since 2011 (60+ public repos
 - APS abstracts on linear polarization for pseudoscalar meson photoproduction / Hall-B tagged photon beam
 
 ## Skills and focus areas
-iOS/Swift/Objective-C and mobile platforms; mobile payments and commerce; digital identity; decentralized infrastructure and blockchain RPC; defense AI (ATR / automatic target recognition, terminal guidance, counter-UAS / counter-UAV / C-UAS / CUAS / CUAV, total domain awareness, target analysis, perception AI); AI agentic payments (x402, AP2, USDC settlement); experimental/nuclear physics; teaching and open source; people leadership and multi-team engineering orgs.
+iOS/Swift/Objective-C and mobile platforms; mobile payments and commerce; digital identity; decentralized infrastructure and blockchain RPC; onboard targeting for unmanned systems (Sovereign: ATR, identity, terminal guidance, GNSS-denied / EW, UAV/USV/UUV); AI agentic payments (x402, AP2, USDC settlement); experimental/nuclear physics; teaching and open source; people leadership and multi-team engineering orgs.
 
 ## Languages
 - English — native or bilingual
