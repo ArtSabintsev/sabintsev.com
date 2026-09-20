@@ -1,25 +1,25 @@
 ---
 title: Arthur Sabintsev
-description: Physicist, engineer, two-time founder. COO of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove (Pocket Network). Writing, building, and open to email.
+description: Physicist, engineer, two-time founder. COO of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove (wound down 2026; Pocket Network). Writing, building, and open to email.
 ---
 
 # Arthur Sabintsev
 
 Physicist · Engineer · Founder
 
-> Physicist, engineer, and two-time founder (Washington DC–Baltimore). Left a fully funded nuclear physics PhD track to build. COO of Modern Intelligence (ATR, terminal guidance, counter-UAS / counter-UAV). Previously co-founder & CEO of Grove, the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder (Washington DC–Baltimore). Left a fully funded nuclear physics PhD track to build. COO of Modern Intelligence (ATR, terminal guidance, counter-UAS / counter-UAV). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
 
 ## Primary links
 
 - [Modern Intelligence](https://modernintelligence.ai) — COO; defense AI (ATR, terminal guidance, counter-UAS / C-UAS / CUAS / CUAV, total domain awareness)
-- [Pocket Network](https://pocket.network) — co-founded via Grove; decentralized RPC / data access
+- [Pocket Network](https://pocket.network) — co-founded; decentralized RPC / data access (now stewarded by the Pocket Network Foundation)
 - [Gold Ranger Ventures](https://goldranger.xyz) — studio LLC (investing, advising, incubation)
 - [Writing on Substack](https://artsabintsev.substack.com)
 
 ## Snapshot
 
 - **Education:** M.Sc. Experimental Nuclear Physics (GW); B.S. Biophysics (GW); research at Jefferson Lab, Glasgow, UMMC medical physics
-- **Previously:** Grove co-founder & CEO (prev. COO; team behind Pocket Network); Capital One (mobile platform / payments / growth — e.g. iOS app 470→170 MB, launch 13s→3s); Washington Post Arc XP (Head of Mobile Engineering for publisher apps worldwide); ID.me (Lead Mobile Architect); senior iOS at Shelby.tv and Fueled
+- **Previously:** Grove co-founder & CEO (prev. COO; company wound down 2026; team behind Pocket Network); Capital One (mobile platform / payments / growth — e.g. iOS app 470→170 MB, launch 13s→3s); Washington Post Arc XP (Head of Mobile Engineering for publisher apps worldwide); ID.me (Lead Mobile Architect); senior iOS at Shelby.tv and Fueled
 - **Open source:** [Siren](https://github.com/ArtSabintsev/Siren), FontBlaster, Zephyr, Guitar, and more on [GitHub](https://github.com/ArtSabintsev)
 - **Full bio:** [llms-full.txt](https://sabintsev.com/llms-full.txt)
 

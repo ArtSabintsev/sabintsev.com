@@ -1,9 +1,9 @@
 # Arthur Ariel Sabintsev
 
-> Physicist, engineer, and two-time founder. COO of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove (the team behind Pocket Network). Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder. COO of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove (wound down 2026; Pocket Network). Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). COO of [Modern Intelligence](https://modernintelligence.ai) — defense AI for ATR (automatic target recognition), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously co-founded Grove / Pocket Network (trillion+ API requests; POKT $1B+ market cap; later agentic micropayments via USDC/x402). Path: experimental nuclear physics (Jefferson Lab, GW) → iOS (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure → defense AI. Writes on AI agents, stablecoins, and operator craft. Full background: [llms-full.txt](https://sabintsev.com/llms-full.txt).
+Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). COO of [Modern Intelligence](https://modernintelligence.ai) — defense AI for ATR (automatic target recognition), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously co-founded Grove (wound down 2026) and Pocket Network (trillion+ API requests; POKT $1B+ market cap). Path: experimental nuclear physics (Jefferson Lab, GW) → iOS (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure → defense AI. Writes on AI agents, stablecoins, and operator craft. Full background: [llms-full.txt](https://sabintsev.com/llms-full.txt).
 
 ## Building
 - [Modern Intelligence](https://modernintelligence.ai) (COO) — ATR, terminal guidance, counter-UAS / counter-UAV (C-UAS / CUAS / CUAV), total domain awareness
@@ -15,8 +15,8 @@ Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). COO of
 - [Substack](https://artsabintsev.substack.com)
 
 ## Previously
-- [Grove](https://grove.city) (co-founder; COO then CEO) — team behind Pocket Network
-- [Pocket Network](https://pocket.network) (co-founder via Grove)
+- [Grove](https://grove.city) (co-founder; COO then CEO; wound down 2026) — team behind Pocket Network
+- [Pocket Network](https://pocket.network) (co-founded; continues via the Pocket Network Foundation)
 - [Capital One](https://capitalone.com) (2018–2022, mobile platform / payments / growth)
 - [Washington Post](https://washingtonpost.com) / Arc XP (2015–2018, Head of Mobile Engineering)
 - [ID.me](https://id.me) (2013–2015, Lead Mobile Architect)

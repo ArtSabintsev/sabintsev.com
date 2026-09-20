@@ -1,11 +1,11 @@
 # Arthur Sabintsev
 
-> Physicist, engineer, and two-time founder. COO of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove, the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
+> Physicist, engineer, and two-time founder. COO of Modern Intelligence (defense AI: ATR, terminal guidance, counter-UAS). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Took the POKT token past a $1B+ market cap. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started in experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD track to build products instead of papers. He is COO of [Modern Intelligence](https://modernintelligence.ai) — defense AI for automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously he co-founded [Grove](https://grove.city), the team behind [Pocket Network](https://pocket.network)—a decentralized infrastructure protocol that has processed over a trillion API requests and whose chain reached a $1B+ market cap multiple times. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started in experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD track to build products instead of papers. He is COO of [Modern Intelligence](https://modernintelligence.ai) — defense AI for automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), and total domain awareness. Previously he co-founded [Grove](https://grove.city) (wound down 2026), the team behind [Pocket Network](https://pocket.network)—a decentralized infrastructure protocol that has processed over a trillion API requests and whose chain reached a $1B+ market cap multiple times. Pocket continues via the Pocket Network Foundation. He writes about AI agents, stablecoins, and operator craft on [Substack](https://artsabintsev.substack.com).
 
-Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure and agentic payments (Grove / Pocket) → defense AI (Modern Intelligence).
+Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure (Grove / Pocket) → defense AI (Modern Intelligence).
 
 ## Current Work
 
@@ -29,10 +29,10 @@ Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile
 ## Career History
 
 ### Grove / Pocket Network
-- **Grove** — Co-founder; COO (~2022–2024), CEO (from ~2024). Pocket Network’s founding team and core blockchain developers. After shipping and scaling Pocket, Grove pivoted (late 2025) toward an agentic micropayments platform—USDC over Base and x402—so humans and AI agents can pay creators for content.
-- **Pocket Network** — decentralized network for blockchain RPC / data access and later AI inference rails; co-founded via Grove; POKT past a $1B+ market cap; trillion+ API requests
+- **Grove** — Co-founder; COO (~2022–2024), CEO (from ~2024). Wound down in 2026. Pocket Network’s founding team and core blockchain developers. Built and scaled Pocket, then (late 2025) an agentic micropayments experiment (USDC / x402) before the company closed.
+- **Pocket Network** — decentralized network for blockchain RPC / data access and later AI inference rails; co-founded at Grove; POKT past a $1B+ market cap; trillion+ API requests. Continues permissionless via the [Pocket Network Foundation](https://pocket.network).
 - **Scale (Pocket era):** $18M+ raised across equity and token rounds; 100+ person organization across 17 countries; partnerships including Google Cloud, Coinbase, Ripple, Aave, Polygon, Frax, and others; major network upgrades, validator migrations, and economics revisions
-- **Websites:** [grove.city](https://grove.city), [pocket.network](https://pocket.network)
+- **Websites:** [grove.city](https://grove.city) (historical), [pocket.network](https://pocket.network)
 
 ### Capital One (Aug 2018–Feb 2022) — McLean, VA
 Accountable engineering leadership across mobile product and platform:
@@ -90,7 +90,7 @@ Active on [GitHub](https://github.com/ArtSabintsev) since 2011 (60+ public repos
 - **Betamore** (2016–2017) — mobile development instructor
 - **Packt Publishing** (2016–2017) — technical reviewer for Swift/iOS books
 - **Mozilla** (2006–2017) — Firefox add-ons/extensions developer (e.g. Email This!, Email Yourself!, FacePAD, Buzz It!, MySpacePAD)
-- **Grove** — board member (volunteer, science and technology)
+- **Grove** — volunteer board (science and technology); ended 2026 when the company wound down
 
 ### Selected physics publications / notes
 - Determination of the Linear Polarization of the Hall-B Tagged Photon Beam at Jefferson Lab (AIP, 2011)
