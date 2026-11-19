@@ -3,16 +3,20 @@
 > Physicist, engineer, and two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington DC–Baltimore). He started experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD because he wanted to build, not publish. He is COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: onboard targeting software that manufacturers and integrators install on UAVs, USVs, UUVs, and other unmanned vehicles. It runs on the vehicle’s computer — detect, classify, and track from onboard cameras, keep identity when the picture breaks up, terminal guidance into impact — and keeps working when GPS is out and the radio is jammed (GNSS-denied / EW). Previously he co-founded [Grove](https://grove.city) (wound down 2026) and built [Pocket Network](https://pocket.network) into a premier decentralized infrastructure protocol ($18M raised, trillion+ API requests, $1B+ market cap, still running). Grove’s last chapter was x402 agentic micropayments. Writes on [Substack](https://artsabintsev.substack.com). Full bio: [llms-full.txt](https://sabintsev.com/llms-full.txt).
+Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington DC–Baltimore). He started experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD because he wanted to build, not publish. He is COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: onboard targeting software that manufacturers and integrators install on UAVs, USVs, UUVs, and other unmanned vehicles. It runs on the vehicle’s computer — detect, classify, and track from onboard cameras, keep identity when the picture breaks up, terminal guidance into impact — and keeps working when GPS is out and the radio is jammed (GNSS-denied / EW). Previously he co-founded [Grove](https://grove.city) (wound down 2026) and built [Pocket Network](https://pocket.network) into a premier decentralized infrastructure protocol ($18M raised, trillion+ API requests, $1B+ market cap, still running). Grove’s last chapter was x402 agentic micropayments. Writes at [sabintsev.com/writing](https://sabintsev.com/writing/). Full bio: [llms-full.txt](https://sabintsev.com/llms-full.txt).
 
 ## Building
-- [Modern Intelligence](https://modernintelligence.ai) (COO) — Sovereign onboard targeting for unmanned systems (ATR, terminal guidance, GNSS-denied / EW); DoW contracts including AFSOC and SOCOM; $12M+ raised (Bedrock, Vine, Contrary, Air Street, Caffeinated, Champion Hill, Swell, Myelin, and others)
+- [Modern Intelligence](https://modernintelligence.ai) (COO; Board Observer since Sep 2026) — Sovereign onboard targeting for unmanned systems (ATR, terminal guidance, GNSS-denied / EW); DoW contracts including AFSOC and SOCOM; $12M+ raised (Bedrock, Vine, Contrary, Air Street, Caffeinated, Champion Hill, Swell, Myelin, and others)
 
 ## Ventures
 - [Gold Ranger Ventures](https://goldranger.xyz) (studio LLC — investing, advising, incubation)
 
 ## Writing
-- [Substack](https://artsabintsev.substack.com)
+- [Essays](https://sabintsev.com/writing/) — full text, no login
+- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026)
+- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026)
+- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026)
+- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026)
 
 ## Incubating
 - [Jewish Mythology](https://jewishmythology.com) (Currently incubating — AI-searchable reference library for Jewish mythological texts)
@@ -27,8 +31,8 @@ Arthur Ariel Sabintsev is a physicist turned engineer turned founder (Washington
 - Shelby.tv, Fueled (senior iOS); Jefferson Lab / GW / UMMC (physics & medical physics research)
 
 ## Education
-- M.Sc. Experimental Nuclear Physics, George Washington University
-- B.S. Biophysics, George Washington University
+- M.Sc. Experimental Nuclear Physics, George Washington University (2008–2011)
+- B.S. Biophysics, George Washington University (2004–2008)
 
 ## Open source
 - [GitHub](https://github.com/ArtSabintsev) — Siren/Harpy, FontBlaster, Zephyr, Guitar, and other iOS/Swift libraries

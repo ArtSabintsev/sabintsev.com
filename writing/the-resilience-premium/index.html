@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Resilience Premium · Arthur Sabintsev</title>
+    <meta name="description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
+    <meta name="author" content="Arthur Ariel Sabintsev">
+    <meta name="theme-color" content="#030303">
+    <meta name="color-scheme" content="dark">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Arthur Sabintsev">
+    <meta property="og:title" content="The Resilience Premium">
+    <meta property="og:description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
+    <meta property="og:url" content="https://sabintsev.com/writing/the-resilience-premium/">
+    <meta property="article:published_time" content="2026-05-22">
+    <meta property="article:author" content="Arthur Ariel Sabintsev">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Resilience Premium">
+    <meta name="twitter:description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
+    <link rel="canonical" href="https://sabintsev.com/writing/the-resilience-premium/">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="alternate" type="text/markdown" title="Markdown" href="index.md">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/writing/essay.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "The Resilience Premium",
+      "description": "The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.",
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22",
+      "author": {
+        "@type": "Person",
+        "name": "Arthur Ariel Sabintsev",
+        "url": "https://sabintsev.com/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Arthur Ariel Sabintsev",
+        "url": "https://sabintsev.com/"
+      },
+      "mainEntityOfPage": "https://sabintsev.com/writing/the-resilience-premium/",
+      "isBasedOn": "https://artsabintsev.substack.com/p/the-resilience-premium"
+    }
+    </script>
+</head>
+<body>
+<main class="wrap">
+    <p class="back"><a href="/writing/">Writing</a></p>
+    <article>
+        <h1>The Resilience Premium</h1>
+        <p class="deck">The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.</p>
+        <p class="meta"><time datetime="2026-05-22">May 22, 2026</time></p>
+        <p>I&#x27;ve been wanting to write this since early 2024.</p>
+<p>Most software doesn&#x27;t need decentralization. Gmail works. S3 works. Stripe works. Centralized providers win the happy path because the happy path rewards speed, polish, support, and procurement simplicity.</p>
+<h2>Redundancy Is Not Resilience</h2>
+<p>Having a second vendor is the easy part. The test is whether your backup fails for a different reason than your primary.</p>
+<p>Most redundancy doesn&#x27;t pass that test. AWS, Azure, GCP, Cloudflare, major RPC vendors, and AI providers still share internet routing, DNS, identity systems, software supply chains, political compliance regimes, and capital-market incentives.</p>
+<p>Three vendors that fail for the same reason are functionally one.</p>
+<h2>When Multi-Vendor Still Goes Dark</h2>
+<p><a href="https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/">Cloudflare&#x27;s June 2025 outage</a> is the clean example. Workers KV failed for 2 hours and 28 minutes after an underlying third-party cloud dependency went down. Roughly 90% of requests failed, and the same dependency broke several other Cloudflare products.</p>
+<p>The Tornado Cash sanctions showed a different kind of correlation. After <a href="https://home.treasury.gov/news/press-releases/sb0057">OFAC sanctioned Tornado Cash</a> in August 2022, <a href="https://www.theblock.co/post/162402/infura-and-alchemy-blocking-access-to-tornado-cash">Alchemy and Infura blocked RPC access</a>.</p>
+<p>Unless you were running your own node or routing through a decentralized network with a sovereign API gateway, you couldn&#x27;t reach the smart contract.</p>
+<p>The two biggest vendors were affected by one compliance regime, and all users were locked out of it.</p>
+<h2>What Blockchains Actually Add</h2>
+<p>Nobody pays the premium because they believe in decentralization. They pay it so their backup doesn&#x27;t go down on the same day their primary does.</p>
+<p>A better name for the premium is resilience capacity: a backup that fails for reasons unrelated to your primary.</p>
+<p>Blockchains made this practical. Tokens didn&#x27;t make networks faster or fix bad products. They let you pay and coordinate independent operators across jurisdictions and balance sheets.</p>
+<h2>The Market Is Already Pricing It</h2>
+<p>Developer tooling is already multi-provider.</p>
+<ul>
+<li><a href="https://viem.sh/">viem</a> ships <a href="https://viem.sh/docs/clients/transports/fallback">fallback transports</a></li>
+<li><a href="https://ethers.org/">ethers</a> ships a <a href="https://docs.ethers.org/v6/api/providers/#FallbackProvider">FallbackProvider</a></li>
+<li>MetaMask&#x27;s <a href="https://support.metamask.io/develop/what-is-din/">DIN</a> routes through more than 50 independent providers.</li>
+</ul>
+<p>Regulators are pricing the same risk. <a href="https://www.springlex.eu/en/packages/dora/dora-regulation/article-29">EU DORA</a> requires financial entities to manage how dependent they are on any single tech provider and to plan for multi-vendor alternatives.</p>
+<p>Insurers are writing policies on it. <a href="https://www.parametrixinsurance.com/">Parametrix</a> and <a href="https://www.riskwolf.com/fact-sheets/cloudinsure/">Riskwolf</a> sell parametric cloud-outage coverage.</p>
+<h2>Who Buys Resilience Capacity</h2>
+<p>The buyer is a wallet that can&#x27;t go dark on any given Sunday, an exchange that can&#x27;t lose read/write access when one provider changes policy, or an AI company that doesn&#x27;t want one model vendor as a permanent chokepoint.</p>
+<p><a href="https://ecosystem.aethir.com/blog-posts/axe-compute-closes-260m-enterprise-deal-powered-by-aethir">Axe Compute</a> (NASDAQ: AGPU) closed a $260M multi-year deal sourcing 2,304 GPUs through <a href="https://aethir.com/">Aethir&#x27;s</a> decentralized network, wrapped in enterprise SLAs. I believe that is the buyer: a public company that needs decentralized supply for the resilience and a US-listed counterparty for the contract.</p>
+<h2>The Better Pitch</h2>
+<p>Two pitches the industry should retire:</p>
+<ul>
+<li>&quot;We&#x27;re faster than the centralized provider.&quot; Most of the time, you won&#x27;t be.</li>
+<li>&quot;Decentralization is always better.&quot; It isn&#x27;t.</li>
+</ul>
+<p>Use centralized infrastructure for the happy path. Buy resilience capacity for the day it breaks.</p>
+<p>On a good day, the fastest provider wins. On a bad day, the only provider that didn&#x27;t go down does.</p>
+        <p class="original">First published on <a href="https://artsabintsev.substack.com/p/the-resilience-premium">Substack</a>.</p>
+    </article>
+</main>
+</body>
+</html>

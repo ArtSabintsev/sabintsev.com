@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>Arthur Sabintsev</title>
+    <link>https://sabintsev.com/writing/</link>
+    <description>Essays by Arthur Sabintsev on tokens, privacy, and infrastructure.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+        <title>Zcash is Not Hard Money</title>
+        <link>https://sabintsev.com/writing/zcash-is-not-hard-money/</link>
+        <guid>https://sabintsev.com/writing/zcash-is-not-hard-money/</guid>
+        <pubDate>Mon, 08 Jun 2026 12:03:26 GMT</pubDate>
+        <description>ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.</description>
+    </item>
+    <item>
+        <title>Tokens Never Die</title>
+        <link>https://sabintsev.com/writing/tokens-never-die/</link>
+        <guid>https://sabintsev.com/writing/tokens-never-die/</guid>
+        <pubDate>Tue, 26 May 2026 19:24:54 GMT</pubDate>
+        <description>Projects die. Tokens don't. They get repurposed.</description>
+    </item>
+    <item>
+        <title>Your Token Was An Equity Grant All Along</title>
+        <link>https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/</link>
+        <guid>https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/</guid>
+        <pubDate>Mon, 25 May 2026 06:14:28 GMT</pubDate>
+        <description>Stablecoins pay for the work. Tokens pay for being early.</description>
+    </item>
+    <item>
+        <title>The Resilience Premium</title>
+        <link>https://sabintsev.com/writing/the-resilience-premium/</link>
+        <guid>https://sabintsev.com/writing/the-resilience-premium/</guid>
+        <pubDate>Fri, 22 May 2026 16:31:29 GMT</pubDate>
+        <description>The decentralization tax isn't a tax. It's a resilience budget.</description>
+    </item>
+</channel>
+</rss>

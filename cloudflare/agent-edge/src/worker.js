@@ -27,6 +27,18 @@ function isHomepage(pathname) {
   return pathname === "/" || pathname === "" || pathname === "/index.html";
 }
 
+function markdownAsset(pathname) {
+  if (isHomepage(pathname)) return "/index.md";
+  let path = pathname;
+  if (path.endsWith("/index.html")) path = path.slice(0, -"/index.html".length);
+  if (path.length > 1 && path.endsWith("/")) path = path.slice(0, -1);
+  if (path === "/writing" || path.startsWith("/writing/")) {
+    if (/\.(md|xml|css|txt)$/.test(path)) return null;
+    return `${path}/index.md`;
+  }
+  return null;
+}
+
 function estimateTokens(text) {
   return Math.max(1, Math.ceil(text.length / 4));
 }
@@ -81,9 +93,11 @@ export default {
     try {
       const url = new URL(request.url);
 
-      // Markdown for Agents: homepage only
-      if (wantsMarkdown(request) && isHomepage(url.pathname) && request.method === "GET") {
-        const mdUrl = new URL("/index.md", url.origin).toString();
+      // Markdown for Agents: homepage and /writing/*
+      const mdAsset =
+        request.method === "GET" ? markdownAsset(url.pathname) : null;
+      if (wantsMarkdown(request) && mdAsset) {
+        const mdUrl = new URL(mdAsset, url.origin).toString();
         const mdRes = await fetchOrigin(mdUrl, {
           method: "GET",
           headers: {
@@ -136,7 +150,7 @@ export default {
       }
 
       // Help caches separate HTML vs markdown variants of /
-      if (isHomepage(url.pathname)) {
+      if (isHomepage(url.pathname) || markdownAsset(url.pathname)) {
         const vary = headers.get("Vary");
         if (!vary) {
           headers.set("Vary", "Accept");

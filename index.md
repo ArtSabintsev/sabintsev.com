@@ -11,15 +11,15 @@ Physicist · Engineer · Founder
 
 ## Primary links
 
-- [Modern Intelligence](https://modernintelligence.ai) — COO; Sovereign onboard targeting for UAVs, USVs, UUVs (ATR, identity, terminal guidance; GNSS-denied / EW)
+- [Modern Intelligence](https://modernintelligence.ai) — COO and Board Observer (since Sep 2026); Sovereign onboard targeting for UAVs, USVs, UUVs (ATR, identity, terminal guidance; GNSS-denied / EW)
 - [Pocket Network](https://pocket.network) — co-founded; decentralized RPC / data access (now stewarded by the Pocket Network Foundation)
 - [Gold Ranger Ventures](https://goldranger.xyz) — studio LLC (investing, advising, incubation)
-- [Writing on Substack](https://artsabintsev.substack.com)
+- [Writing](https://sabintsev.com/writing/) — essays on tokens, privacy, and infrastructure
 
 ## Snapshot
 
-- **Education:** M.Sc. Experimental Nuclear Physics (GW); B.S. Biophysics (GW); research at Jefferson Lab, Glasgow, UMMC medical physics
-- **Previously:** Grove co-founder & CEO (wound down 2026; Pocket Network — $18M raised, trillion+ API requests, $1B+ market cap); Capital One (led Payments); Washington Post Arc XP Mobile (publishing SaaS); ID.me (first mobile engineer; helped raise the $10M Series A); senior iOS at Shelby.tv and Fueled
+- **Education:** M.Sc. Experimental Nuclear Physics, GW (2008–2011); B.S. Biophysics, GW (2004–2008); research at Jefferson Lab, Glasgow, UMMC medical physics
+- **Previously:** Grove co-founder & CEO (wound down 2026; Pocket Network — $18M raised, trillion+ API requests, $1B+ market cap); Grove board, Science and Technology (Aug 2023–Aug 2026); Capital One (led Payments); Washington Post Arc XP Mobile (publishing SaaS); ID.me (first mobile engineer; helped raise the $10M Series A); senior iOS at Shelby.tv and Fueled
 - **Open source:** [Siren](https://github.com/ArtSabintsev/Siren), FontBlaster, Zephyr, Guitar, and more on [GitHub](https://github.com/ArtSabintsev)
 - **Full bio:** [llms-full.txt](https://sabintsev.com/llms-full.txt)
 
