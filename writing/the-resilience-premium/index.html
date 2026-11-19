@@ -83,8 +83,8 @@
 <h2>When Multi-Vendor Still Goes Dark</h2>
 <p><a href="https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/">Cloudflare&#x27;s June 2025 outage</a> is the clean example. Workers KV failed for 2 hours and 28 minutes after an underlying third-party cloud dependency went down. Roughly 90% of requests failed, and the same dependency broke several other Cloudflare products.</p>
 <p>The Tornado Cash sanctions showed a different kind of correlation. After <a href="https://home.treasury.gov/news/press-releases/sb0057">OFAC</a> (the U.S. Treasury&#x27;s sanctions office) sanctioned Tornado Cash (a mixer that hides the payment trail) in August 2022, <a href="https://www.theblock.co/post/162402/infura-and-alchemy-blocking-access-to-tornado-cash">Alchemy and Infura blocked RPC access</a>.</p>
-<p>Unless you were running your own node or routing through a decentralized network with a sovereign API gateway, you couldn&#x27;t reach the smart contract.</p>
-<p>The two biggest vendors were affected by one compliance regime, and all users were locked out of it.</p>
+<p>Unless you were running your own node, or routing through your own gateway on a decentralized network, you couldn&#x27;t reach the contract.</p>
+<p>The two biggest vendors were affected by one compliance regime, and all users were locked out of the contract.</p>
 <h2>What Blockchains Actually Add</h2>
 <p>Nobody pays the premium because they believe in decentralization. They pay it so their backup doesn&#x27;t go down on the same day their primary does.</p>
 <p>A better name for the premium is resilience capacity: a backup that fails for reasons unrelated to your primary.</p>
@@ -97,10 +97,10 @@
 <li>MetaMask&#x27;s <a href="https://support.metamask.io/develop/what-is-din/">DIN</a>, its Decentralized Infrastructure Network, routes through more than 50 independent providers.</li>
 </ul>
 <p>Regulators are pricing the same risk. <a href="https://www.springlex.eu/en/packages/dora/dora-regulation/article-29">EU DORA</a>, the Digital Operational Resilience Act, requires financial entities to manage how dependent they are on any single tech provider and to plan for multi-vendor alternatives.</p>
-<p>Insurers are writing policies on it. <a href="https://www.parametrixinsurance.com/">Parametrix</a> and <a href="https://www.riskwolf.com/fact-sheets/cloudinsure/">Riskwolf</a> sell parametric cloud-outage coverage.</p>
+<p>Insurers are writing policies on it. <a href="https://www.parametrixinsurance.com/">Parametrix</a> and <a href="https://www.riskwolf.com/fact-sheets/cloudinsure/">Riskwolf</a> sell cloud-outage coverage that pays when a measured outage crosses a set trigger.</p>
 <h2>Who Buys Resilience Capacity?</h2>
 <p>The buyer is a wallet that can&#x27;t go dark on any given Sunday, an exchange that can&#x27;t lose read/write access when one provider changes policy, or an AI company that doesn&#x27;t want one model vendor as a permanent chokepoint.</p>
-<p><a href="https://ecosystem.aethir.com/blog-posts/axe-compute-closes-260m-enterprise-deal-powered-by-aethir">Axe Compute</a> (NASDAQ: AGPU) closed a $260M multi-year deal sourcing 2,304 GPUs through <a href="https://aethir.com/">Aethir&#x27;s</a> decentralized network, wrapped in enterprise SLAs, the contracts for uptime and support. I believe that is the buyer: a public company that needs decentralized supply for the resilience and a US-listed counterparty for the contract.</p>
+<p><a href="https://ecosystem.aethir.com/blog-posts/axe-compute-closes-260m-enterprise-deal-powered-by-aethir">Axe Compute</a> (NASDAQ: AGPU) closed a $260M multi-year deal sourcing 2,304 GPUs through <a href="https://aethir.com/">Aethir&#x27;s</a> decentralized network, wrapped in enterprise SLAs (the contracts for uptime and support). I believe that is the buyer: a public company that needs decentralized supply for the resilience and a US-listed counterparty for the contract.</p>
 <h2>The Better Pitch</h2>
 <p>Two pitches the industry should retire:</p>
 <ul>

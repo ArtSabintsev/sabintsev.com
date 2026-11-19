@@ -35,7 +35,7 @@ Zcash's pitch is that people will pay to get off that graph. That can be useful,
 
 The obvious Bitcoiner objection is simple: privacy is a feature, not a separate monetary asset.
 
-Use better wallets. [CoinJoin](https://bitcoinops.org/en/topics/coinjoin/), [PayJoin](https://bitcoinops.org/en/topics/payjoin/), and [Silent Payments](https://bitcoinops.org/en/topics/silent-payments/) improve the public map of who paid whom. [Lightning](https://bitcoinops.org/en/topics/transaction-origin-privacy/) moves everyday payments off the public ledger, although it leaks different metadata and is not Monero-style privacy. [Fedimint](https://fedimint.org/) adds private digital cash held by a small group, and you have to trust that group with it. None of this is perfect, but that is the Bitcoiner point: privacy can keep moving into Bitcoin without making ZEC the asset that captures it.
+Use better wallets. [CoinJoin](https://bitcoinops.org/en/topics/coinjoin/), [PayJoin](https://bitcoinops.org/en/topics/payjoin/), and [Silent Payments](https://bitcoinops.org/en/topics/silent-payments/) improve the public map of who paid whom. [Lightning](https://bitcoinops.org/en/topics/transaction-origin-privacy/) moves everyday payments off the public ledger, although it leaks different metadata and is not Monero-style privacy. [Fedimint](https://fedimint.org/) adds private digital cash held by a small group you have to trust. None of this is perfect, but that is the Bitcoiner point: privacy can keep moving into Bitcoin without making ZEC the asset that captures it.
 
 If Bitcoin leaks too much metadata, the Bitcoiner fix is to make Bitcoin usage less leaky.
 
@@ -45,7 +45,7 @@ ZEC has to prove more than privacy matters. It has to prove the privacy value be
 
 Monero is the cleaner privacy-coin comparison because it does not pretend to be Bitcoin with a privacy upgrade.
 
-Monero chose privacy-first cash. Its transactions are private by default. It also has no fixed maximum supply. Under the current consensus rules, Monero's tail emission stays at [0.6 XMR per block](https://www.getmonero.org/get-started/faq/) indefinitely, so miners keep getting paid after the main emission. XMR is Monero's token.
+Monero chose privacy-first cash. Its transactions are private by default. It also has no fixed maximum supply. Under the current consensus rules, Monero's tail emission stays at [0.6 XMR](https://www.getmonero.org/get-started/faq/), Monero's token, per block indefinitely, so miners keep getting paid after the main emission.
 
 Monero's messaging is coherent: privacy-first money, predictable ongoing issuance.
 
@@ -59,7 +59,7 @@ Zcash is different. It has transparent addresses and [shielded addresses](https:
 
 The public chain can count value moving into and out of shielded pools through [turnstiles](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html). It cannot inspect every private note inside the pool the way a Bitcoin node can inspect each unspent coin in the open.
 
-A ZEC buyer is not getting Bitcoin's audit model with privacy bolted on for free. They are buying a system where private payments depend on the proofs staying sound, on the count of value entering and leaving the pool, on audits, upgrades, and the judgment of the people maintaining the shielded pool.
+A ZEC buyer is not getting Bitcoin's audit model with privacy bolted on for free. They are buying a system where private payments depend on the proofs staying sound, on that count of value in and out, on audits, upgrades, and the judgment of the people maintaining the shielded pool.
 
 ## Orchard
 

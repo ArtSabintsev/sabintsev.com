@@ -17,15 +17,15 @@ Anything except a cap table (the list of who owns the company), which is funny, 
 
 ## Payroll Is Not Capital
 
-Operators don't run on upside. They run on operating costs: [power](https://www.eia.gov/electricity/monthly/), bandwidth, GPUs, rent, labor, and taxes. Those are dollar liabilities. Pay them in a token that can [lose 90% from peak in eighteen months, as HNT, Helium's token, did](https://www.coingecko.com/en/coins/helium), and a hardware business unwittingly gets a trading desk attached.
+Operators don't run on upside. They run on operating costs: [power](https://www.eia.gov/electricity/monthly/), bandwidth, GPUs, rent, labor, and taxes. Those are dollar liabilities. Pay them in a token that can [lose 90% from peak in eighteen months](https://www.coingecko.com/en/coins/helium), as HNT, Helium's token, did, and a hardware business unwittingly gets a trading desk attached.
 
-The unemotional disciplined operators sell immediately on receipt. Hedging isn't really on the menu, because most DePIN tokens don't have the perpetual futures or options depth to short into. The holders ride the price down and leave. Capacity goes first, then quality, then demand.
+The unemotional, disciplined operators sell immediately on receipt. Hedging isn't really on the menu, because most DePIN tokens don't have perpetual futures or options deep enough to short. The holders ride the price down and leave. Capacity goes first, then quality, then demand.
 
 When operators are paid in the token, their profit and loss and the token chart become the same chart.
 
 ## The Networks That Recovered
 
-The networks that recovered split the two assets: the token for ownership and a dollar stablecoin, or tokens the recipient cannot sell yet, for the work.
+The networks that recovered split the two assets: the token for ownership, and for the work a dollar stablecoin or tokens the recipient cannot sell yet.
 
 [Render](https://know.rendernetwork.com/basics/burn-mint-equilibrium) prices jobs in ordinary currency and burns RENDER, its token, on settlement.
 
@@ -37,13 +37,13 @@ The networks that recovered split the two assets: the token for ownership and a 
 
 [Akash](https://akash.network/) named the trade-off in writing when they shipped [Burn-Mint Equilibrium](https://akash.network/blog/what-burn-mint-equilibrium-means-for-akash/): stable payments help adoption but can weaken native-token demand, while native-token payments keep token demand alive but scare buyers and squeeze providers. They picked stable pricing with native-token settlement and moved on.
 
-[Pocket Network](https://pokt.network/), which I helped build, was early to a different primitive: apps stake POKT, Pocket's token, to reserve request capacity instead of paying per call. That keeps the customer (demand) side off the token-price treadmill and supplies buy-pressure, but node runners (supply-side) still earn POKT and still face the same selling pressure as every other DePIN operator. [PIP-41](https://forum.pokt.network/t/pip-41-introducing-a-deflationary-mint-mechanism-for-shannon-tokenomics/5622), a Pocket proposal, closes part of that gap with a deflationary mint: every request served burns more POKT than it mints, so usage tightens supply instead of inflating it. Operators still earn POKT, but the POKT they hold appreciates with the network's success rather than getting diluted by it.
+[Pocket Network](https://pokt.network/), which I helped build, was early to a different primitive: apps lock up POKT, Pocket's token, to reserve request capacity instead of paying per call. That keeps the customer (demand) side off the token-price treadmill and supplies buy-pressure, but node runners (supply-side) still earn POKT and still face the same selling pressure as every other DePIN operator. [PIP-41](https://forum.pokt.network/t/pip-41-introducing-a-deflationary-mint-mechanism-for-shannon-tokenomics/5622), a Pocket proposal, closes part of that gap with a deflationary mint: every request served burns more POKT than it mints, so usage tightens supply instead of inflating it. Operators still earn POKT, but the POKT they hold appreciates with the network's success rather than getting diluted by it.
 
 [Helium](https://docs.helium.com/tokens/data-credit/) prices data in USD-pegged Data Credits, minted by burning HNT. [Messari's 2025 DePIN report](https://messari.io/report/state-of-depin-2025) shows what that fix is producing in practice: Helium's revenue on the chain grew 8x in 2025 while HNT fell 77%. The token is decoupling from operational performance, which is what equity does. Operators still earned HNT and still ate the drawdown, so the supply side remains the harder fix, but the token's behavior in the data is already telling you what the token actually is. Split from the work, the token starts behaving like a standalone financial product priced on what the network might be worth in five years, not what it earned this quarter.
 
 ## The Token Is The Cap Table
 
-Different designs, same admission: work needs insulation from token volatility, and the token should do the one job nobody else can, which is represent ownership.
+Different designs, same admission: work needs insulation from token volatility, and the token should do the one job nobody else can, which is to represent ownership.
 
 Strip away the story that the token has to pay for the work, and a DePIN token looks less like money and more like an [employee stock option](https://www.investor.gov/introduction-investing/investing-basics/glossary/employee-stock-options-esos). Operators show up before revenue is real. They buy hardware, sign leases, keep machines online, and take reputational risk on a network most customers haven't heard of yet. Cash pays for the month, and the token is the upside if the network matters five years later. That's a barbell payoff, and it's the same shape as every Series A engineer's comp package: small monthly draw, large terminal upside, conditional on the product actually mattering.
 
