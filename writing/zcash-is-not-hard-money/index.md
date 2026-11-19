@@ -89,3 +89,5 @@ Those are different risks. They do not deserve the same price.
 ZEC can be useful if Bitcoin wins and becomes watched. But if ZEC needs Bitcoin to create the demand, and then needs expert coordination when its private audit layer breaks, it is not insurance against Bitcoin. It is a surveillance hedge trying to borrow Bitcoin's money story, even though Monero already shows that privacy can be valuable without pretending to be Bitcoin.
 
 That is the hole ZEC has to climb out of. Privacy is valuable, but value does not automatically accrue to the coin that wraps it. Bitcoin can make payments less leaky. Zcash is asking the market to price a feature like base money. That is the part I don't buy.
+
+[Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)

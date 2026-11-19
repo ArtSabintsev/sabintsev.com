@@ -61,3 +61,5 @@ This is the useful DePIN invention, and the industry still under-sells it. A pub
 The token functions as a claim on whatever the network becomes. The Hivemapper driver who shot map data in 2023 and the Helium hotspot host who built coverage in 2021 each hold a slice of however much those networks are worth in 2030. That's the behavior of an equity holder, distributed at the speed of a block.
 
 The token behaved like equity all along.
+
+[Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)

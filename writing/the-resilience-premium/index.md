@@ -72,3 +72,5 @@ Two pitches the industry should retire:
 **Use centralized infrastructure for the happy path. Buy resilience capacity for the day it breaks.**
 
 On a good day, the fastest provider wins. On a bad day, the only provider that didn't go down does.
+
+[Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)

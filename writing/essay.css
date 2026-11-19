@@ -100,6 +100,12 @@ body {
     color: var(--hover);
 }
 
+.end {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+}
+
 .theme {
     appearance: none;
     background: none;
