@@ -20,7 +20,7 @@ DePIN made that trade because the industry was scared to say the obvious. Betwee
 
 Anything except a cap table, which is funny, because the token was behaving like equity all along, and that equity-like upside landed on the network operators.
 
-Sure, totally not equity.
+**"Sure, totally not equity."**
 
 ## Payroll Is Not Capital
 

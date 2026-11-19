@@ -40,7 +40,7 @@ The two biggest vendors were affected by one compliance regime, and all users we
 
 Nobody pays the premium because they believe in decentralization. They pay it so their backup doesn't go down on the same day their primary does.
 
-A better name for the premium is resilience capacity: a backup that fails for reasons unrelated to your primary.
+A better name for the premium is **resilience capacity**: *a backup that fails for reasons unrelated to your primary.*
 
 Blockchains made this practical. Tokens didn't make networks faster or fix bad products. They let you pay and coordinate independent operators across jurisdictions and balance sheets.
 
@@ -56,7 +56,7 @@ Regulators are pricing the same risk. [EU DORA](https://www.springlex.eu/en/pack
 
 Insurers are writing policies on it. [Parametrix](https://www.parametrixinsurance.com/) and [Riskwolf](https://www.riskwolf.com/fact-sheets/cloudinsure/) sell parametric cloud-outage coverage.
 
-## Who Buys Resilience Capacity
+## Who Buys Resilience Capacity?
 
 The buyer is a wallet that can't go dark on any given Sunday, an exchange that can't lose read/write access when one provider changes policy, or an AI company that doesn't want one model vendor as a permanent chokepoint.
 
@@ -69,6 +69,6 @@ Two pitches the industry should retire:
 - "We're faster than the centralized provider." Most of the time, you won't be.
 - "Decentralization is always better." It isn't.
 
-Use centralized infrastructure for the happy path. Buy resilience capacity for the day it breaks.
+**Use centralized infrastructure for the happy path. Buy resilience capacity for the day it breaks.**
 
 On a good day, the fastest provider wins. On a bad day, the only provider that didn't go down does.
