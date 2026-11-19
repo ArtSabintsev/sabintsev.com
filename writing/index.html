@@ -10,6 +10,7 @@
     <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
     <meta name="color-scheme" content="dark light">
     <script src="/writing/theme.js"></script>
+    <script type="module" src="/writing/theme-control.js"></script>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Arthur Sabintsev">
     <meta property="og:title" content="Writing · Arthur Sabintsev">
@@ -80,10 +81,11 @@
 <main class="wrap">
     <nav class="bar" aria-label="Site">
         <p class="back"><a href="/">Arthur Sabintsev</a></p>
-        <div class="theme" role="group" aria-label="Color theme">
-            <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
-            <button type="button" data-theme-choice="dark" aria-pressed="true">Dark</button>
-        </div>
+        <ui-segmented-control aria-label="Color theme">
+            <ui-segmented-control-indicator></ui-segmented-control-indicator>
+            <ui-segmented-control-item value="light">Light</ui-segmented-control-item>
+            <ui-segmented-control-item value="dark">Dark</ui-segmented-control-item>
+        </ui-segmented-control>
     </nav>
     <h1>Writing</h1>
     <p class="lede">Essays on tokens, privacy, and infrastructure.</p>

@@ -1,3 +1,5 @@
+@layer ui-sdk;
+
 :root {
     color-scheme: dark;
     --bg: #030303;
@@ -5,9 +7,10 @@
     --muted: #a3a3a3;
     --muted-soft: #737373;
     --gold: #d4af37;
-    --link: #ffffff;
-    --hover: #ffffff;
-    --line: rgba(255, 255, 255, 0.08);
+    --link: #fafafa;
+    --hover: #fafafa;
+    --line: rgba(255, 255, 255, 0.14);
+    --track: #2a2a2a;
     --underline: rgba(212, 175, 55, 0.7);
     --selection-bg: #ffffff;
     --selection-fg: #000000;
@@ -23,7 +26,8 @@
     --gold: #7a5e0a;
     --link: #141414;
     --hover: #141414;
-    --line: rgba(0, 0, 0, 0.12);
+    --line: rgba(0, 0, 0, 0.16);
+    --track: #ececec;
     --underline: rgba(122, 94, 10, 0.7);
     --selection-bg: #141414;
     --selection-fg: #fafafa;
@@ -39,29 +43,11 @@
         --gold: #7a5e0a;
         --link: #141414;
         --hover: #141414;
-        --line: rgba(0, 0, 0, 0.12);
+        --line: rgba(0, 0, 0, 0.16);
+        --track: #ececec;
         --underline: rgba(122, 94, 10, 0.7);
         --selection-bg: #141414;
         --selection-fg: #fafafa;
-    }
-
-    :root:not([data-theme]) .theme button[data-theme-choice="dark"],
-    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:hover,
-    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:focus-visible {
-        background: transparent;
-        color: var(--muted);
-    }
-
-    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:hover,
-    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:focus-visible {
-        color: var(--hover);
-    }
-
-    :root:not([data-theme]) .theme button[data-theme-choice="light"],
-    :root:not([data-theme]) .theme button[data-theme-choice="light"]:hover,
-    :root:not([data-theme]) .theme button[data-theme-choice="light"]:focus-visible {
-        background: var(--fg);
-        color: var(--bg);
     }
 }
 
@@ -72,8 +58,12 @@ html, body {
     background: var(--bg);
     color: var(--fg);
     font-family: var(--font-sans);
-    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-kerning: normal;
     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -86,32 +76,39 @@ body {
 }
 
 .wrap {
-    width: min(38rem, calc(100% - 2.75rem));
+    /* Plus Jakarta at 65ch measured about 90 characters. 38rem measured 72. */
+    width: min(38rem, calc(100% - 3rem));
     margin: 0 auto;
-    padding: 2.5rem 0 6rem;
+    padding: 0 0 6rem;
+    font-size: 1.125rem;
 }
 
 .bar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem 1.5rem;
-    margin-bottom: 2.75rem;
+    margin-bottom: 2.5rem;
+    padding: 1.25rem 0 0.875rem;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
 }
 
 .back {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem 1.15rem;
+    gap: 0.25rem 1rem;
 }
 
 .back a {
     color: var(--muted);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
     text-decoration: none;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
 }
 
 .back a:hover,
@@ -120,98 +117,101 @@ body {
 }
 
 .end {
-    margin-top: 3rem;
+    margin-top: 4rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--line);
 }
 
-.theme {
-    display: flex;
-    flex: 0 0 auto;
-    padding: 2px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
+/* Hidden until the element upgrades, so the indicator does not paint at 0,0. */
+ui-segmented-control {
+    visibility: hidden;
 }
 
-.theme button {
-    appearance: none;
+ui-segmented-control:defined,
+ui-segmented-control[data-slot="segmented-control"] {
+    visibility: visible;
+}
+
+ui-segmented-control {
+    position: relative;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 2px;
+    padding: 2px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--track);
+    isolation: isolate;
+}
+
+[data-slot="segmented-control-indicator"] {
+    position: absolute;
+    z-index: 0;
+    top: var(--segmented-control-indicator-top);
+    left: var(--segmented-control-indicator-left);
+    width: var(--segmented-control-indicator-width);
+    height: var(--segmented-control-indicator-height);
+    border-radius: 6px;
+    background: var(--fg);
+}
+
+[data-slot="segmented-control-item"] {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    padding-inline: 0.75rem;
     border: 0;
+    border-radius: 6px;
     background: transparent;
     color: var(--muted);
     font: inherit;
-    font-size: 0.68rem;
-    font-weight: 600;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+    font-size: 0.8125rem;
+    font-weight: 500;
     line-height: 1;
-    padding: 0.42rem 0.72rem;
-    border-radius: 999px;
+    white-space: nowrap;
     cursor: pointer;
+    user-select: none;
 }
 
-.theme button:hover,
-.theme button:focus-visible {
-    color: var(--hover);
+[data-slot="segmented-control-item"]:hover,
+[data-slot="segmented-control-item"][data-checked] {
+    color: var(--fg);
 }
 
-.theme button[data-theme-choice="dark"],
-.theme button[data-theme-choice="dark"]:hover,
-.theme button[data-theme-choice="dark"]:focus-visible {
-    background: var(--fg);
-    color: var(--bg);
-}
-
-:root[data-theme="light"] .theme button[data-theme-choice="dark"],
-:root[data-theme="light"] .theme button[data-theme-choice="dark"]:hover,
-:root[data-theme="light"] .theme button[data-theme-choice="dark"]:focus-visible {
-    background: transparent;
-    color: var(--muted);
-}
-
-:root[data-theme="light"] .theme button[data-theme-choice="dark"]:hover,
-:root[data-theme="light"] .theme button[data-theme-choice="dark"]:focus-visible {
-    color: var(--hover);
-}
-
-:root[data-theme="light"] .theme button[data-theme-choice="light"],
-:root[data-theme="light"] .theme button[data-theme-choice="light"]:hover,
-:root[data-theme="light"] .theme button[data-theme-choice="light"]:focus-visible {
-    background: var(--fg);
+[data-slot="segmented-control-item"][data-checked] {
     color: var(--bg);
 }
 
 h1 {
-    font-size: clamp(2.05rem, 5vw, 2.7rem);
+    font-size: 3rem;
     font-weight: 600;
-    letter-spacing: -0.03em;
-    line-height: 1.15;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+    text-wrap: balance;
 }
 
-.deck {
-    margin-top: 0.9rem;
+.deck,
+.lede {
+    margin-top: 1.25rem;
     color: var(--muted);
-    font-size: 1.2rem;
+    font-size: 1.222em;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.4545;
+    text-wrap: pretty;
 }
 
 .meta {
-    margin-top: 1.15rem;
-    color: var(--muted-soft);
-    font-size: 0.8rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    margin-top: 1.25rem;
+    color: var(--muted);
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
 }
 
 .meta a {
-    color: var(--muted-soft);
-}
-
-.lede {
-    margin-top: 0.85rem;
-    color: var(--muted);
-    font-size: 1.05rem;
-    line-height: 1.5;
+    color: inherit;
 }
 
 .essays {
@@ -220,8 +220,8 @@ h1 {
 }
 
 .essays li + li {
-    margin-top: 1.75rem;
-    padding-top: 1.75rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
     border-top: 1px solid var(--line);
 }
 
@@ -233,37 +233,43 @@ h1 {
 
 .essays time {
     display: block;
-    color: var(--muted-soft);
-    font-size: 0.75rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    color: var(--muted);
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
 }
 
 .essays .title {
     display: block;
-    margin-top: 0.35rem;
-    font-size: 1.45rem;
+    margin-top: 0.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: -0.03em;
-    line-height: 1.2;
+    letter-spacing: -0.04em;
+    line-height: 1.333;
+    text-wrap: balance;
 }
 
 .essays a:hover .title,
 .essays a:focus-visible .title {
-    color: var(--gold);
+    text-decoration: underline;
+    text-decoration-color: var(--underline);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
 }
 
 .essays .deck {
     display: block;
-    margin-top: 0.4rem;
-    font-size: 1.05rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
     line-height: 1.5;
+}
+
+article {
+    line-height: 1.7778;
 }
 
 article p,
 article li {
-    font-size: 1.125rem;
-    line-height: 1.75;
+    text-wrap: pretty;
 }
 
 article strong {
@@ -275,39 +281,40 @@ article em {
 }
 
 article p {
-    margin-top: 1.2rem;
+    margin-top: 1.333em;
 }
 
-article .meta + p,
-article .meta + h2,
-article h2 + p {
+article .meta + p {
     margin-top: 2.5rem;
 }
 
-article h2 + p {
-    margin-top: 0;
+article h2 {
+    margin-top: 3.5rem;
+    margin-bottom: 0;
+    font-size: 1.875rem;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    line-height: 1.333;
+    text-wrap: balance;
 }
 
-article h2 {
-    margin-top: 2.75rem;
-    margin-bottom: 0.85rem;
-    font-size: 1.35rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    line-height: 1.3;
+article h2 + p {
+    margin-top: 1.333em;
 }
 
 article ul {
-    margin-top: 1rem;
-    padding-left: 1.15rem;
+    margin-top: 1.333em;
+    padding-left: 1.555em;
 }
 
 article li + li {
-    margin-top: 0.45rem;
+    margin-top: 0.666em;
 }
 
 article a {
     color: var(--link);
+    font-weight: 500;
+    text-decoration-line: underline;
     text-decoration-thickness: 1px;
     text-decoration-color: var(--underline);
     text-underline-offset: 0.2em;
@@ -315,11 +322,22 @@ article a {
 
 article a:hover,
 article a:focus-visible {
-    color: var(--gold);
+    text-decoration-color: currentColor;
 }
 
 a:focus-visible,
-.theme button:focus-visible {
+[data-slot="segmented-control-item"]:focus-visible {
     outline: 2px solid var(--gold);
     outline-offset: 3px;
+}
+
+@media (max-width: 40rem) {
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    article h2,
+    .essays .title {
+        font-size: 1.5rem;
+    }
 }

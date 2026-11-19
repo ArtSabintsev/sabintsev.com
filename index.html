@@ -167,6 +167,7 @@
             --muted: #a3a3a3;
             --muted-soft: #737373;
             --gold: #d4af37;
+            --underline: rgba(212, 175, 55, 0.7);
             --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
             --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
         }
@@ -518,10 +519,10 @@
             margin-left: clamp(1.25rem, 4vw, 2.5rem);
         }
         .writing h2 {
-            font-size: clamp(1.6rem, 4vw, 2.15rem);
+            font-size: 2rem;
             font-weight: 600;
-            letter-spacing: -0.035em;
-            line-height: 1.05;
+            letter-spacing: -0.04em;
+            line-height: 1.2;
         }
         .writing h2 a {
             color: inherit;
@@ -529,22 +530,25 @@
         }
         .writing h2 a:hover,
         .writing h2 a:focus-visible {
-            color: var(--gold);
+            text-decoration: underline;
+            text-decoration-color: var(--underline);
+            text-underline-offset: 0.16em;
         }
         .writing .lede {
             margin-top: 0.75rem;
+            max-width: 65ch;
             color: var(--muted);
-            font-size: 1.05rem;
-            line-height: 1.5;
+            font-size: 1.125rem;
+            line-height: 1.5556;
         }
         .writing .essays {
             list-style: none;
-            margin-top: 2.25rem;
+            margin-top: 2.5rem;
         }
         .writing .essays li + li {
-            margin-top: 1.75rem;
-            padding-top: 1.75rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.14);
         }
         .writing .essays a {
             display: block;
@@ -553,28 +557,29 @@
         }
         .writing .essays time {
             display: block;
-            color: var(--muted-soft);
-            font-size: 0.75rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
+            color: var(--muted);
+            font-size: 0.8125rem;
+            line-height: 1.25rem;
         }
         .writing .essays .title {
             display: block;
-            margin-top: 0.35rem;
-            font-size: 1.45rem;
+            margin-top: 0.25rem;
+            font-size: 1.5rem;
             font-weight: 600;
-            letter-spacing: -0.03em;
-            line-height: 1.2;
+            letter-spacing: -0.04em;
+            line-height: 1.333;
         }
         .writing .essays a:hover .title,
         .writing .essays a:focus-visible .title {
-            color: var(--gold);
+            text-decoration: underline;
+            text-decoration-color: var(--underline);
+            text-underline-offset: 0.18em;
         }
         .writing .essays .deck {
             display: block;
-            margin-top: 0.45rem;
+            margin-top: 0.5rem;
             color: var(--muted);
-            font-size: 1.05rem;
+            font-size: 1rem;
             line-height: 1.5;
         }
         .writing .essays a:focus-visible {
