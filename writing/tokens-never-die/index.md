@@ -31,4 +31,6 @@ Four algorithmic layers stack on every dead token with a stranded liquidity pool
 
 [Chainalysis counted 2.06 million tokens launched in 2024](https://www.chainalysis.com/blog/crypto-market-manipulation-wash-trading-pump-and-dump-2025/). Only 1.7% had meaningful trading inside thirty days. Layer in Solana's pump.fun launches, every Cosmos appchain token, every L2 memecoin, and the dead population is bigger than any single chain's data captures. The 98.3% don't go to zero. They go quiet for a while, and then they're raised from the dead.
 
+[Older: Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) · [Newer: Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/)
+
 [Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)

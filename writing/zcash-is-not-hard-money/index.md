@@ -75,4 +75,6 @@ Zcash's strongest pitch is that your payments should not be easy for strangers t
 
 ZEC can be useful if Bitcoin wins and becomes watched. But if ZEC needs Bitcoin to create the demand, and then needs expert coordination when its private audit layer breaks, it is not insurance against Bitcoin. It is a surveillance hedge trying to borrow Bitcoin's money story, even though Monero already shows that privacy can be valuable without pretending to be Bitcoin. That is the part I don't buy.
 
+[Older: Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/)
+
 [Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)

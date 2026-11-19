@@ -12,8 +12,8 @@
     --line: rgba(255, 255, 255, 0.14);
     --track: #2a2a2a;
     --underline: rgba(212, 175, 55, 0.7);
-    --selection-bg: #ffffff;
-    --selection-fg: #000000;
+    --selection-bg: #d4af37;
+    --selection-fg: #141414;
     --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
 }
 
@@ -29,7 +29,7 @@
     --line: rgba(0, 0, 0, 0.16);
     --track: #ececec;
     --underline: rgba(122, 94, 10, 0.7);
-    --selection-bg: #141414;
+    --selection-bg: #7a5e0a;
     --selection-fg: #fafafa;
 }
 
@@ -46,7 +46,7 @@
         --line: rgba(0, 0, 0, 0.16);
         --track: #ececec;
         --underline: rgba(122, 94, 10, 0.7);
-        --selection-bg: #141414;
+        --selection-bg: #7a5e0a;
         --selection-fg: #fafafa;
     }
 }
@@ -78,8 +78,8 @@ body {
 .wrap {
     width: min(72rem, calc(100% - clamp(3rem, 10vw, 12rem)));
     margin: 0 auto;
-    padding: 0 0 6rem;
-    font-size: 1.125rem;
+    padding: 0 0 6.5rem;
+    font-size: clamp(1.125rem, 1rem + 0.35vw, 1.25rem);
 }
 
 .bar {
@@ -90,8 +90,8 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 1rem 1.5rem;
-    margin-bottom: 2.5rem;
-    padding: 1.25rem 0 0.875rem;
+    margin-bottom: 3.5rem;
+    padding: 1.125rem 0 1rem;
     border-bottom: 1px solid var(--line);
     background: var(--bg);
 }
@@ -99,7 +99,14 @@ body {
 .back {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.25rem 1rem;
+    align-items: center;
+    gap: 0.25rem 0;
+}
+
+.back a + a {
+    margin-left: 0.8rem;
+    padding-left: 0.8rem;
+    border-left: 1px solid var(--line);
 }
 
 .back a {
@@ -116,9 +123,57 @@ body {
 }
 
 .end {
-    margin-top: 4rem;
-    padding-top: 1.5rem;
+    margin-top: 4.5rem;
+    padding-top: 1.75rem;
     border-top: 1px solid var(--line);
+}
+
+.series {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 2.5rem;
+}
+
+.series a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-width: 26rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.series .newer {
+    grid-column: 2;
+    justify-self: end;
+    text-align: right;
+}
+
+.series .kicker {
+    color: var(--muted);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.series .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.35;
+    text-wrap: balance;
+}
+
+.series a:hover .title,
+.series a:focus-visible .title {
+    text-decoration: underline;
+    text-decoration-color: var(--underline);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+}
+
+.end .back {
+    margin-top: 2.25rem;
 }
 
 /* Hidden until the element upgrades, so the indicator does not paint at 0,0. */
@@ -185,11 +240,15 @@ ui-segmented-control {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: clamp(2.25rem, 1.6rem + 1.8vw, 3.5rem);
     font-weight: 600;
     letter-spacing: -0.04em;
     line-height: 1.1;
     text-wrap: balance;
+}
+
+article h1 {
+    margin-top: 0.75rem;
 }
 
 .deck,
@@ -205,8 +264,13 @@ h1 {
 .meta {
     margin-top: 1.25rem;
     color: var(--muted);
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
+    font-weight: 500;
     line-height: 1.25rem;
+}
+
+article .meta {
+    margin-top: 0;
 }
 
 .meta a {
@@ -215,12 +279,12 @@ h1 {
 
 .essays {
     list-style: none;
-    margin-top: 2.5rem;
+    margin-top: 3.25rem;
 }
 
 .essays li + li {
-    margin-top: 2rem;
-    padding-top: 2rem;
+    margin-top: 2.25rem;
+    padding-top: 2.25rem;
     border-top: 1px solid var(--line);
 }
 
@@ -239,8 +303,8 @@ h1 {
 
 .essays .title {
     display: block;
-    margin-top: 0.25rem;
-    font-size: 1.5rem;
+    margin-top: 0.35rem;
+    font-size: clamp(1.375rem, 1.15rem + 0.7vw, 1.75rem);
     font-weight: 600;
     letter-spacing: -0.04em;
     line-height: 1.333;
@@ -263,7 +327,7 @@ h1 {
 }
 
 article {
-    line-height: 1.7778;
+    line-height: 1.75;
 }
 
 article p,
@@ -280,34 +344,40 @@ article em {
 }
 
 article p {
-    margin-top: 1.333em;
+    margin-top: 1.5em;
 }
 
-article .meta + p {
-    margin-top: 2.5rem;
+article .deck + p,
+article .deck + h2 {
+    margin-top: 3.25rem;
 }
 
 article h2 {
-    margin-top: 3.5rem;
+    margin-top: 4.25rem;
     margin-bottom: 0;
-    font-size: 1.875rem;
+    font-size: clamp(1.5rem, 1.25rem + 0.7vw, 2rem);
     font-weight: 600;
     letter-spacing: -0.04em;
-    line-height: 1.333;
+    line-height: 1.3;
     text-wrap: balance;
 }
 
-article h2 + p {
-    margin-top: 1.333em;
+article h2 + p,
+article h2 + ul {
+    margin-top: 0.85em;
 }
 
 article ul {
-    margin-top: 1.333em;
-    padding-left: 1.555em;
+    margin-top: 1.5em;
+    padding-left: 1.35em;
 }
 
 article li + li {
-    margin-top: 0.666em;
+    margin-top: 0.55em;
+}
+
+article li::marker {
+    color: var(--muted);
 }
 
 article a {
@@ -331,12 +401,13 @@ a:focus-visible,
 }
 
 @media (max-width: 40rem) {
-    h1 {
-        font-size: 2.25rem;
+    .series {
+        grid-template-columns: 1fr;
     }
 
-    article h2,
-    .essays .title {
-        font-size: 1.5rem;
+    .series .newer {
+        grid-column: auto;
+        justify-self: start;
+        text-align: left;
     }
 }

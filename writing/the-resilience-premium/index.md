@@ -64,4 +64,6 @@ Two pitches the industry should retire:
 
 Use the centralized provider on a normal day. Pay for a backup that fails for a different reason.
 
+[Newer: Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/)
+
 [Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)
