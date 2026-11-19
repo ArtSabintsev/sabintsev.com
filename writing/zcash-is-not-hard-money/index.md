@@ -1,6 +1,6 @@
 ---
 title: Zcash is Not Hard Money
-description: ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.
+description: Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.
 date: 2026-06-08
 canonical: https://sabintsev.com/writing/zcash-is-not-hard-money/
 image: https://sabintsev.com/images/writing/zcash-is-not-hard-money.jpg
@@ -8,7 +8,7 @@ image: https://sabintsev.com/images/writing/zcash-is-not-hard-money.jpg
 
 # Zcash is Not Hard Money
 
-*ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.*
+*Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.*
 
 ![Closed vault door of the Eastern Bank of Alabama, Eufaula.](https://sabintsev.com/images/writing/zcash-is-not-hard-money.jpg)
 
@@ -24,8 +24,6 @@ ZEC does not pay if Bitcoin fails. If Bitcoin fails, the monetary network that m
 
 Even then, surveillance only creates the opening. It does not prove ZEC is the asset that captures it.
 
-Privacy can be a feature without becoming the money.
-
 ## Two risks
 
 Bitcoin is a response to one kind of state risk: monetary discretion. Debasement, bailouts, capital controls, confiscatory policy, the slow political capture of money.
@@ -37,8 +35,6 @@ Zcash is aimed at a different risk: financial surveillance.
 If Bitcoin becomes real settlement infrastructure, the chain becomes a searchable map of economic relationships. Exchanges label it. Analytics firms package it. Creditors, competitors, lawyers, and governments can query it.
 
 Zcash's pitch is that people will pay to get off that graph. That can be useful, but it does not make ZEC Bitcoin.
-
-Both risks are real. They are not the same product.
 
 ## Privacy
 
@@ -70,13 +66,11 @@ The public chain can count value moving into and out of shielded pools through [
 
 A ZEC buyer is not getting Bitcoin's audit model with privacy bolted on for free. They are buying a system where private payments depend on proof-system correctness, turnstile accounting, audits, upgrades, and the judgment of the people maintaining the shielded pool.
 
-That does not justify ZEC as hard money. It makes ZEC look like a privacy feature with Bitcoin's hard-money language bolted on.
-
 ## Orchard
 
 Orchard made the hard-money claim harder to defend. [Shielded Labs said](https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015) a local exploit could create counterfeit ZEC inside the shielded pool. [Zcash Foundation said](https://zfnd.org/zebra-4-5-3-and-5-0-0-emergency-soft-fork-and-nu6-2-activation/) there was no evidence it happened on mainnet, and turnstiles showed total supply had not leaked past the pool boundary.
 
-This is not the first time Zcash has had to repair confidence in a shielded pool, which is part of the problem in viewing ZEC as hard money. If the privacy layer needs periodic expert maintenance to defend the monetary claim, ZEC stops looking like hard money, and begins to look like a privacy feature with infrastructure and a token attached.
+This is not the first time Zcash has had to repair confidence in a shielded pool, which is part of the problem in viewing ZEC as hard money. If the privacy layer needs periodic expert maintenance to defend the monetary claim, the supply claim depends on that maintenance.
 
 ## ZEC is Unnecessary
 
@@ -84,10 +78,6 @@ Bitcoin's strongest pitch is self-custodied savings with a supply users can veri
 
 Zcash's strongest pitch is that your payments should not be easy for strangers to look up.
 
-Those are different risks. They do not deserve the same price.
-
-ZEC can be useful if Bitcoin wins and becomes watched. But if ZEC needs Bitcoin to create the demand, and then needs expert coordination when its private audit layer breaks, it is not insurance against Bitcoin. It is a surveillance hedge trying to borrow Bitcoin's money story, even though Monero already shows that privacy can be valuable without pretending to be Bitcoin.
-
-That is the hole ZEC has to climb out of. Privacy is valuable, but value does not automatically accrue to the coin that wraps it. Bitcoin can make payments less leaky. Zcash is asking the market to price a feature like base money. That is the part I don't buy.
+ZEC can be useful if Bitcoin wins and becomes watched. But if ZEC needs Bitcoin to create the demand, and then needs expert coordination when its private audit layer breaks, it is not insurance against Bitcoin. It is a surveillance hedge trying to borrow Bitcoin's money story, even though Monero already shows that privacy can be valuable without pretending to be Bitcoin. That is the part I don't buy.
 
 [Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)

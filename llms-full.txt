@@ -22,10 +22,10 @@ Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile
 
 ### Writing
 - **Essays:** [sabintsev.com/writing](https://sabintsev.com/writing/) — full text, no login. Also listed on the [homepage](https://sabintsev.com/#writing). RSS: [feed.xml](https://sabintsev.com/writing/feed.xml)
-- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026) — ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.
-- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026) — projects die, tokens get repurposed
-- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026) — stablecoins pay for the work, tokens pay for being early
-- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026) — buy a backup that fails for a different reason than the primary
+- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026) — Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.
+- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026) — when a project stops shipping, the token keeps trading
+- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026) — customers want the work priced in dollars; operators hold the token for the upside
+- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026) — a second vendor fails as a backup when it goes down for the same reason as the first
 
 ### Incubations
 - [Jewish Mythology](https://jewishmythology.com) (currently incubating — an AI-searchable reference library for Jewish mythological texts)

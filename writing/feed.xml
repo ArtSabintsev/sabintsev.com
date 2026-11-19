@@ -13,7 +13,7 @@
         <guid isPermaLink="true">https://sabintsev.com/writing/zcash-is-not-hard-money/</guid>
         <pubDate>Mon, 08 Jun 2026 12:03:26 GMT</pubDate>
         <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
-        <description>ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.</description>
+        <description>Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.</description>
         <media:content url="https://sabintsev.com/images/writing/zcash-is-not-hard-money-og.jpg" medium="image" type="image/jpeg" width="1200" height="630"/>
     </item>
     <item>
@@ -22,7 +22,7 @@
         <guid isPermaLink="true">https://sabintsev.com/writing/tokens-never-die/</guid>
         <pubDate>Tue, 26 May 2026 19:24:54 GMT</pubDate>
         <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
-        <description>Projects die. Tokens don't. They get repurposed.</description>
+        <description>When a project stops shipping, the token keeps trading. Volume bots, momentum bots, MEV, and pump groups are the aftermarket.</description>
         <media:content url="https://sabintsev.com/images/writing/tokens-never-die.jpg" medium="image" type="image/jpeg" width="1600" height="840"/>
     </item>
     <item>
@@ -31,7 +31,7 @@
         <guid isPermaLink="true">https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/</guid>
         <pubDate>Mon, 25 May 2026 06:14:28 GMT</pubDate>
         <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
-        <description>Stablecoins pay for the work. Tokens pay for being early.</description>
+        <description>Customers want the work priced in dollars. Operators still hold the token for the upside.</description>
         <media:content url="https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg" medium="image" type="image/jpeg" width="1600" height="840"/>
     </item>
     <item>
@@ -40,7 +40,7 @@
         <guid isPermaLink="true">https://sabintsev.com/writing/the-resilience-premium/</guid>
         <pubDate>Fri, 22 May 2026 16:31:29 GMT</pubDate>
         <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
-        <description>The decentralization tax isn't a tax. It's a resilience budget.</description>
+        <description>A second vendor fails as a backup when it goes down for the same reason as the first.</description>
         <media:content url="https://sabintsev.com/images/writing/the-resilience-premium.jpg" medium="image" type="image/jpeg" width="1465" height="769"/>
     </item>
 </channel>

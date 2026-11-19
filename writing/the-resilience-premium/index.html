@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Resilience Premium · Arthur Sabintsev</title>
-    <meta name="description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
+    <meta name="description" content="A second vendor fails as a backup when it goes down for the same reason as the first.">
     <meta name="author" content="Arthur Ariel Sabintsev">
     <meta name="theme-color" content="#030303" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
@@ -13,7 +13,7 @@
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Arthur Sabintsev">
     <meta property="og:title" content="The Resilience Premium">
-    <meta property="og:description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
+    <meta property="og:description" content="A second vendor fails as a backup when it goes down for the same reason as the first.">
     <meta property="og:url" content="https://sabintsev.com/writing/the-resilience-premium/">
     <meta property="og:image" content="https://sabintsev.com/images/writing/the-resilience-premium.jpg">
     <meta property="og:image:type" content="image/jpeg">
@@ -26,7 +26,7 @@
     <meta name="twitter:site" content="@artsabintsev">
     <meta name="twitter:creator" content="@artsabintsev">
     <meta name="twitter:title" content="The Resilience Premium">
-    <meta name="twitter:description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
+    <meta name="twitter:description" content="A second vendor fails as a backup when it goes down for the same reason as the first.">
     <meta name="twitter:image" content="https://sabintsev.com/images/writing/the-resilience-premium.jpg">
     <meta name="twitter:image:alt" content="Passenger train on the barge Mastodon crossing the Mississippi.">
     <link rel="canonical" href="https://sabintsev.com/writing/the-resilience-premium/">
@@ -42,7 +42,7 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "The Resilience Premium",
-      "description": "The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.",
+      "description": "A second vendor fails as a backup when it goes down for the same reason as the first.",
       "image": "https://sabintsev.com/images/writing/the-resilience-premium.jpg",
       "datePublished": "2026-05-22",
       "dateModified": "2026-11-19",
@@ -68,7 +68,7 @@
     </div>
     <article>
         <h1>The Resilience Premium</h1>
-        <p class="deck">The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.</p>
+        <p class="deck">A second vendor fails as a backup when it goes down for the same reason as the first.</p>
         <p class="meta"><time datetime="2026-05-22">May 22, 2026</time></p>
         <figure>
             <img src="/images/writing/the-resilience-premium.jpg" width="1465" height="769" alt="Passenger train on the barge Mastodon crossing the Mississippi." decoding="async">
@@ -78,8 +78,7 @@
 <p>Most software doesn&#x27;t need decentralization. Gmail works. S3 works. Stripe works. Centralized providers win the happy path because the happy path rewards speed, polish, support, and procurement simplicity.</p>
 <h2>Redundancy Is Not Resilience</h2>
 <p>Having a second vendor is the easy part. The test is whether your backup fails for a different reason than your primary.</p>
-<p>Most redundancy doesn&#x27;t pass that test. AWS, Azure, GCP, Cloudflare, major RPC vendors, and AI providers still share internet routing, DNS, identity systems, software supply chains, political compliance regimes, and capital-market incentives.</p>
-<p>Three vendors that fail for the same reason are functionally one.</p>
+<p>Most redundancy doesn&#x27;t pass that test. AWS, Azure, GCP, Cloudflare, major RPC vendors, and AI providers still share internet routing, DNS, identity systems, software supply chains, political compliance regimes, and capital-market incentives. Three vendors that fail for the same reason are functionally one.</p>
 <h2>When Multi-Vendor Still Goes Dark</h2>
 <p><a href="https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/">Cloudflare&#x27;s June 2025 outage</a> is the clean example. Workers KV failed for 2 hours and 28 minutes after an underlying third-party cloud dependency went down. Roughly 90% of requests failed, and the same dependency broke several other Cloudflare products.</p>
 <p>The Tornado Cash sanctions showed a different kind of correlation. After <a href="https://home.treasury.gov/news/press-releases/sb0057">OFAC sanctioned Tornado Cash</a> in August 2022, <a href="https://www.theblock.co/post/162402/infura-and-alchemy-blocking-access-to-tornado-cash">Alchemy and Infura blocked RPC access</a>.</p>
@@ -87,7 +86,7 @@
 <p>The two biggest vendors were affected by one compliance regime, and all users were locked out of it.</p>
 <h2>What Blockchains Actually Add</h2>
 <p>Nobody pays the premium because they believe in decentralization. They pay it so their backup doesn&#x27;t go down on the same day their primary does.</p>
-<p>A better name for the premium is <strong>resilience capacity</strong>: <em>a backup that fails for reasons unrelated to your primary.</em></p>
+<p>A better name for the premium is resilience capacity: a backup that fails for reasons unrelated to your primary.</p>
 <p>Blockchains made this practical. Tokens didn&#x27;t make networks faster or fix bad products. They let you pay and coordinate independent operators across jurisdictions and balance sheets.</p>
 <h2>The Market Is Already Pricing It</h2>
 <p>Developer tooling is already multi-provider.</p>
@@ -107,8 +106,7 @@
 <li>&quot;We&#x27;re faster than the centralized provider.&quot; Most of the time, you won&#x27;t be.</li>
 <li>&quot;Decentralization is always better.&quot; It isn&#x27;t.</li>
 </ul>
-<p><strong>Use centralized infrastructure for the happy path. Buy resilience capacity for the day it breaks.</strong></p>
-<p>On a good day, the fastest provider wins. On a bad day, the only provider that didn&#x27;t go down does.</p>
+<p>Use the centralized provider on a normal day. Pay for a backup that fails for a different reason.</p>
     </article>
     <nav class="back end" aria-label="More">
         <a href="/">Arthur Sabintsev</a>

@@ -18,10 +18,10 @@ Physicist · Engineer · Founder
 
 ## Writing
 
-- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026). ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.
-- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026). Projects die. Tokens don't. They get repurposed.
-- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026). Stablecoins pay for the work. Tokens pay for being early.
-- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026). The decentralization tax isn't a tax. It's a resilience budget.
+- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026). Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.
+- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026). When a project stops shipping, the token keeps trading. Volume bots, momentum bots, MEV, and pump groups are the aftermarket.
+- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026). Customers want the work priced in dollars. Operators still hold the token for the upside.
+- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026). A second vendor fails as a backup when it goes down for the same reason as the first.
 
 [RSS](https://sabintsev.com/writing/feed.xml)
 

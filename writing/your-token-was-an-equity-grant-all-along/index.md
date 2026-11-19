@@ -1,6 +1,6 @@
 ---
 title: Your Token Was An Equity Grant All Along
-description: Stablecoins pay for the work. Tokens pay for being early.
+description: Customers want the work priced in dollars. Operators still hold the token for the upside.
 date: 2026-05-25
 canonical: https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/
 image: https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg
@@ -8,7 +8,7 @@ image: https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-a
 
 # Your Token Was An Equity Grant All Along
 
-*Stablecoins pay for the work. Tokens pay for being early.*
+*Customers want the work priced in dollars. Operators still hold the token for the upside.*
 
 ![Bearer share warrant of A. Darracq and Company, 1916.](https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg)
 
@@ -19,8 +19,6 @@ Most customers don't want your token. They want a GPU hour, an RPC call, a map m
 DePIN made that trade because the industry was scared to say the obvious. Between 2018 and 2022, a token that looked like ownership also looked like the thing the [SEC's digital-asset framework](https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets) called an investment contract. So networks gave tokens jobs: gas, access, settlement, security, governance.
 
 Anything except a cap table, which is funny, because the token was behaving like equity all along, and that equity-like upside landed on the network operators.
-
-**"Sure, totally not equity."**
 
 ## Payroll Is Not Capital
 
@@ -52,14 +50,12 @@ The networks that recovered split the two assets: the token for ownership and th
 
 Different designs, same admission: work needs insulation from token volatility, and the token should do the one job nobody else can, which is represent ownership.
 
-Strip away the payment-rail story and a DePIN token looks less like money and more like an [employee stock option](https://www.investor.gov/introduction-investing/investing-basics/glossary/employee-stock-options-esos). Operators show up before revenue is real. They buy hardware, sign leases, keep machines online, and take reputational risk on a network most customers haven't heard of yet. Cash pays for the month. Tokens pay for being early if the network matters five years later. That's a barbell payoff, and it's the same shape as every Series A engineer's comp package: small monthly draw, large terminal upside, conditional on the product actually mattering.
+Strip away the payment-rail story and a DePIN token looks less like money and more like an [employee stock option](https://www.investor.gov/introduction-investing/investing-basics/glossary/employee-stock-options-esos). Operators show up before revenue is real. They buy hardware, sign leases, keep machines online, and take reputational risk on a network most customers haven't heard of yet. Cash pays for the month, and the token is the upside if the network matters five years later. That's a barbell payoff, and it's the same shape as every Series A engineer's comp package: small monthly draw, large terminal upside, conditional on the product actually mattering.
 
 Look at the analogies. Emissions are the option pool. Burns are buybacks. Staking is the vesting cliff. Slashing is clawback. [AKT](https://akash.network/token/) is Akash's incentive pool. [FIL collateral](https://docs.filecoin.io/storage-providers/filecoin-economics/fil-collateral) is Filecoin's clawback. [POKT burns are explicitly deflationary](https://pocket.network/pocket-network-pioneers-the-deflationary-frontier/), funded by app demand. None of that requires the same token to denominate the work itself.
 
 This is the useful DePIN invention, and the industry still under-sells it. A public company can't hand meaningful equity to an individual hardware operator without lawyers, transfer agents, jurisdiction checks, tax paperwork, and a lot of "we'll get back to you." That's the friction for a Frankfurt-based Render miner or a Singapore-based Akash provider. For a Hivemapper driver in São Paulo or a Helium hotspot host in rural Kansas, the legal scaffolding barely exists at all. A tokenized network can grant upside in a block. DePIN accidentally built what functions like a global [ESOP](https://www.esop.org/) for operators public markets can't structurally reach.
 
-The token functions as a claim on whatever the network becomes. The Hivemapper driver who shot map data in 2023 and the Helium hotspot host who built coverage in 2021 each hold a slice of however much those networks are worth in 2030. That's the behavior of an equity holder, distributed at the speed of a block.
-
-The token behaved like equity all along.
+The token functions as a claim on whatever the network becomes. The Hivemapper driver who shot map data in 2023 and the Helium hotspot host who built coverage in 2021 each hold a slice of however much those networks are worth in 2030.
 
 [Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)

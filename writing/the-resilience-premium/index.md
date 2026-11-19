@@ -1,6 +1,6 @@
 ---
 title: The Resilience Premium
-description: The decentralization tax isn't a tax. It's a resilience budget.
+description: A second vendor fails as a backup when it goes down for the same reason as the first.
 date: 2026-05-22
 canonical: https://sabintsev.com/writing/the-resilience-premium/
 image: https://sabintsev.com/images/writing/the-resilience-premium.jpg
@@ -8,7 +8,7 @@ image: https://sabintsev.com/images/writing/the-resilience-premium.jpg
 
 # The Resilience Premium
 
-*The decentralization tax isn't a tax. It's a resilience budget.*
+*A second vendor fails as a backup when it goes down for the same reason as the first.*
 
 ![Passenger train on the barge Mastodon crossing the Mississippi.](https://sabintsev.com/images/writing/the-resilience-premium.jpg)
 
@@ -22,9 +22,7 @@ Most software doesn't need decentralization. Gmail works. S3 works. Stripe works
 
 Having a second vendor is the easy part. The test is whether your backup fails for a different reason than your primary.
 
-Most redundancy doesn't pass that test. AWS, Azure, GCP, Cloudflare, major RPC vendors, and AI providers still share internet routing, DNS, identity systems, software supply chains, political compliance regimes, and capital-market incentives.
-
-Three vendors that fail for the same reason are functionally one.
+Most redundancy doesn't pass that test. AWS, Azure, GCP, Cloudflare, major RPC vendors, and AI providers still share internet routing, DNS, identity systems, software supply chains, political compliance regimes, and capital-market incentives. Three vendors that fail for the same reason are functionally one.
 
 ## When Multi-Vendor Still Goes Dark
 
@@ -40,7 +38,7 @@ The two biggest vendors were affected by one compliance regime, and all users we
 
 Nobody pays the premium because they believe in decentralization. They pay it so their backup doesn't go down on the same day their primary does.
 
-A better name for the premium is **resilience capacity**: *a backup that fails for reasons unrelated to your primary.*
+A better name for the premium is resilience capacity: a backup that fails for reasons unrelated to your primary.
 
 Blockchains made this practical. Tokens didn't make networks faster or fix bad products. They let you pay and coordinate independent operators across jurisdictions and balance sheets.
 
@@ -69,8 +67,6 @@ Two pitches the industry should retire:
 - "We're faster than the centralized provider." Most of the time, you won't be.
 - "Decentralization is always better." It isn't.
 
-**Use centralized infrastructure for the happy path. Buy resilience capacity for the day it breaks.**
-
-On a good day, the fastest provider wins. On a bad day, the only provider that didn't go down does.
+Use the centralized provider on a normal day. Pay for a backup that fails for a different reason.
 
 [Arthur Sabintsev](https://sabintsev.com/) · [Writing](https://sabintsev.com/writing/)
