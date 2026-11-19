@@ -79,10 +79,10 @@
 <p>Most software doesn&#x27;t need decentralization. Gmail works. S3 works. Stripe works. Centralized providers win the happy path because the happy path rewards speed, polish, support, and procurement simplicity.</p>
 <h2>Redundancy Is Not Resilience</h2>
 <p>Having a second vendor is the easy part. The test is whether your backup fails for a different reason than your primary.</p>
-<p>Most redundancy doesn&#x27;t pass that test. AWS, Azure, GCP, Cloudflare, major RPC vendors, and AI providers still share internet routing, DNS, identity systems, software supply chains, political compliance regimes, and capital-market incentives. Three vendors that fail for the same reason are functionally one.</p>
+<p>Most redundancy doesn&#x27;t pass that test. AWS, Azure, GCP, Cloudflare, major RPC vendors (the companies a wallet calls for chain data), and AI providers still share internet routing, DNS, identity systems, software supply chains, political compliance regimes, and capital-market incentives. Three vendors that fail for the same reason are functionally one.</p>
 <h2>When Multi-Vendor Still Goes Dark</h2>
 <p><a href="https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/">Cloudflare&#x27;s June 2025 outage</a> is the clean example. Workers KV failed for 2 hours and 28 minutes after an underlying third-party cloud dependency went down. Roughly 90% of requests failed, and the same dependency broke several other Cloudflare products.</p>
-<p>The Tornado Cash sanctions showed a different kind of correlation. After <a href="https://home.treasury.gov/news/press-releases/sb0057">OFAC sanctioned Tornado Cash</a> in August 2022, <a href="https://www.theblock.co/post/162402/infura-and-alchemy-blocking-access-to-tornado-cash">Alchemy and Infura blocked RPC access</a>.</p>
+<p>The Tornado Cash sanctions showed a different kind of correlation. After <a href="https://home.treasury.gov/news/press-releases/sb0057">OFAC</a> (the U.S. Treasury&#x27;s sanctions office) sanctioned Tornado Cash (a mixer that hides the payment trail) in August 2022, <a href="https://www.theblock.co/post/162402/infura-and-alchemy-blocking-access-to-tornado-cash">Alchemy and Infura blocked RPC access</a>.</p>
 <p>Unless you were running your own node or routing through a decentralized network with a sovereign API gateway, you couldn&#x27;t reach the smart contract.</p>
 <p>The two biggest vendors were affected by one compliance regime, and all users were locked out of it.</p>
 <h2>What Blockchains Actually Add</h2>
@@ -94,13 +94,13 @@
 <ul>
 <li><a href="https://viem.sh/">viem</a> ships <a href="https://viem.sh/docs/clients/transports/fallback">fallback transports</a></li>
 <li><a href="https://ethers.org/">ethers</a> ships a <a href="https://docs.ethers.org/v6/api/providers/#FallbackProvider">FallbackProvider</a></li>
-<li>MetaMask&#x27;s <a href="https://support.metamask.io/develop/what-is-din/">DIN</a> routes through more than 50 independent providers.</li>
+<li>MetaMask&#x27;s <a href="https://support.metamask.io/develop/what-is-din/">DIN</a>, its Decentralized Infrastructure Network, routes through more than 50 independent providers.</li>
 </ul>
-<p>Regulators are pricing the same risk. <a href="https://www.springlex.eu/en/packages/dora/dora-regulation/article-29">EU DORA</a> requires financial entities to manage how dependent they are on any single tech provider and to plan for multi-vendor alternatives.</p>
+<p>Regulators are pricing the same risk. <a href="https://www.springlex.eu/en/packages/dora/dora-regulation/article-29">EU DORA</a>, the Digital Operational Resilience Act, requires financial entities to manage how dependent they are on any single tech provider and to plan for multi-vendor alternatives.</p>
 <p>Insurers are writing policies on it. <a href="https://www.parametrixinsurance.com/">Parametrix</a> and <a href="https://www.riskwolf.com/fact-sheets/cloudinsure/">Riskwolf</a> sell parametric cloud-outage coverage.</p>
 <h2>Who Buys Resilience Capacity?</h2>
 <p>The buyer is a wallet that can&#x27;t go dark on any given Sunday, an exchange that can&#x27;t lose read/write access when one provider changes policy, or an AI company that doesn&#x27;t want one model vendor as a permanent chokepoint.</p>
-<p><a href="https://ecosystem.aethir.com/blog-posts/axe-compute-closes-260m-enterprise-deal-powered-by-aethir">Axe Compute</a> (NASDAQ: AGPU) closed a $260M multi-year deal sourcing 2,304 GPUs through <a href="https://aethir.com/">Aethir&#x27;s</a> decentralized network, wrapped in enterprise SLAs. I believe that is the buyer: a public company that needs decentralized supply for the resilience and a US-listed counterparty for the contract.</p>
+<p><a href="https://ecosystem.aethir.com/blog-posts/axe-compute-closes-260m-enterprise-deal-powered-by-aethir">Axe Compute</a> (NASDAQ: AGPU) closed a $260M multi-year deal sourcing 2,304 GPUs through <a href="https://aethir.com/">Aethir&#x27;s</a> decentralized network, wrapped in enterprise SLAs, the contracts for uptime and support. I believe that is the buyer: a public company that needs decentralized supply for the resilience and a US-listed counterparty for the contract.</p>
 <h2>The Better Pitch</h2>
 <p>Two pitches the industry should retire:</p>
 <ul>
