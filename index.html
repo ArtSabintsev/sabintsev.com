@@ -519,11 +519,29 @@
             width: min(72rem, calc(100% - var(--inset) - clamp(1.25rem, 4vw, 3rem)));
             margin-left: var(--inset);
         }
+        .writing-head {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem 1.5rem;
+        }
         .writing h2 {
             font-size: clamp(2rem, 1.5rem + 1vw, 2.5rem);
             font-weight: 600;
             letter-spacing: -0.04em;
             line-height: 1.15;
+        }
+        .writing .feed {
+            color: var(--muted);
+            font-size: 0.875rem;
+            font-weight: 500;
+            line-height: 1.25rem;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .writing .feed:hover,
+        .writing .feed:focus-visible {
+            color: var(--fg);
         }
         .writing h2 a {
             color: inherit;
@@ -656,7 +674,10 @@
 </div>
 <section class="writing" id="writing" aria-labelledby="writing-heading">
     <div class="writing-wrap">
-        <h2 id="writing-heading"><a href="/writing/">Writing</a></h2>
+        <div class="writing-head">
+            <h2 id="writing-heading"><a href="/writing/">Writing</a></h2>
+            <a class="feed" href="/writing/feed.xml">RSS</a>
+        </div>
         <p class="lede">Essays on tokens, privacy, and infrastructure.</p>
         <ol class="essays">
             <li>
