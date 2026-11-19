@@ -3,16 +3,11 @@ title: Your Token Was An Equity Grant All Along
 description: Customers want the work priced in dollars. Operators still hold the token for the upside.
 date: 2026-05-25
 canonical: https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/
-image: https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg
 ---
 
 # Your Token Was An Equity Grant All Along
 
 *Customers want the work priced in dollars. Operators still hold the token for the upside.*
-
-![Bearer share warrant of A. Darracq and Company, 1916.](https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg)
-
-Bearer share warrant, A. Darracq & Company (1905) Limited, October 21, 1916. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stock_certificate,_5_shares_-_A._Darracq_%26_Company_%281905%29_Ltd._1916_%28cropped%29.jpg).
 
 Most customers don't want your token. They want a GPU hour, an RPC call, a map mile, storage, vehicle data, wireless coverage, and so on. Price that in dollars and the buyer can budget. Price it in your native asset and the buyer becomes an unwitting community member inheriting your baggage: treasury policy, tax treatment, and a view on your chart.
 

@@ -3,16 +3,11 @@ title: Tokens Never Die
 description: When a project stops shipping, the token keeps trading. Volume bots, momentum bots, MEV, and pump groups are the aftermarket.
 date: 2026-05-26
 canonical: https://sabintsev.com/writing/tokens-never-die/
-image: https://sabintsev.com/images/writing/tokens-never-die.jpg
 ---
 
 # Tokens Never Die
 
 *When a project stops shipping, the token keeps trading. Volume bots, momentum bots, MEV, and pump groups are the aftermarket.*
-
-![New York Stock Exchange ticker room, 1922, with the chairs empty.](https://sabintsev.com/images/writing/tokens-never-die.jpg)
-
-Automatic ticker apparatus, New York Stock Exchange central control station, 1922. Library of Congress, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Automatic_ticker_apparatus,_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg).
 
 When a public company runs out of money there's a legal off-ramp. The court closes the cap table. Shares are marked to zero on a specific date.
 

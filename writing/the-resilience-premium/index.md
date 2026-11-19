@@ -3,16 +3,11 @@ title: The Resilience Premium
 description: A second vendor fails as a backup when it goes down for the same reason as the first.
 date: 2026-05-22
 canonical: https://sabintsev.com/writing/the-resilience-premium/
-image: https://sabintsev.com/images/writing/the-resilience-premium.jpg
 ---
 
 # The Resilience Premium
 
 *A second vendor fails as a backup when it goes down for the same reason as the first.*
-
-![Passenger train on the barge Mastodon crossing the Mississippi.](https://sabintsev.com/images/writing/the-resilience-premium.jpg)
-
-Southern Pacific barge Mastodon crossing the Mississippi at Avondale, Louisiana. Postcard. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Southern_Pacific_railroad_barge_Mastodon_at_Avondale_Louisiana.jpg).
 
 I've been wanting to write this since early 2024.
 
