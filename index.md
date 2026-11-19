@@ -14,7 +14,16 @@ Physicist · Engineer · Founder
 - [Modern Intelligence](https://modernintelligence.ai) — COO and Board Observer (since Sep 2026); Sovereign onboard targeting for UAVs, USVs, UUVs (ATR, identity, terminal guidance; GNSS-denied / EW)
 - [Pocket Network](https://pocket.network) — co-founded; decentralized RPC / data access (now stewarded by the Pocket Network Foundation)
 - [Gold Ranger Ventures](https://goldranger.xyz) — studio LLC (investing, advising, incubation)
-- [Writing](https://sabintsev.com/writing/) — essays on tokens, privacy, and infrastructure
+- [Writing](https://sabintsev.com/#writing) — essays on the homepage. Archive and RSS stay at [sabintsev.com/writing](https://sabintsev.com/writing/)
+
+## Writing
+
+- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026). ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.
+- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026). Projects die. Tokens don't. They get repurposed.
+- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026). Stablecoins pay for the work. Tokens pay for being early.
+- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026). The decentralization tax isn't a tax. It's a resilience budget.
+
+[RSS](https://sabintsev.com/writing/feed.xml)
 
 ## Snapshot
 
@@ -29,7 +38,6 @@ Physicist · Engineer · Founder
 - [X](https://x.com/artsabintsev)
 - [GitHub](https://github.com/ArtSabintsev)
 - Email: [arthur.sabintsev@gmail.com](mailto:arthur.sabintsev@gmail.com)
-- [Substack profile](https://substack.com/@artsabintsev)
 
 ## Agent resources
 

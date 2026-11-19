@@ -5,18 +5,20 @@
  * - Correct Content-Type for /.well-known/api-catalog
  */
 
-const LINK_VALUES = [
-  '</.well-known/api-catalog>; rel="api-catalog"',
-  '</llms.txt>; rel="alternate"; type="text/plain"; title="LLM summary"',
-  '</llms-full.txt>; rel="alternate"; type="text/plain"; title="LLM full summary"',
-  '</ai.txt>; rel="alternate"; type="text/plain"; title="AI usage guidance"',
-  '</index.md>; rel="alternate"; type="text/markdown"; title="Markdown"',
-  '</.well-known/agent-skills/index.json>; rel="describedby"; title="Agent Skills"',
-  '</auth.md>; rel="describedby"; title="auth.md"',
-  '</sitemap.xml>; rel="describedby"; type="application/xml"; title="Sitemap"',
-];
-
-const LINK_HEADER = LINK_VALUES.join(", ");
+function linkHeader(pathname) {
+  const md = markdownAsset(pathname) || "/index.md";
+  return [
+    '</.well-known/api-catalog>; rel="api-catalog"',
+    '</llms.txt>; rel="alternate"; type="text/plain"; title="LLM summary"',
+    '</llms-full.txt>; rel="alternate"; type="text/plain"; title="LLM full summary"',
+    '</ai.txt>; rel="alternate"; type="text/plain"; title="AI usage guidance"',
+    `<${md}>; rel="alternate"; type="text/markdown"; title="Markdown"`,
+    '</writing/feed.xml>; rel="alternate"; type="application/rss+xml"; title="Essays"',
+    '</.well-known/agent-skills/index.json>; rel="describedby"; title="Agent Skills"',
+    '</auth.md>; rel="describedby"; title="auth.md"',
+    '</sitemap.xml>; rel="describedby"; type="application/xml"; title="Sitemap"',
+  ].join(", ");
+}
 
 function wantsMarkdown(request) {
   const accept = request.headers.get("Accept") || "";
@@ -43,13 +45,15 @@ function estimateTokens(text) {
   return Math.max(1, Math.ceil(text.length / 4));
 }
 
-function withAgentHeaders(headers, { contentType, markdownTokens } = {}) {
+function withAgentHeaders(headers, { contentType, markdownTokens, link } = {}) {
   const next = new Headers(headers);
   next.set("x-sabintsev-agent-edge", "1");
 
-  const existing = next.get("Link");
-  if (!existing || !existing.includes('rel="api-catalog"')) {
-    next.set("Link", existing ? `${existing}, ${LINK_HEADER}` : LINK_HEADER);
+  if (link) {
+    const existing = next.get("Link");
+    if (!existing || !existing.includes('rel="api-catalog"')) {
+      next.set("Link", existing ? `${existing}, ${link}` : link);
+    }
   }
 
   if (contentType) {
@@ -116,6 +120,7 @@ export default {
             const headers = withAgentHeaders(mdRes.headers, {
               contentType: "text/markdown; charset=utf-8",
               markdownTokens: estimateTokens(body),
+              link: linkHeader(url.pathname),
             });
             return new Response(body, { status: 200, headers });
           }
@@ -132,13 +137,20 @@ export default {
             : request.body,
       });
 
-      const headers = withAgentHeaders(response.headers);
+      const headers = withAgentHeaders(response.headers, {
+        link: linkHeader(url.pathname),
+      });
 
       if (url.pathname === "/.well-known/api-catalog") {
         headers.set(
           "Content-Type",
           'application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"'
         );
+        headers.delete("Content-Length");
+      }
+
+      if (url.pathname === "/writing/feed.xml") {
+        headers.set("Content-Type", "application/rss+xml; charset=utf-8");
         headers.delete("Content-Length");
       }
 

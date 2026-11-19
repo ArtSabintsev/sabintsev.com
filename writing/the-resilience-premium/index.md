@@ -3,12 +3,16 @@ title: The Resilience Premium
 description: The decentralization tax isn't a tax. It's a resilience budget.
 date: 2026-05-22
 canonical: https://sabintsev.com/writing/the-resilience-premium/
-original: https://artsabintsev.substack.com/p/the-resilience-premium
+image: https://sabintsev.com/images/writing/the-resilience-premium.jpg
 ---
 
 # The Resilience Premium
 
 *The decentralization tax isn't a tax. It's a resilience budget.*
+
+![Passenger train on the barge Mastodon crossing the Mississippi.](https://sabintsev.com/images/writing/the-resilience-premium.jpg)
+
+Southern Pacific barge Mastodon crossing the Mississippi at Avondale, Louisiana. Postcard. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Southern_Pacific_railroad_barge_Mastodon_at_Avondale_Louisiana.jpg).
 
 I've been wanting to write this since early 2024.
 

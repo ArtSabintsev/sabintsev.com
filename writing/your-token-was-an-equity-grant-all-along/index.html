@@ -6,21 +6,33 @@
     <title>Your Token Was An Equity Grant All Along · Arthur Sabintsev</title>
     <meta name="description" content="Stablecoins pay for the work. Tokens pay for being early.">
     <meta name="author" content="Arthur Ariel Sabintsev">
-    <meta name="theme-color" content="#030303">
-    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#030303" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+    <script src="/writing/theme.js"></script>
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Arthur Sabintsev">
     <meta property="og:title" content="Your Token Was An Equity Grant All Along">
     <meta property="og:description" content="Stablecoins pay for the work. Tokens pay for being early.">
     <meta property="og:url" content="https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/">
+    <meta property="og:image" content="https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="840">
+    <meta property="og:image:alt" content="Bearer share warrant of A. Darracq and Company, 1916.">
     <meta property="article:published_time" content="2026-05-25">
     <meta property="article:author" content="Arthur Ariel Sabintsev">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@artsabintsev">
+    <meta name="twitter:creator" content="@artsabintsev">
     <meta name="twitter:title" content="Your Token Was An Equity Grant All Along">
     <meta name="twitter:description" content="Stablecoins pay for the work. Tokens pay for being early.">
+    <meta name="twitter:image" content="https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg">
+    <meta name="twitter:image:alt" content="Bearer share warrant of A. Darracq and Company, 1916.">
     <link rel="canonical" href="https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/">
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="text/markdown" title="Markdown" href="index.md">
+    <link rel="alternate" type="application/rss+xml" title="Essays" href="/writing/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -31,8 +43,9 @@
       "@type": "Article",
       "headline": "Your Token Was An Equity Grant All Along",
       "description": "Stablecoins pay for the work. Tokens pay for being early.",
+      "image": "https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg",
       "datePublished": "2026-05-25",
-      "dateModified": "2026-05-25",
+      "dateModified": "2026-11-19",
       "author": {
         "@type": "Person",
         "name": "Arthur Ariel Sabintsev",
@@ -43,18 +56,24 @@
         "name": "Arthur Ariel Sabintsev",
         "url": "https://sabintsev.com/"
       },
-      "mainEntityOfPage": "https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/",
-      "isBasedOn": "https://artsabintsev.substack.com/p/your-token-was-an-equity-grant-all"
+      "mainEntityOfPage": "https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/"
     }
     </script>
 </head>
 <body>
 <main class="wrap">
-    <p class="back"><a href="/writing/">Writing</a></p>
+    <div class="top">
+        <p class="back"><a href="/#writing">Writing</a></p>
+        <button type="button" class="theme" id="theme" hidden>Light</button>
+    </div>
     <article>
         <h1>Your Token Was An Equity Grant All Along</h1>
         <p class="deck">Stablecoins pay for the work. Tokens pay for being early.</p>
         <p class="meta"><time datetime="2026-05-25">May 25, 2026</time></p>
+        <figure>
+            <img src="/images/writing/your-token-was-an-equity-grant-all-along.jpg" width="1600" height="840" alt="Bearer share warrant of A. Darracq and Company, 1916." decoding="async">
+            <figcaption>Bearer share warrant, A. Darracq &amp; Company (1905) Limited, October 21, 1916. <a href="https://commons.wikimedia.org/wiki/File:Stock_certificate,_5_shares_-_A._Darracq_%26_Company_(1905)_Ltd._1916_(cropped).jpg">Wikimedia Commons</a>.</figcaption>
+        </figure>
         <p>Most customers don&#x27;t want your token. They want a GPU hour, an RPC call, a map mile, storage, vehicle data, wireless coverage, and so on. Price that in dollars and the buyer can budget. Price it in your native asset and the buyer becomes an unwitting community member inheriting your baggage: treasury policy, tax treatment, and a view on your chart.</p>
 <p>DePIN made that trade because the industry was scared to say the obvious. Between 2018 and 2022, a token that looked like ownership also looked like the thing the <a href="https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets">SEC&#x27;s digital-asset framework</a> called an investment contract. So networks gave tokens jobs: gas, access, settlement, security, governance.</p>
 <p>Anything except a cap table, which is funny, because the token was behaving like equity all along, and that equity-like upside landed on the network operators.</p>
@@ -79,7 +98,6 @@
 <p>This is the useful DePIN invention, and the industry still under-sells it. A public company can&#x27;t hand meaningful equity to an individual hardware operator without lawyers, transfer agents, jurisdiction checks, tax paperwork, and a lot of &quot;we&#x27;ll get back to you.&quot; That&#x27;s the friction for a Frankfurt-based Render miner or a Singapore-based Akash provider. For a Hivemapper driver in São Paulo or a Helium hotspot host in rural Kansas, the legal scaffolding barely exists at all. A tokenized network can grant upside in a block. DePIN accidentally built what functions like a global <a href="https://www.esop.org/">ESOP</a> for operators public markets can&#x27;t structurally reach.</p>
 <p>The token functions as a claim on whatever the network becomes. The Hivemapper driver who shot map data in 2023 and the Helium hotspot host who built coverage in 2021 each hold a slice of however much those networks are worth in 2030. That&#x27;s the behavior of an equity holder, distributed at the speed of a block.</p>
 <p>The token behaved like equity all along.</p>
-        <p class="original">First published on <a href="https://artsabintsev.substack.com/p/your-token-was-an-equity-grant-all">Substack</a>.</p>
     </article>
 </main>
 </body>

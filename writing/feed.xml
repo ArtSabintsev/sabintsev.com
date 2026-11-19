@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
     <title>Arthur Sabintsev</title>
-    <link>https://sabintsev.com/writing/</link>
+    <link>https://sabintsev.com/</link>
+    <atom:link href="https://sabintsev.com/writing/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Essays by Arthur Sabintsev on tokens, privacy, and infrastructure.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <item>
         <title>Zcash is Not Hard Money</title>
         <link>https://sabintsev.com/writing/zcash-is-not-hard-money/</link>
-        <guid>https://sabintsev.com/writing/zcash-is-not-hard-money/</guid>
+        <guid isPermaLink="true">https://sabintsev.com/writing/zcash-is-not-hard-money/</guid>
         <pubDate>Mon, 08 Jun 2026 12:03:26 GMT</pubDate>
+        <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
         <description>ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.</description>
+        <media:content url="https://sabintsev.com/images/writing/zcash-is-not-hard-money-og.jpg" medium="image" type="image/jpeg" width="1200" height="630"/>
     </item>
     <item>
         <title>Tokens Never Die</title>
         <link>https://sabintsev.com/writing/tokens-never-die/</link>
-        <guid>https://sabintsev.com/writing/tokens-never-die/</guid>
+        <guid isPermaLink="true">https://sabintsev.com/writing/tokens-never-die/</guid>
         <pubDate>Tue, 26 May 2026 19:24:54 GMT</pubDate>
+        <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
         <description>Projects die. Tokens don't. They get repurposed.</description>
+        <media:content url="https://sabintsev.com/images/writing/tokens-never-die.jpg" medium="image" type="image/jpeg" width="1600" height="840"/>
     </item>
     <item>
         <title>Your Token Was An Equity Grant All Along</title>
         <link>https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/</link>
-        <guid>https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/</guid>
+        <guid isPermaLink="true">https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/</guid>
         <pubDate>Mon, 25 May 2026 06:14:28 GMT</pubDate>
+        <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
         <description>Stablecoins pay for the work. Tokens pay for being early.</description>
+        <media:content url="https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg" medium="image" type="image/jpeg" width="1600" height="840"/>
     </item>
     <item>
         <title>The Resilience Premium</title>
         <link>https://sabintsev.com/writing/the-resilience-premium/</link>
-        <guid>https://sabintsev.com/writing/the-resilience-premium/</guid>
+        <guid isPermaLink="true">https://sabintsev.com/writing/the-resilience-premium/</guid>
         <pubDate>Fri, 22 May 2026 16:31:29 GMT</pubDate>
+        <author>arthur.sabintsev@gmail.com (Arthur Sabintsev)</author>
         <description>The decentralization tax isn't a tax. It's a resilience budget.</description>
+        <media:content url="https://sabintsev.com/images/writing/the-resilience-premium.jpg" medium="image" type="image/jpeg" width="1465" height="769"/>
     </item>
 </channel>
 </rss>

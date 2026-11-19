@@ -6,16 +6,27 @@
     <title>Writing · Arthur Sabintsev</title>
     <meta name="description" content="Essays by Arthur Sabintsev on tokens, privacy, and infrastructure.">
     <meta name="author" content="Arthur Ariel Sabintsev">
-    <meta name="theme-color" content="#030303">
-    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#030303" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+    <script src="/writing/theme.js"></script>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Arthur Sabintsev">
     <meta property="og:title" content="Writing · Arthur Sabintsev">
     <meta property="og:description" content="Essays by Arthur Sabintsev on tokens, privacy, and infrastructure.">
     <meta property="og:url" content="https://sabintsev.com/writing/">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://sabintsev.com/images/backdrop.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="768">
+    <meta property="og:image:alt" content="Arthur Sabintsev">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@artsabintsev">
+    <meta name="twitter:creator" content="@artsabintsev">
     <meta name="twitter:title" content="Writing · Arthur Sabintsev">
     <meta name="twitter:description" content="Essays by Arthur Sabintsev on tokens, privacy, and infrastructure.">
+    <meta name="twitter:image" content="https://sabintsev.com/images/backdrop.jpg">
+    <meta name="twitter:image:alt" content="Arthur Sabintsev">
     <link rel="canonical" href="https://sabintsev.com/writing/">
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="text/markdown" title="Markdown" href="/writing/index.md">
@@ -30,6 +41,7 @@
       "@type": "Blog",
       "name": "Writing",
       "url": "https://sabintsev.com/writing/",
+      "image": "https://sabintsev.com/images/backdrop.jpg",
       "author": {
         "@type": "Person",
         "name": "Arthur Ariel Sabintsev",
@@ -40,25 +52,29 @@
           "@type": "BlogPosting",
           "headline": "Zcash is Not Hard Money",
           "datePublished": "2026-06-08",
-          "url": "https://sabintsev.com/writing/zcash-is-not-hard-money/"
+          "url": "https://sabintsev.com/writing/zcash-is-not-hard-money/",
+          "image": "https://sabintsev.com/images/writing/zcash-is-not-hard-money-og.jpg"
         },
         {
           "@type": "BlogPosting",
           "headline": "Tokens Never Die",
           "datePublished": "2026-05-26",
-          "url": "https://sabintsev.com/writing/tokens-never-die/"
+          "url": "https://sabintsev.com/writing/tokens-never-die/",
+          "image": "https://sabintsev.com/images/writing/tokens-never-die.jpg"
         },
         {
           "@type": "BlogPosting",
           "headline": "Your Token Was An Equity Grant All Along",
           "datePublished": "2026-05-25",
-          "url": "https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/"
+          "url": "https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/",
+          "image": "https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg"
         },
         {
           "@type": "BlogPosting",
           "headline": "The Resilience Premium",
           "datePublished": "2026-05-22",
-          "url": "https://sabintsev.com/writing/the-resilience-premium/"
+          "url": "https://sabintsev.com/writing/the-resilience-premium/",
+          "image": "https://sabintsev.com/images/writing/the-resilience-premium.jpg"
         }
       ]
     }
@@ -66,12 +82,16 @@
 </head>
 <body>
 <main class="wrap">
-    <p class="back"><a href="/">Arthur Sabintsev</a></p>
+    <div class="top">
+        <p class="back"><a href="/">Arthur Sabintsev</a></p>
+        <button type="button" class="theme" id="theme" hidden>Light</button>
+    </div>
     <h1>Writing</h1>
     <p class="lede">Essays on tokens, privacy, and infrastructure.</p>
     <ol class="essays">
         <li>
             <a href="/writing/zcash-is-not-hard-money/">
+                <img src="/images/writing/zcash-is-not-hard-money-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
                 <time datetime="2026-06-08">June 8, 2026</time>
                 <span class="title">Zcash is Not Hard Money</span>
                 <span class="deck">ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.</span>
@@ -79,6 +99,7 @@
         </li>
         <li>
             <a href="/writing/tokens-never-die/">
+                <img src="/images/writing/tokens-never-die-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
                 <time datetime="2026-05-26">May 26, 2026</time>
                 <span class="title">Tokens Never Die</span>
                 <span class="deck">Projects die. Tokens don't. They get repurposed.</span>
@@ -86,6 +107,7 @@
         </li>
         <li>
             <a href="/writing/your-token-was-an-equity-grant-all-along/">
+                <img src="/images/writing/your-token-was-an-equity-grant-all-along-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
                 <time datetime="2026-05-25">May 25, 2026</time>
                 <span class="title">Your Token Was An Equity Grant All Along</span>
                 <span class="deck">Stablecoins pay for the work. Tokens pay for being early.</span>
@@ -93,6 +115,7 @@
         </li>
         <li>
             <a href="/writing/the-resilience-premium/">
+                <img src="/images/writing/the-resilience-premium-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
                 <time datetime="2026-05-22">May 22, 2026</time>
                 <span class="title">The Resilience Premium</span>
                 <span class="deck">The decentralization tax isn't a tax. It's a resilience budget.</span>

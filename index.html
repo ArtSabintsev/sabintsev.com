@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur Sabintsev</title>
     <meta name="description" content="Arthur Sabintsev — physicist, engineer, two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Writing, building, and open to email.">
-    <meta name="keywords" content="Arthur Sabintsev, Arthur Ariel Sabintsev, Modern Intelligence, Sovereign, onboard targeting, UAV, USV, UUV, ATR, automatic target recognition, terminal guidance, GNSS-denied, EW, counter-UAS, Grove co-founder, Pocket Network, founder, physicist, engineer, Substack, Gold Ranger Ventures">
+    <meta name="keywords" content="Arthur Sabintsev, Arthur Ariel Sabintsev, Modern Intelligence, Sovereign, onboard targeting, UAV, USV, UUV, ATR, automatic target recognition, terminal guidance, GNSS-denied, EW, counter-UAS, Grove co-founder, Pocket Network, founder, physicist, engineer, Gold Ranger Ventures">
     <meta name="author" content="Arthur Ariel Sabintsev">
     <meta name="theme-color" content="#030303">
     <meta name="color-scheme" content="dark">
@@ -35,6 +35,7 @@
     <link rel="canonical" href="https://sabintsev.com/">
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="text/markdown" title="Markdown" href="/index.md">
+    <link rel="alternate" type="application/rss+xml" title="Essays" href="/writing/feed.xml">
     <link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt">
     <link rel="alternate" type="text/plain" title="LLM full summary" href="/llms-full.txt">
     <link rel="alternate" type="text/plain" title="AI usage guidance" href="/ai.txt">
@@ -98,14 +99,12 @@
             "https://linkedin.com/in/artsabintsev",
             "https://x.com/artsabintsev",
             "https://github.com/ArtSabintsev",
-            "https://substack.com/@artsabintsev",
-            "https://artsabintsev.substack.com",
             "https://goldranger.xyz",
             "https://modernintelligence.ai",
             "https://pocket.network"
           ]
         },
-        "dateModified": "2026-08-22"
+        "dateModified": "2026-11-19"
       },
       {
         "@context": "https://schema.org",
@@ -119,6 +118,48 @@
           "name": "Arthur Ariel Sabintsev",
           "url": "https://sabintsev.com/"
         }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Writing",
+        "url": "https://sabintsev.com/#writing",
+        "image": "https://sabintsev.com/images/backdrop.jpg",
+        "author": {
+          "@type": "Person",
+          "@id": "https://sabintsev.com/#person",
+          "name": "Arthur Ariel Sabintsev"
+        },
+        "blogPost": [
+          {
+            "@type": "BlogPosting",
+            "headline": "Zcash is Not Hard Money",
+            "datePublished": "2026-06-08",
+            "url": "https://sabintsev.com/writing/zcash-is-not-hard-money/",
+            "image": "https://sabintsev.com/images/writing/zcash-is-not-hard-money-og.jpg"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Tokens Never Die",
+            "datePublished": "2026-05-26",
+            "url": "https://sabintsev.com/writing/tokens-never-die/",
+            "image": "https://sabintsev.com/images/writing/tokens-never-die.jpg"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Your Token Was An Equity Grant All Along",
+            "datePublished": "2026-05-25",
+            "url": "https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/",
+            "image": "https://sabintsev.com/images/writing/your-token-was-an-equity-grant-all-along.jpg"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "The Resilience Premium",
+            "datePublished": "2026-05-22",
+            "url": "https://sabintsev.com/writing/the-resilience-premium/",
+            "image": "https://sabintsev.com/images/writing/the-resilience-premium.jpg"
+          }
+        ]
       }
     ]
     </script>
@@ -166,7 +207,7 @@
 
         /* Full-bleed portrait */
         .backdrop {
-            position: fixed;
+            position: absolute;
             inset: 0;
             z-index: 0;
             overflow: hidden;
@@ -469,6 +510,86 @@
             }
         }
 
+        .writing {
+            position: relative;
+            z-index: 2;
+            scroll-margin-top: 1.25rem;
+            background: var(--bg);
+            padding: 2.75rem 0 5rem;
+        }
+        .writing-wrap {
+            width: min(40rem, calc(100% - 2 * clamp(1.25rem, 4vw, 2.5rem)));
+            margin-left: clamp(1.25rem, 4vw, 2.5rem);
+        }
+        .writing h2 {
+            font-size: clamp(1.6rem, 4vw, 2.15rem);
+            font-weight: 600;
+            letter-spacing: -0.035em;
+            line-height: 1.05;
+        }
+        .writing .lede {
+            margin-top: 0.75rem;
+            color: var(--muted);
+            font-size: 1.05rem;
+            line-height: 1.5;
+        }
+        .writing .essays {
+            list-style: none;
+            margin-top: 2.25rem;
+        }
+        .writing .essays li + li {
+            margin-top: 1.75rem;
+            padding-top: 1.75rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .writing .essays a {
+            display: grid;
+            grid-template-columns: 6.75rem 1fr;
+            column-gap: 0.9rem;
+            align-items: start;
+            color: inherit;
+            text-decoration: none;
+        }
+        .writing .essays img {
+            width: 6.75rem;
+            height: calc(6.75rem * 21 / 40);
+            aspect-ratio: 40 / 21;
+            object-fit: cover;
+            align-self: start;
+            grid-row: 1 / span 3;
+            margin-top: 0.15rem;
+        }
+        .writing .essays time {
+            display: block;
+            color: var(--muted-soft);
+            font-size: 0.75rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .writing .essays .title {
+            display: block;
+            margin-top: 0.4rem;
+            font-size: 1.35rem;
+            font-weight: 600;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+        }
+        .writing .essays a:hover .title,
+        .writing .essays a:focus-visible .title {
+            color: var(--gold);
+        }
+        .writing .essays .deck {
+            display: block;
+            margin-top: 0.45rem;
+            color: var(--muted);
+            font-size: 1rem;
+            line-height: 1.45;
+        }
+        .writing .essays a:focus-visible {
+            outline: 2px solid var(--gold);
+            outline-offset: 3px;
+        }
+
         @media (prefers-reduced-motion: reduce) {
             .identity, .bottom, .social {
                 animation: none;
@@ -530,11 +651,51 @@
                 <a href="https://modernintelligence.ai" target="_blank" rel="noopener noreferrer">Modern Intelligence</a>
                 <a href="https://pocket.network" target="_blank" rel="noopener noreferrer">Pocket Network</a>
                 <a href="https://goldranger.xyz" target="_blank" rel="noopener noreferrer">Ventures</a>
-                <a href="/writing/">Writing</a>
+                <a href="#writing">Writing</a>
             </nav>
         </footer>
     </div>
 </div>
+<section class="writing" id="writing" aria-labelledby="writing-heading">
+    <div class="writing-wrap">
+        <h2 id="writing-heading">Writing</h2>
+        <p class="lede">Essays on tokens, privacy, and infrastructure.</p>
+        <ol class="essays">
+            <li>
+                <a href="/writing/zcash-is-not-hard-money/">
+                    <img src="/images/writing/zcash-is-not-hard-money-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
+                    <time datetime="2026-06-08">June 8, 2026</time>
+                    <span class="title">Zcash is Not Hard Money</span>
+                    <span class="deck">ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.</span>
+                </a>
+            </li>
+            <li>
+                <a href="/writing/tokens-never-die/">
+                    <img src="/images/writing/tokens-never-die-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
+                    <time datetime="2026-05-26">May 26, 2026</time>
+                    <span class="title">Tokens Never Die</span>
+                    <span class="deck">Projects die. Tokens don't. They get repurposed.</span>
+                </a>
+            </li>
+            <li>
+                <a href="/writing/your-token-was-an-equity-grant-all-along/">
+                    <img src="/images/writing/your-token-was-an-equity-grant-all-along-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
+                    <time datetime="2026-05-25">May 25, 2026</time>
+                    <span class="title">Your Token Was An Equity Grant All Along</span>
+                    <span class="deck">Stablecoins pay for the work. Tokens pay for being early.</span>
+                </a>
+            </li>
+            <li>
+                <a href="/writing/the-resilience-premium/">
+                    <img src="/images/writing/the-resilience-premium-thumb.jpg" alt="" width="640" height="336" decoding="async" loading="lazy">
+                    <time datetime="2026-05-22">May 22, 2026</time>
+                    <span class="title">The Resilience Premium</span>
+                    <span class="deck">The decentralization tax isn't a tax. It's a resilience budget.</span>
+                </a>
+            </li>
+        </ol>
+    </div>
+</section>
 <script>
 (function () {
   if (typeof navigator === "undefined" || !("modelContext" in navigator)) return;
@@ -565,11 +726,10 @@
       modernIntelligence: "https://modernintelligence.ai",
       pocketNetwork: "https://pocket.network",
       ventures: "https://goldranger.xyz",
-      writing: "https://sabintsev.com/writing/",
+      writing: "https://sabintsev.com/#writing",
       linkedin: "https://linkedin.com/in/artsabintsev",
       x: "https://x.com/artsabintsev",
       github: "https://github.com/ArtSabintsev",
-      substack: "https://substack.com/@artsabintsev",
       fullBio: "https://sabintsev.com/llms-full.txt"
     },
     agentResources: {
@@ -650,8 +810,7 @@
         social: {
           linkedin: PROFILE.links.linkedin,
           x: PROFILE.links.x,
-          github: PROFILE.links.github,
-          substack: PROFILE.links.substack
+          github: PROFILE.links.github
         }
       });
     }
@@ -666,7 +825,7 @@
       properties: {
         includeSocial: {
           type: "boolean",
-          description: "If true, include LinkedIn, X, GitHub, email, and Substack."
+          description: "If true, include LinkedIn, X, GitHub, and email."
         }
       },
       additionalProperties: false
@@ -686,8 +845,7 @@
           { name: "LinkedIn", url: PROFILE.links.linkedin },
           { name: "X", url: PROFILE.links.x },
           { name: "GitHub", url: PROFILE.links.github },
-          { name: "Email", url: "mailto:arthur.sabintsev@gmail.com?subject=Hey%20from%20Sabintsev.com" },
-          { name: "Substack", url: PROFILE.links.substack }
+          { name: "Email", url: "mailto:arthur.sabintsev@gmail.com?subject=Hey%20from%20Sabintsev.com" }
         ];
       }
       return textResult(out);

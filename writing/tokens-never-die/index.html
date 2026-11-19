@@ -6,21 +6,33 @@
     <title>Tokens Never Die · Arthur Sabintsev</title>
     <meta name="description" content="Projects die. Tokens don&#x27;t. They get repurposed.">
     <meta name="author" content="Arthur Ariel Sabintsev">
-    <meta name="theme-color" content="#030303">
-    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#030303" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+    <script src="/writing/theme.js"></script>
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Arthur Sabintsev">
     <meta property="og:title" content="Tokens Never Die">
     <meta property="og:description" content="Projects die. Tokens don&#x27;t. They get repurposed.">
     <meta property="og:url" content="https://sabintsev.com/writing/tokens-never-die/">
+    <meta property="og:image" content="https://sabintsev.com/images/writing/tokens-never-die.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="840">
+    <meta property="og:image:alt" content="New York Stock Exchange ticker room, 1922, with the chairs empty.">
     <meta property="article:published_time" content="2026-05-26">
     <meta property="article:author" content="Arthur Ariel Sabintsev">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@artsabintsev">
+    <meta name="twitter:creator" content="@artsabintsev">
     <meta name="twitter:title" content="Tokens Never Die">
     <meta name="twitter:description" content="Projects die. Tokens don&#x27;t. They get repurposed.">
+    <meta name="twitter:image" content="https://sabintsev.com/images/writing/tokens-never-die.jpg">
+    <meta name="twitter:image:alt" content="New York Stock Exchange ticker room, 1922, with the chairs empty.">
     <link rel="canonical" href="https://sabintsev.com/writing/tokens-never-die/">
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="text/markdown" title="Markdown" href="index.md">
+    <link rel="alternate" type="application/rss+xml" title="Essays" href="/writing/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -31,8 +43,9 @@
       "@type": "Article",
       "headline": "Tokens Never Die",
       "description": "Projects die. Tokens don&#x27;t. They get repurposed.",
+      "image": "https://sabintsev.com/images/writing/tokens-never-die.jpg",
       "datePublished": "2026-05-26",
-      "dateModified": "2026-05-26",
+      "dateModified": "2026-11-19",
       "author": {
         "@type": "Person",
         "name": "Arthur Ariel Sabintsev",
@@ -43,18 +56,24 @@
         "name": "Arthur Ariel Sabintsev",
         "url": "https://sabintsev.com/"
       },
-      "mainEntityOfPage": "https://sabintsev.com/writing/tokens-never-die/",
-      "isBasedOn": "https://artsabintsev.substack.com/p/tokens-never-die"
+      "mainEntityOfPage": "https://sabintsev.com/writing/tokens-never-die/"
     }
     </script>
 </head>
 <body>
 <main class="wrap">
-    <p class="back"><a href="/writing/">Writing</a></p>
+    <div class="top">
+        <p class="back"><a href="/#writing">Writing</a></p>
+        <button type="button" class="theme" id="theme" hidden>Light</button>
+    </div>
     <article>
         <h1>Tokens Never Die</h1>
         <p class="deck">Projects die. Tokens don&#x27;t. They get repurposed.</p>
         <p class="meta"><time datetime="2026-05-26">May 26, 2026</time></p>
+        <figure>
+            <img src="/images/writing/tokens-never-die.jpg" width="1600" height="840" alt="New York Stock Exchange ticker room, 1922, with the chairs empty." decoding="async">
+            <figcaption>Automatic ticker apparatus, New York Stock Exchange central control station, 1922. Library of Congress, via <a href="https://commons.wikimedia.org/wiki/File:Automatic_ticker_apparatus,_New_York_Stock_Exchange._Central_control_station_LCCN2013647237.jpg">Wikimedia Commons</a>.</figcaption>
+        </figure>
         <p>When a public company runs out of money there&#x27;s a legal off-ramp. The court closes the cap table. Shares are marked to zero on a specific date.</p>
 <p>Token contracts have none of that. They keep executing transfers on every chain until the validators that secure that chain go offline.</p>
 <p>The token is its own product, during the project&#x27;s life and after. It tends to have no bearing on the work. The price tracks attention, narrative, and bots, not output.</p>
@@ -68,7 +87,6 @@
 <p>Pump groups. They understand the food chain better than the average founder ever did. Find a zombie with a stranded LP. Accumulate quietly while attention is elsewhere. Fire a coordinated buy at a known block or slot. The volume spike registers on DEXScreener and pump.fun trending. The momentum bots watching those feeds pile in. The MEV bots back-run every new trade. The pump group sells into that climbing bot stack. Retail isn&#x27;t there anymore.</p>
 <p><a href="https://www.chainalysis.com/blog/crypto-market-manipulation-wash-trading-pump-and-dump-2025/">Chainalysis counted 2.06 million tokens launched in 2024</a>. Only 1.7% had meaningful trading inside thirty days. Layer in Solana&#x27;s pump.fun launches, every Cosmos appchain token, every L2 memecoin, and the dead population is bigger than any single chain&#x27;s data captures. The 98.3% don&#x27;t go to zero. They go quiet for a while, and then they&#x27;re raised from the dead.</p>
 <p>Dead tokens don&#x27;t die. They get repurposed.</p>
-        <p class="original">First published on <a href="https://artsabintsev.substack.com/p/tokens-never-die">Substack</a>.</p>
     </article>
 </main>
 </body>

@@ -3,12 +3,16 @@ title: Zcash is Not Hard Money
 description: ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.
 date: 2026-06-08
 canonical: https://sabintsev.com/writing/zcash-is-not-hard-money/
-original: https://artsabintsev.substack.com/p/zcash-is-not-hard-money
+image: https://sabintsev.com/images/writing/zcash-is-not-hard-money.jpg
 ---
 
 # Zcash is Not Hard Money
 
 *ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.*
+
+![Closed vault door of the Eastern Bank of Alabama, Eufaula.](https://sabintsev.com/images/writing/zcash-is-not-hard-money.jpg)
+
+Closed vault door, Eastern Bank of Alabama, Eufaula. W. N. Manning, Historic American Buildings Survey, May 16, 1935. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:VAULT_DOOR,_CLOSED_-_Eastern_Bank_of_Alabama,_201_Broad_Street,_Eufaula,_Barbour_County,_AL_HABS_ALA,3-EUFA,8-14.tif).
 
 ## Naval got it wrong
 

@@ -6,21 +6,33 @@
     <title>The Resilience Premium · Arthur Sabintsev</title>
     <meta name="description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
     <meta name="author" content="Arthur Ariel Sabintsev">
-    <meta name="theme-color" content="#030303">
-    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#030303" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+    <script src="/writing/theme.js"></script>
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Arthur Sabintsev">
     <meta property="og:title" content="The Resilience Premium">
     <meta property="og:description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
     <meta property="og:url" content="https://sabintsev.com/writing/the-resilience-premium/">
+    <meta property="og:image" content="https://sabintsev.com/images/writing/the-resilience-premium.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1465">
+    <meta property="og:image:height" content="769">
+    <meta property="og:image:alt" content="Passenger train on the barge Mastodon crossing the Mississippi.">
     <meta property="article:published_time" content="2026-05-22">
     <meta property="article:author" content="Arthur Ariel Sabintsev">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@artsabintsev">
+    <meta name="twitter:creator" content="@artsabintsev">
     <meta name="twitter:title" content="The Resilience Premium">
     <meta name="twitter:description" content="The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.">
+    <meta name="twitter:image" content="https://sabintsev.com/images/writing/the-resilience-premium.jpg">
+    <meta name="twitter:image:alt" content="Passenger train on the barge Mastodon crossing the Mississippi.">
     <link rel="canonical" href="https://sabintsev.com/writing/the-resilience-premium/">
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="text/markdown" title="Markdown" href="index.md">
+    <link rel="alternate" type="application/rss+xml" title="Essays" href="/writing/feed.xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -31,8 +43,9 @@
       "@type": "Article",
       "headline": "The Resilience Premium",
       "description": "The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.",
+      "image": "https://sabintsev.com/images/writing/the-resilience-premium.jpg",
       "datePublished": "2026-05-22",
-      "dateModified": "2026-05-22",
+      "dateModified": "2026-11-19",
       "author": {
         "@type": "Person",
         "name": "Arthur Ariel Sabintsev",
@@ -43,18 +56,24 @@
         "name": "Arthur Ariel Sabintsev",
         "url": "https://sabintsev.com/"
       },
-      "mainEntityOfPage": "https://sabintsev.com/writing/the-resilience-premium/",
-      "isBasedOn": "https://artsabintsev.substack.com/p/the-resilience-premium"
+      "mainEntityOfPage": "https://sabintsev.com/writing/the-resilience-premium/"
     }
     </script>
 </head>
 <body>
 <main class="wrap">
-    <p class="back"><a href="/writing/">Writing</a></p>
+    <div class="top">
+        <p class="back"><a href="/#writing">Writing</a></p>
+        <button type="button" class="theme" id="theme" hidden>Light</button>
+    </div>
     <article>
         <h1>The Resilience Premium</h1>
         <p class="deck">The decentralization tax isn&#x27;t a tax. It&#x27;s a resilience budget.</p>
         <p class="meta"><time datetime="2026-05-22">May 22, 2026</time></p>
+        <figure>
+            <img src="/images/writing/the-resilience-premium.jpg" width="1465" height="769" alt="Passenger train on the barge Mastodon crossing the Mississippi." decoding="async">
+            <figcaption>Southern Pacific barge Mastodon crossing the Mississippi at Avondale, Louisiana. Postcard. <a href="https://commons.wikimedia.org/wiki/File:Southern_Pacific_railroad_barge_Mastodon_at_Avondale_Louisiana.jpg">Wikimedia Commons</a>.</figcaption>
+        </figure>
         <p>I&#x27;ve been wanting to write this since early 2024.</p>
 <p>Most software doesn&#x27;t need decentralization. Gmail works. S3 works. Stripe works. Centralized providers win the happy path because the happy path rewards speed, polish, support, and procurement simplicity.</p>
 <h2>Redundancy Is Not Resilience</h2>
@@ -90,7 +109,6 @@
 </ul>
 <p>Use centralized infrastructure for the happy path. Buy resilience capacity for the day it breaks.</p>
 <p>On a good day, the fastest provider wins. On a bad day, the only provider that didn&#x27;t go down does.</p>
-        <p class="original">First published on <a href="https://artsabintsev.substack.com/p/the-resilience-premium">Substack</a>.</p>
     </article>
 </main>
 </body>

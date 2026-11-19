@@ -5,7 +5,7 @@ description: Essays by Arthur Sabintsev on tokens, privacy, and infrastructure.
 
 # Writing
 
-Essays by Arthur Sabintsev. Full text, no login.
+Essays by Arthur Sabintsev. Full text, no login. The same list is on the [homepage](https://sabintsev.com/#writing).
 
 - [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026). ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin. [Markdown](https://sabintsev.com/writing/zcash-is-not-hard-money/index.md)
 - [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026). Projects die. Tokens don't. They get repurposed. [Markdown](https://sabintsev.com/writing/tokens-never-die/index.md)
