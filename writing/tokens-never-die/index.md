@@ -9,7 +9,7 @@ canonical: https://sabintsev.com/writing/tokens-never-die/
 
 *When a project stops shipping, the token keeps trading. Volume bots, momentum bots, MEV, and pump groups are the aftermarket.*
 
-When a public company runs out of money there's a legal off-ramp. The court closes the cap table, the list of who owns the company. Shares are marked to zero on a specific date.
+When a public company runs out of money there's a legal off-ramp. The court closes the cap table and marks the shares to zero on a specific date.
 
 Token contracts have none of that. They keep executing transfers on every chain until the validators that secure that chain go offline.
 
@@ -19,7 +19,7 @@ So when a project stops shipping, the token doesn't die. It gets an afterlife, a
 
 ## The Food Chain
 
-Four algorithmic layers stack on every dead token with a stranded liquidity pool, the LP that nobody pulled when the project quit, still holding the token against ETH (ether), SOL (Solana), USDC (a dollar stablecoin), or whatever it was paired with.
+Four algorithmic layers stack on every dead token with a stranded liquidity pool, the LP that nobody pulled when the project quit, still holding the token against ETH, SOL, USDC, or whatever else it was paired with. Ether, Solana, or a dollar coin.
 
 **Volume bots.** Paid services that manufacture trades between rotating wallets. [Chainalysis traced one operator, Volume.li, to $257.5 million in cumulative fake volume](https://www.chainalysis.com/blog/crypto-market-manipulation-wash-trading-pump-and-dump-2025/). Packages are priced by output: tiers run from $50 of manufactured volume in 24 hours up to $100,000 in 24 hours. As of Chainalysis's 2025 reporting, the top tier cost about 0.2 ETH. The whole category exists to push pairs onto [DEXScreener](https://dexscreener.com/), [DEXTools](https://www.dextools.io/), [Photon](https://photon-sol.tinyastro.io/), and [pump.fun](https://pump.fun) trending feeds, because aggregator algorithms reward volume.
 
@@ -29,7 +29,7 @@ Four algorithmic layers stack on every dead token with a stranded liquidity pool
 
 **Pump groups.** They understand the food chain better than the average founder ever did. Find a zombie with a stranded LP. Accumulate quietly while attention is elsewhere. Fire a coordinated buy at a known block or slot. The volume spike registers on DEXScreener and pump.fun trending. The momentum bots watching those feeds pile in. The MEV bots trade immediately after every new trade. The pump group sells into that climbing bot stack. Retail isn't there anymore.
 
-[Chainalysis counted 2.06 million tokens launched in 2024](https://www.chainalysis.com/blog/crypto-market-manipulation-wash-trading-pump-and-dump-2025/). Only 1.7% had meaningful trading inside thirty days. Layer in launches on pump.fun (the Solana site for minting a new token), every token on a Cosmos chain built for one app, every memecoin on a layer-2 chain (a chain that settles onto a larger one), and the dead population is bigger than any single chain's data captures. The 98.3% don't go to zero. They go quiet for a while, and then they're raised from the dead.
+[Chainalysis counted 2.06 million tokens launched in 2024](https://www.chainalysis.com/blog/crypto-market-manipulation-wash-trading-pump-and-dump-2025/). Only 1.7% had meaningful trading inside thirty days. Layer in the tokens people mint on pump.fun, every Cosmos chain built for one app, every memecoin on a chain that settles onto a larger one, and the dead population is bigger than any single chain captures. The 98.3% don't go to zero. They go quiet for a while, and then they're raised from the dead.
 
 [Older: Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) · [Newer: Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/)
 

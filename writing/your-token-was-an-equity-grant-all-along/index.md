@@ -11,9 +11,9 @@ canonical: https://sabintsev.com/writing/your-token-was-an-equity-grant-all-alon
 
 Most customers don't want your token. They want a GPU hour, an RPC call from a wallet to a node, a map mile, storage, vehicle data, wireless coverage, and so on. Price that in dollars and the buyer can budget. Price it in the network's own token and the buyer becomes an unwitting community member inheriting your baggage: treasury policy, tax treatment, and a view on your price chart.
 
-DePIN (decentralized physical infrastructure, the networks that pay people to run hardware) made that trade because the industry was scared to say the obvious. Between 2018 and 2022, a token that looked like ownership also looked like the thing the [SEC's digital-asset framework](https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets) called an investment contract. So networks gave tokens jobs: gas, the fee for a transaction, plus access, settlement, security, and governance.
+DePIN made that trade because the industry was scared to say the obvious. Decentralized physical infrastructure. Networks that pay people to run hardware. Between 2018 and 2022, a token that looked like ownership also looked like the thing the [SEC's digital-asset framework](https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets) called an investment contract. So the networks gave the token something to do. Pay the fee and call it gas. Then access, settlement, security, and governance.
 
-Anything except a cap table (the list of who owns the company), which is funny, because the token was behaving like equity all along, and that equity-like upside landed on the network operators.
+Anything except a cap table, which is funny, because the token was behaving like equity all along, and that equity-like upside landed on the network operators.
 
 ## Payroll Is Not Capital
 
@@ -25,19 +25,19 @@ When operators are paid in the token, their profit and loss and the token chart 
 
 ## The Networks That Recovered
 
-The networks that recovered split the two assets: the token for ownership, and for the work a dollar stablecoin or tokens the recipient cannot sell yet.
+The networks that recovered split the two assets. Ownership stays with the token. The work is paid in a dollar stablecoin, or in tokens the recipient cannot sell yet.
 
-[Render](https://know.rendernetwork.com/basics/burn-mint-equilibrium) prices jobs in ordinary currency and burns RENDER, its token, on settlement.
+[Render](https://know.rendernetwork.com/basics/burn-mint-equilibrium) prices jobs in ordinary currency and burns RENDER, the token, when the job settles.
 
-[Filecoin Onchain Cloud](https://docs.filecoin.cloud/cookbooks/payments-and-storage/) streams USDFC, a dollar-pegged Filecoin stablecoin, through [Filecoin Pay](https://docs.secured.finance/) directly to storage providers.
+[Filecoin Onchain Cloud](https://docs.filecoin.cloud/cookbooks/payments-and-storage/) streams USDFC through [Filecoin Pay](https://docs.secured.finance/) straight to the storage providers. USDFC is Filecoin's dollar-pegged stablecoin.
 
-[DIMO](https://docs.dimo.org/) sells vehicle data through credits. [Hivemapper](https://docs.hivemapper.com/) sells map credits and pays contributors in HONEY, its token.
+[DIMO](https://docs.dimo.org/) sells vehicle data through credits. [Hivemapper](https://docs.hivemapper.com/) sells map credits and pays contributors in HONEY.
 
-[IO.net](https://io.net) takes USDC, a dollar stablecoin, from customers and pays suppliers in IO, its token.
+[IO.net](https://io.net) takes USDC from customers and pays suppliers in IO. USDC is a dollar stablecoin. IO is the token.
 
 [Akash](https://akash.network/) named the trade-off in writing when they shipped [Burn-Mint Equilibrium](https://akash.network/blog/what-burn-mint-equilibrium-means-for-akash/): stable payments help adoption but can weaken native-token demand, while native-token payments keep token demand alive but scare buyers and squeeze providers. They picked stable pricing with native-token settlement and moved on.
 
-[Pocket Network](https://pokt.network/), which I helped build, was early to a different primitive: apps lock up POKT, Pocket's token, to reserve request capacity instead of paying per call. That keeps the customer (demand) side off the token-price treadmill and supplies buy-pressure, but node runners (supply-side) still earn POKT and still face the same selling pressure as every other DePIN operator. [PIP-41](https://forum.pokt.network/t/pip-41-introducing-a-deflationary-mint-mechanism-for-shannon-tokenomics/5622), a Pocket proposal, closes part of that gap with a deflationary mint: every request served burns more POKT than it mints, so usage tightens supply instead of inflating it. Operators still earn POKT, but the POKT they hold appreciates with the network's success rather than getting diluted by it.
+[Pocket Network](https://pokt.network/), which I helped build, was early to a different primitive: apps lock up POKT, Pocket's token, to reserve request capacity instead of paying per call. That keeps the customer off the token-price treadmill and supplies buy-pressure, but the node runners still earn POKT and still face the same selling pressure as every other DePIN operator. [PIP-41](https://forum.pokt.network/t/pip-41-introducing-a-deflationary-mint-mechanism-for-shannon-tokenomics/5622), a Pocket proposal, closes part of that gap with a deflationary mint: every request served burns more POKT than it mints, so usage tightens supply instead of inflating it. Operators still earn POKT, but the POKT they hold appreciates with the network's success rather than getting diluted by it.
 
 [Helium](https://docs.helium.com/tokens/data-credit/) prices data in USD-pegged Data Credits, minted by burning HNT. [Messari's 2025 DePIN report](https://messari.io/report/state-of-depin-2025) shows what that fix is producing in practice: Helium's revenue on the chain grew 8x in 2025 while HNT fell 77%. The token is decoupling from operational performance, which is what equity does. Operators still earned HNT and still ate the drawdown, so the supply side remains the harder fix, but the token's behavior in the data is already telling you what the token actually is. Split from the work, the token starts behaving like a standalone financial product priced on what the network might be worth in five years, not what it earned this quarter.
 
@@ -49,7 +49,7 @@ Strip away the story that the token has to pay for the work, and a DePIN token l
 
 Look at the analogies. Emissions are the option pool. Burns are buybacks. Staking is the vesting cliff. Slashing is clawback. [AKT](https://akash.network/token/), Akash's token, is its incentive pool. Collateral posted in [FIL](https://docs.filecoin.io/storage-providers/filecoin-economics/fil-collateral), Filecoin's token, is Filecoin's clawback. [POKT burns are explicitly deflationary](https://pocket.network/pocket-network-pioneers-the-deflationary-frontier/), funded by app demand. None of that requires the same token to denominate the work itself.
 
-This is the useful DePIN invention, and the industry still under-sells it. A public company can't hand meaningful equity to an individual hardware operator without lawyers, transfer agents, jurisdiction checks, tax paperwork, and a lot of "we'll get back to you." That's the friction for a Frankfurt-based Render miner or a Singapore-based Akash provider. For a Hivemapper driver in São Paulo or a Helium hotspot host in rural Kansas, the legal scaffolding barely exists at all. A tokenized network can grant upside in a block. DePIN accidentally built what functions like a global [ESOP](https://www.esop.org/), an employee stock ownership plan, for operators public markets can't structurally reach.
+This is the useful DePIN invention, and the industry still under-sells it. A public company can't hand meaningful equity to an individual hardware operator without lawyers, transfer agents, jurisdiction checks, tax paperwork, and a lot of "we'll get back to you." That's the friction for a Frankfurt-based Render miner or a Singapore-based Akash provider. For a Hivemapper driver in São Paulo or a Helium hotspot host in rural Kansas, the legal scaffolding barely exists at all. A tokenized network can grant upside in a block. DePIN accidentally built what functions like a global [employee stock ownership plan](https://www.esop.org/) for operators public markets can't structurally reach.
 
 The token functions as a claim on whatever the network becomes. The Hivemapper driver who shot map data in 2023 and the Helium hotspot host who built coverage in 2021 each hold a slice of however much those networks are worth in 2030.
 
