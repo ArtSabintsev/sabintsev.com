@@ -76,8 +76,7 @@ body {
 }
 
 .wrap {
-    /* Plus Jakarta at 65ch measured about 90 characters. 38rem measured 72. */
-    width: min(38rem, calc(100% - 3rem));
+    width: min(72rem, calc(100% - clamp(3rem, 10vw, 12rem)));
     margin: 0 auto;
     padding: 0 0 6rem;
     font-size: 1.125rem;
