@@ -30,26 +30,32 @@
     paintChrome();
 
     document.addEventListener("DOMContentLoaded", function () {
-        var btn = document.getElementById("theme");
-        if (!btn) return;
+        var buttons = document.querySelectorAll(".theme button");
+        if (!buttons.length) return;
 
-        function sync() {
-            var to = current() === "dark" ? "light" : "dark";
-            btn.textContent = to === "light" ? "Light" : "Dark";
-            btn.setAttribute("aria-label", to === "light" ? "Switch to light mode" : "Switch to dark mode");
-            btn.hidden = false;
-        }
-
-        sync();
-        btn.addEventListener("click", function () {
-            var next = current() === "dark" ? "light" : "dark";
+        function apply(next) {
             document.documentElement.setAttribute("data-theme", next);
             try {
                 localStorage.setItem(key, next);
             } catch (e) {}
             paintChrome();
             sync();
-        });
+        }
+
+        function sync() {
+            var theme = current();
+            for (var i = 0; i < buttons.length; i++) {
+                var on = buttons[i].getAttribute("data-theme-choice") === theme;
+                buttons[i].setAttribute("aria-pressed", on ? "true" : "false");
+            }
+        }
+
+        sync();
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function (event) {
+                apply(event.currentTarget.getAttribute("data-theme-choice"));
+            });
+        }
 
         matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
             if (!document.documentElement.getAttribute("data-theme")) {

@@ -78,10 +78,13 @@
 </head>
 <body>
 <main class="wrap">
-    <div class="top">
+    <nav class="bar" aria-label="Site">
         <p class="back"><a href="/">Arthur Sabintsev</a></p>
-        <button type="button" class="theme" id="theme" hidden>Light</button>
-    </div>
+        <div class="theme" role="group" aria-label="Color theme">
+            <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="true">Dark</button>
+        </div>
+    </nav>
     <h1>Writing</h1>
     <p class="lede">Essays on tokens, privacy, and infrastructure.</p>
     <ol class="essays">

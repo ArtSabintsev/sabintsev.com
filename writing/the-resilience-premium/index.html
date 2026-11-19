@@ -62,10 +62,13 @@
 </head>
 <body>
 <main class="wrap">
-    <div class="top">
+    <nav class="bar" aria-label="Site">
         <p class="back"><a href="/">Arthur Sabintsev</a><a href="/writing/">Writing</a></p>
-        <button type="button" class="theme" id="theme" hidden>Light</button>
-    </div>
+        <div class="theme" role="group" aria-label="Color theme">
+            <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="true">Dark</button>
+        </div>
+    </nav>
     <article>
         <h1>The Resilience Premium</h1>
         <p class="deck">A second vendor fails as a backup when it goes down for the same reason as the first.</p>

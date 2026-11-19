@@ -62,10 +62,13 @@
 </head>
 <body>
 <main class="wrap">
-    <div class="top">
+    <nav class="bar" aria-label="Site">
         <p class="back"><a href="/">Arthur Sabintsev</a><a href="/writing/">Writing</a></p>
-        <button type="button" class="theme" id="theme" hidden>Light</button>
-    </div>
+        <div class="theme" role="group" aria-label="Color theme">
+            <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="true">Dark</button>
+        </div>
+    </nav>
     <article>
         <h1>Zcash is Not Hard Money</h1>
         <p class="deck">Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin&#x27;s.</p>

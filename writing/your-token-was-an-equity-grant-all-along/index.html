@@ -62,10 +62,13 @@
 </head>
 <body>
 <main class="wrap">
-    <div class="top">
+    <nav class="bar" aria-label="Site">
         <p class="back"><a href="/">Arthur Sabintsev</a><a href="/writing/">Writing</a></p>
-        <button type="button" class="theme" id="theme" hidden>Light</button>
-    </div>
+        <div class="theme" role="group" aria-label="Color theme">
+            <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="true">Dark</button>
+        </div>
+    </nav>
     <article>
         <h1>Your Token Was An Equity Grant All Along</h1>
         <p class="deck">Customers want the work priced in dollars. Operators still hold the token for the upside.</p>

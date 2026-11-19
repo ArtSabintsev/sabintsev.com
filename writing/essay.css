@@ -44,6 +44,25 @@
         --selection-bg: #141414;
         --selection-fg: #fafafa;
     }
+
+    :root:not([data-theme]) .theme button[data-theme-choice="dark"],
+    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:hover,
+    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:focus-visible {
+        background: transparent;
+        color: var(--muted);
+    }
+
+    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:hover,
+    :root:not([data-theme]) .theme button[data-theme-choice="dark"]:focus-visible {
+        color: var(--hover);
+    }
+
+    :root:not([data-theme]) .theme button[data-theme-choice="light"],
+    :root:not([data-theme]) .theme button[data-theme-choice="light"]:hover,
+    :root:not([data-theme]) .theme button[data-theme-choice="light"]:focus-visible {
+        background: var(--fg);
+        color: var(--bg);
+    }
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -72,12 +91,12 @@ body {
     padding: 2.5rem 0 6rem;
 }
 
-.top {
+.bar {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
-    gap: 1.5rem;
-    margin-bottom: 2.5rem;
+    gap: 1rem 1.5rem;
+    margin-bottom: 2.75rem;
 }
 
 .back {
@@ -107,22 +126,58 @@ body {
 }
 
 .theme {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 2px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+}
+
+.theme button {
     appearance: none;
-    background: none;
     border: 0;
-    padding: 0;
+    background: transparent;
     color: var(--muted);
     font: inherit;
-    font-size: 0.75rem;
+    font-size: 0.68rem;
     font-weight: 600;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
+    line-height: 1;
+    padding: 0.42rem 0.72rem;
+    border-radius: 999px;
     cursor: pointer;
 }
 
-.theme:hover,
-.theme:focus-visible {
+.theme button:hover,
+.theme button:focus-visible {
     color: var(--hover);
+}
+
+.theme button[data-theme-choice="dark"],
+.theme button[data-theme-choice="dark"]:hover,
+.theme button[data-theme-choice="dark"]:focus-visible {
+    background: var(--fg);
+    color: var(--bg);
+}
+
+:root[data-theme="light"] .theme button[data-theme-choice="dark"],
+:root[data-theme="light"] .theme button[data-theme-choice="dark"]:hover,
+:root[data-theme="light"] .theme button[data-theme-choice="dark"]:focus-visible {
+    background: transparent;
+    color: var(--muted);
+}
+
+:root[data-theme="light"] .theme button[data-theme-choice="dark"]:hover,
+:root[data-theme="light"] .theme button[data-theme-choice="dark"]:focus-visible {
+    color: var(--hover);
+}
+
+:root[data-theme="light"] .theme button[data-theme-choice="light"],
+:root[data-theme="light"] .theme button[data-theme-choice="light"]:hover,
+:root[data-theme="light"] .theme button[data-theme-choice="light"]:focus-visible {
+    background: var(--fg);
+    color: var(--bg);
 }
 
 h1 {
@@ -264,7 +319,7 @@ article a:focus-visible {
 }
 
 a:focus-visible,
-.theme:focus-visible {
+.theme button:focus-visible {
     outline: 2px solid var(--gold);
     outline-offset: 3px;
 }
