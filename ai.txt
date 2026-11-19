@@ -12,7 +12,7 @@ Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). COO of
 - [Gold Ranger Ventures](https://goldranger.xyz) (studio LLC — investing, advising, incubation)
 
 ## Writing
-- [Essays](https://sabintsev.com/#writing) — on the homepage. Tokens, privacy, and infrastructure. Full text, no login. Archive: [sabintsev.com/writing](https://sabintsev.com/writing/). RSS: [feed.xml](https://sabintsev.com/writing/feed.xml)
+- [Essays](https://sabintsev.com/writing/) — tokens, privacy, and infrastructure. Full text, no login. Also listed on the [homepage](https://sabintsev.com/#writing). RSS: [feed.xml](https://sabintsev.com/writing/feed.xml)
 
 ## Previously
 - [Grove](https://grove.city) (co-founder & CEO; wound down 2026) — built Pocket Network; last chapter was x402 agentic micropayments

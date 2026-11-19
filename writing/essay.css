@@ -80,6 +80,12 @@ body {
     margin-bottom: 2.5rem;
 }
 
+.back {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.15rem;
+}
+
 .back a {
     color: var(--muted);
     text-decoration: none;

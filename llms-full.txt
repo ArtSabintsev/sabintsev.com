@@ -21,7 +21,7 @@ Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile
 - **Scope:** investing, advising, incubation (founder since ~2011; earlier iOS consulting roots)
 
 ### Writing
-- **Essays:** [on the homepage](https://sabintsev.com/#writing) — full text, no login. Archive: [sabintsev.com/writing](https://sabintsev.com/writing/). RSS: [feed.xml](https://sabintsev.com/writing/feed.xml)
+- **Essays:** [sabintsev.com/writing](https://sabintsev.com/writing/) — full text, no login. Also listed on the [homepage](https://sabintsev.com/#writing). RSS: [feed.xml](https://sabintsev.com/writing/feed.xml)
 - [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026) — ZEC is not Bitcoin insurance. It is a privacy feature trying to be priced like Bitcoin.
 - [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026) — projects die, tokens get repurposed
 - [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026) — stablecoins pay for the work, tokens pay for being early

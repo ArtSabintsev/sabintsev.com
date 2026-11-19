@@ -123,7 +123,7 @@
         "@context": "https://schema.org",
         "@type": "Blog",
         "name": "Writing",
-        "url": "https://sabintsev.com/#writing",
+        "url": "https://sabintsev.com/writing/",
         "image": "https://sabintsev.com/images/backdrop.jpg",
         "author": {
           "@type": "Person",
@@ -527,6 +527,14 @@
             letter-spacing: -0.035em;
             line-height: 1.05;
         }
+        .writing h2 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .writing h2 a:hover,
+        .writing h2 a:focus-visible {
+            color: var(--gold);
+        }
         .writing .lede {
             margin-top: 0.75rem;
             color: var(--muted);
@@ -652,14 +660,14 @@
                 <a href="https://modernintelligence.ai" target="_blank" rel="noopener noreferrer">Modern Intelligence</a>
                 <a href="https://pocket.network" target="_blank" rel="noopener noreferrer">Pocket Network</a>
                 <a href="https://goldranger.xyz" target="_blank" rel="noopener noreferrer">Ventures</a>
-                <a href="#writing">Writing</a>
+                <a href="/writing/">Writing</a>
             </nav>
         </footer>
     </div>
 </div>
 <section class="writing" id="writing" aria-labelledby="writing-heading">
     <div class="writing-wrap">
-        <h2 id="writing-heading">Writing</h2>
+        <h2 id="writing-heading"><a href="/writing/">Writing</a></h2>
         <p class="lede">Essays on tokens, privacy, and infrastructure.</p>
         <ol class="essays">
             <li>
@@ -727,7 +735,7 @@
       modernIntelligence: "https://modernintelligence.ai",
       pocketNetwork: "https://pocket.network",
       ventures: "https://goldranger.xyz",
-      writing: "https://sabintsev.com/#writing",
+      writing: "https://sabintsev.com/writing/",
       linkedin: "https://linkedin.com/in/artsabintsev",
       x: "https://x.com/artsabintsev",
       github: "https://github.com/ArtSabintsev",
