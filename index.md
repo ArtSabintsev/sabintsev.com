@@ -1,6 +1,6 @@
 ---
 title: Arthur Sabintsev
-description: Physicist, engineer, two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Previously co-founder & CEO of Grove (wound down 2026; Pocket Network). Writing, building, and open to email.
+description: Physicist, engineer, two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Previously co-founder & CEO of Grove (wound down 2026; Pocket Network). Open to email.
 ---
 
 # Arthur Sabintsev
@@ -14,16 +14,6 @@ Physicist · Engineer · Founder
 - [Modern Intelligence](https://modernintelligence.ai) — COO and Board Observer (since Sep 2026); Sovereign onboard targeting for UAVs, USVs, UUVs (ATR, identity, terminal guidance; GNSS-denied / EW)
 - [Pocket Network](https://pocket.network) — co-founded; decentralized RPC / data access (now stewarded by the Pocket Network Foundation)
 - [Gold Ranger Ventures](https://goldranger.xyz) — studio LLC (investing, advising, incubation)
-- [Writing](https://sabintsev.com/writing/) — essay homepage. The same list is also on the [site homepage](https://sabintsev.com/#writing).
-
-## Writing
-
-- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026). Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.
-- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026). When a project stops shipping, the token keeps trading. Volume bots, momentum bots, MEV, and pump groups are the aftermarket.
-- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026). Customers want the work priced in dollars. Operators still hold the token for the upside.
-- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026). A second vendor fails as a backup when it goes down for the same reason as the first.
-
-[RSS](https://sabintsev.com/writing/feed.xml)
 
 ## Snapshot
 

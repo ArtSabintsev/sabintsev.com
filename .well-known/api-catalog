@@ -22,14 +22,6 @@
         {
           "href": "https://sabintsev.com/index.md",
           "type": "text/markdown"
-        },
-        {
-          "href": "https://sabintsev.com/writing/index.md",
-          "type": "text/markdown"
-        },
-        {
-          "href": "https://sabintsev.com/writing/feed.xml",
-          "type": "application/rss+xml"
         }
       ],
       "service-desc": [

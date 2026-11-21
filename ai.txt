@@ -3,16 +3,13 @@
 > Physicist, engineer, and two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Previously co-founder & CEO of Grove (wound down 2026; Pocket Network). Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: onboard targeting software that OEMs and integrators install on UAVs, USVs, UUVs, and other unmanned vehicles. It runs on the vehicle’s computer — detect, classify, track, keep identity when the picture breaks up, terminal guidance into impact — including GNSS-denied / EW (GPS out, radio jammed). Previously co-founded Grove (wound down 2026) and Pocket Network (trillion+ API requests; POKT $1B+ market cap). Path: experimental nuclear physics (Jefferson Lab, GW) → iOS (Fueled, Shelby.tv) → first mobile engineer at ID.me → Washington Post Arc XP Mobile → Capital One Payments → Grove / Pocket → defense AI. Writes on AI agents, stablecoins, and operator craft. Full background: [llms-full.txt](https://sabintsev.com/llms-full.txt).
+Personal homepage for Arthur Ariel Sabintsev (Washington DC–Baltimore). COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: onboard targeting software that OEMs and integrators install on UAVs, USVs, UUVs, and other unmanned vehicles. It runs on the vehicle’s computer — detect, classify, track, keep identity when the picture breaks up, terminal guidance into impact — including GNSS-denied / EW (GPS out, radio jammed). Previously co-founded Grove (wound down 2026) and Pocket Network (trillion+ API requests; POKT $1B+ market cap). Path: experimental nuclear physics (Jefferson Lab, GW) → iOS (Fueled, Shelby.tv) → first mobile engineer at ID.me → Washington Post Arc XP Mobile → Capital One Payments → Grove / Pocket → defense AI. Full background: [llms-full.txt](https://sabintsev.com/llms-full.txt).
 
 ## Building
 - [Modern Intelligence](https://modernintelligence.ai) (COO; Board Observer since Sep 2026) — Sovereign onboard targeting for unmanned systems (ATR, terminal guidance, GNSS-denied / EW)
 
 ## Ventures
 - [Gold Ranger Ventures](https://goldranger.xyz) (studio LLC — investing, advising, incubation)
-
-## Writing
-- [Essays](https://sabintsev.com/writing/) — tokens, privacy, and infrastructure. Full text, no login. Also listed on the [homepage](https://sabintsev.com/#writing). RSS: [feed.xml](https://sabintsev.com/writing/feed.xml)
 
 ## Previously
 - [Grove](https://grove.city) (co-founder & CEO; wound down 2026) — built Pocket Network; last chapter was x402 agentic micropayments

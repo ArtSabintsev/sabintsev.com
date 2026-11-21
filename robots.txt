@@ -77,8 +77,6 @@ Disallow: /
 # Extended LLM-readable summary: https://sabintsev.com/llms-full.txt
 # AI usage guidance: https://sabintsev.com/ai.txt
 # Markdown homepage: https://sabintsev.com/index.md
-# Essays: https://sabintsev.com/writing/
-# RSS: https://sabintsev.com/writing/feed.xml
 # API catalog: https://sabintsev.com/.well-known/api-catalog
 # Agent skills: https://sabintsev.com/.well-known/agent-skills/index.json
 # Auth posture: https://sabintsev.com/auth.md

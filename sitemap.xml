@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://sabintsev.com/</loc>
-        <lastmod>2026-11-19</lastmod>
+        <lastmod>2026-11-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://sabintsev.com/index.md</loc>
-        <lastmod>2026-11-19</lastmod>
+        <lastmod>2026-11-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -29,72 +29,6 @@
         <lastmod>2026-07-28</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/index.md</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/feed.xml</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/zcash-is-not-hard-money/</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/zcash-is-not-hard-money/index.md</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/tokens-never-die/</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/tokens-never-die/index.md</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/index.md</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/the-resilience-premium/</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://sabintsev.com/writing/the-resilience-premium/index.md</loc>
-        <lastmod>2026-11-19</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.4</priority>
     </url>
     <url>
         <loc>https://sabintsev.com/apps/phonetic-russian-keyboard/</loc>

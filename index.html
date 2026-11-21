@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur Sabintsev</title>
-    <meta name="description" content="Arthur Sabintsev — physicist, engineer, two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Writing, building, and open to email.">
+    <meta name="description" content="Arthur Sabintsev — physicist, engineer, two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Open to email.">
     <meta name="keywords" content="Arthur Sabintsev, Arthur Ariel Sabintsev, Modern Intelligence, Sovereign, onboard targeting, UAV, USV, UUV, ATR, automatic target recognition, terminal guidance, GNSS-denied, EW, counter-UAS, Grove co-founder, Pocket Network, founder, physicist, engineer, Gold Ranger Ventures">
     <meta name="author" content="Arthur Ariel Sabintsev">
     <meta name="theme-color" content="#030303">
@@ -35,7 +35,6 @@
     <link rel="canonical" href="https://sabintsev.com/">
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="text/markdown" title="Markdown" href="/index.md">
-    <link rel="alternate" type="application/rss+xml" title="Essays" href="/writing/feed.xml">
     <link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt">
     <link rel="alternate" type="text/plain" title="LLM full summary" href="/llms-full.txt">
     <link rel="alternate" type="text/plain" title="AI usage guidance" href="/ai.txt">
@@ -104,7 +103,7 @@
             "https://pocket.network"
           ]
         },
-        "dateModified": "2026-11-19"
+        "dateModified": "2026-11-20"
       },
       {
         "@context": "https://schema.org",
@@ -118,44 +117,6 @@
           "name": "Arthur Ariel Sabintsev",
           "url": "https://sabintsev.com/"
         }
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "Blog",
-        "name": "Writing",
-        "url": "https://sabintsev.com/writing/",
-        "image": "https://sabintsev.com/images/backdrop.jpg",
-        "author": {
-          "@type": "Person",
-          "@id": "https://sabintsev.com/#person",
-          "name": "Arthur Ariel Sabintsev"
-        },
-        "blogPost": [
-          {
-            "@type": "BlogPosting",
-            "headline": "Zcash is Not Hard Money",
-            "datePublished": "2026-06-08",
-            "url": "https://sabintsev.com/writing/zcash-is-not-hard-money/"
-          },
-          {
-            "@type": "BlogPosting",
-            "headline": "Tokens Never Die",
-            "datePublished": "2026-05-26",
-            "url": "https://sabintsev.com/writing/tokens-never-die/"
-          },
-          {
-            "@type": "BlogPosting",
-            "headline": "Your Token Was An Equity Grant All Along",
-            "datePublished": "2026-05-25",
-            "url": "https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/"
-          },
-          {
-            "@type": "BlogPosting",
-            "headline": "The Resilience Premium",
-            "datePublished": "2026-05-22",
-            "url": "https://sabintsev.com/writing/the-resilience-premium/"
-          }
-        ]
       }
     ]
     </script>
@@ -507,105 +468,6 @@
             }
         }
 
-        .writing {
-            position: relative;
-            z-index: 2;
-            scroll-margin-top: 1.25rem;
-            background: var(--bg);
-            padding: 4rem 0 6rem;
-        }
-        .writing-wrap {
-            --inset: clamp(1.25rem, 4vw, 2.5rem);
-            width: min(72rem, calc(100% - var(--inset) - clamp(1.25rem, 4vw, 3rem)));
-            margin-left: var(--inset);
-        }
-        .writing-head {
-            display: flex;
-            align-items: baseline;
-            justify-content: space-between;
-            gap: 1rem 1.5rem;
-        }
-        .writing h2 {
-            font-size: clamp(2rem, 1.5rem + 1vw, 2.5rem);
-            font-weight: 600;
-            letter-spacing: -0.04em;
-            line-height: 1.15;
-        }
-        .writing .feed {
-            color: var(--muted);
-            font-size: 0.875rem;
-            font-weight: 500;
-            line-height: 1.25rem;
-            text-decoration: none;
-            white-space: nowrap;
-        }
-        .writing .feed:hover,
-        .writing .feed:focus-visible {
-            color: var(--fg);
-        }
-        .writing h2 a {
-            color: inherit;
-            text-decoration: none;
-        }
-        .writing h2 a:hover,
-        .writing h2 a:focus-visible {
-            text-decoration: underline;
-            text-decoration-color: var(--underline);
-            text-underline-offset: 0.16em;
-        }
-        .writing .lede {
-            margin-top: 0.75rem;
-            color: var(--muted);
-            font-size: 1.125rem;
-            line-height: 1.5556;
-        }
-        .writing .essays {
-            list-style: none;
-            margin-top: 3.25rem;
-        }
-        .writing .essays li + li {
-            margin-top: 2.25rem;
-            padding-top: 2.25rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.14);
-        }
-        .writing .essays a {
-            display: block;
-            color: inherit;
-            text-decoration: none;
-        }
-        .writing .essays time {
-            display: block;
-            color: var(--muted);
-            font-size: 0.8125rem;
-            line-height: 1.25rem;
-        }
-        .writing .essays .title {
-            display: block;
-            margin-top: 0.35rem;
-            font-size: clamp(1.375rem, 1.15rem + 0.7vw, 1.75rem);
-            font-weight: 600;
-            letter-spacing: -0.04em;
-            line-height: 1.3;
-            text-wrap: balance;
-        }
-        .writing .essays a:hover .title,
-        .writing .essays a:focus-visible .title {
-            text-decoration: underline;
-            text-decoration-color: var(--underline);
-            text-underline-offset: 0.18em;
-        }
-        .writing .essays .deck {
-            display: block;
-            margin-top: 0.5rem;
-            color: var(--muted);
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-        .writing .essays a:focus-visible {
-            outline: 2px solid var(--gold);
-            outline-offset: 3px;
-        }
-
         @media (prefers-reduced-motion: reduce) {
             .identity, .bottom, .social {
                 animation: none;
@@ -667,50 +529,10 @@
                 <a href="https://modernintelligence.ai" target="_blank" rel="noopener noreferrer">Modern Intelligence</a>
                 <a href="https://pocket.network" target="_blank" rel="noopener noreferrer">Pocket Network</a>
                 <a href="https://goldranger.xyz" target="_blank" rel="noopener noreferrer">Ventures</a>
-                <a href="/writing/">Writing</a>
             </nav>
         </footer>
     </div>
 </div>
-<section class="writing" id="writing" aria-labelledby="writing-heading">
-    <div class="writing-wrap">
-        <div class="writing-head">
-            <h2 id="writing-heading"><a href="/writing/">Writing</a></h2>
-            <a class="feed" href="/writing/feed.xml">RSS</a>
-        </div>
-        <p class="lede">Essays on tokens, privacy, and infrastructure.</p>
-        <ol class="essays">
-            <li>
-                <a href="/writing/zcash-is-not-hard-money/">
-                    <time datetime="2026-06-08">June 8, 2026</time>
-                    <span class="title">Zcash is Not Hard Money</span>
-                    <span class="deck">Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.</span>
-                </a>
-            </li>
-            <li>
-                <a href="/writing/tokens-never-die/">
-                    <time datetime="2026-05-26">May 26, 2026</time>
-                    <span class="title">Tokens Never Die</span>
-                    <span class="deck">When a project stops shipping, the token keeps trading. Volume bots, momentum bots, MEV, and pump groups are the aftermarket.</span>
-                </a>
-            </li>
-            <li>
-                <a href="/writing/your-token-was-an-equity-grant-all-along/">
-                    <time datetime="2026-05-25">May 25, 2026</time>
-                    <span class="title">Your Token Was An Equity Grant All Along</span>
-                    <span class="deck">Customers want the work priced in dollars. Operators still hold the token for the upside.</span>
-                </a>
-            </li>
-            <li>
-                <a href="/writing/the-resilience-premium/">
-                    <time datetime="2026-05-22">May 22, 2026</time>
-                    <span class="title">The Resilience Premium</span>
-                    <span class="deck">A second vendor fails as a backup when it goes down for the same reason as the first.</span>
-                </a>
-            </li>
-        </ol>
-    </div>
-</section>
 <script>
 (function () {
   if (typeof navigator === "undefined" || !("modelContext" in navigator)) return;
@@ -741,7 +563,6 @@
       modernIntelligence: "https://modernintelligence.ai",
       pocketNetwork: "https://pocket.network",
       ventures: "https://goldranger.xyz",
-      writing: "https://sabintsev.com/writing/",
       linkedin: "https://linkedin.com/in/artsabintsev",
       x: "https://x.com/artsabintsev",
       github: "https://github.com/ArtSabintsev",
@@ -778,7 +599,7 @@
   register({
     name: "get_profile",
     description:
-      "Return Arthur Sabintsev's public profile: name, role, summary, primary destinations (Modern Intelligence, Pocket Network, ventures, writing), and agent resource URLs.",
+      "Return Arthur Sabintsev's public profile: name, role, summary, primary destinations (Modern Intelligence, Pocket Network, ventures), and agent resource URLs.",
     inputSchema: {
       type: "object",
       properties: {},
@@ -800,7 +621,6 @@
           modernIntelligence: PROFILE.links.modernIntelligence,
           pocketNetwork: PROFILE.links.pocketNetwork,
           ventures: PROFILE.links.ventures,
-          writing: PROFILE.links.writing,
           fullBio: PROFILE.links.fullBio
         },
         agentResources: PROFILE.agentResources
@@ -834,7 +654,7 @@
   register({
     name: "list_links",
     description:
-      "List primary outbound links from sabintsev.com (Modern Intelligence, Pocket Network, ventures, writing) and optional social links.",
+      "List primary outbound links from sabintsev.com (Modern Intelligence, Pocket Network, ventures) and optional social links.",
     inputSchema: {
       type: "object",
       properties: {
@@ -851,8 +671,7 @@
         primary: [
           { name: "Modern Intelligence", url: PROFILE.links.modernIntelligence },
           { name: "Pocket Network", url: PROFILE.links.pocketNetwork },
-          { name: "Ventures", url: PROFILE.links.ventures },
-          { name: "Writing", url: PROFILE.links.writing }
+          { name: "Ventures", url: PROFILE.links.ventures }
         ]
       };
       if (input && input.includeSocial) {

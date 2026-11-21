@@ -3,7 +3,7 @@
 > Physicist, engineer, and two-time founder. COO of Modern Intelligence (Sovereign: onboard targeting for unmanned systems). Previously co-founder & CEO of Grove (wound down 2026), the team behind Pocket Network. Contact: arthur.sabintsev@gmail.com.
 
 ## About
-Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD because he wanted to build, not publish. He is COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: targeting software for unmanned systems. Manufacturers and integrators install it on UAVs, USVs, UUVs, and other unmanned vehicles. Sovereign runs on the vehicle’s computer. It detects, classifies, and tracks targets from the onboard cameras, keeps identity when the picture breaks up, and can run terminal guidance into impact. It keeps working when GPS is out and the radio is jammed (GNSS-denied / EW). Previously he was co-founder and CEO of [Grove](https://grove.city) (wound down 2026). His team built [Pocket Network](https://pocket.network) into a premier decentralized infrastructure protocol: $18M raised, over a trillion API requests processed, $1B+ market cap on multiple occasions, still running via the Pocket Network Foundation. Grove’s last chapter was agentic payments — AI agents and fans paying creators instantly with x402 micropayments. He writes about tokens, privacy, and infrastructure at [sabintsev.com/writing](https://sabintsev.com/writing/).
+Arthur Ariel Sabintsev is a physicist turned software engineer turned two-time founder based in the Washington DC–Baltimore area. He started experimental nuclear physics research at Jefferson Lab, then left a fully funded PhD because he wanted to build, not publish. He is COO of [Modern Intelligence](https://modernintelligence.ai). The product is **Sovereign**: targeting software for unmanned systems. Manufacturers and integrators install it on UAVs, USVs, UUVs, and other unmanned vehicles. Sovereign runs on the vehicle’s computer. It detects, classifies, and tracks targets from the onboard cameras, keeps identity when the picture breaks up, and can run terminal guidance into impact. It keeps working when GPS is out and the radio is jammed (GNSS-denied / EW). Previously he was co-founder and CEO of [Grove](https://grove.city) (wound down 2026). His team built [Pocket Network](https://pocket.network) into a premier decentralized infrastructure protocol: $18M raised, over a trillion API requests processed, $1B+ market cap on multiple occasions, still running via the Pocket Network Foundation. Grove’s last chapter was agentic payments — AI agents and fans paying creators instantly with x402 micropayments.
 
 Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile leadership (ID.me, Washington Post Arc XP, Capital One) → decentralized infrastructure (Grove / Pocket) → defense AI (Modern Intelligence).
 
@@ -19,13 +19,6 @@ Career path: physics research → iOS engineering (Fueled, Shelby.tv) → mobile
 ### Ventures
 - **Studio:** [Gold Ranger Ventures](https://goldranger.xyz)
 - **Scope:** investing, advising, incubation (founder since ~2011; earlier iOS consulting roots)
-
-### Writing
-- **Essays:** [sabintsev.com/writing](https://sabintsev.com/writing/) — full text, no login. Also listed on the [homepage](https://sabintsev.com/#writing). RSS: [feed.xml](https://sabintsev.com/writing/feed.xml)
-- [Zcash is Not Hard Money](https://sabintsev.com/writing/zcash-is-not-hard-money/) (June 8, 2026) — Naval called ZEC insurance against Bitcoin. It does not pay out if Bitcoin fails, and the shielded supply is harder to audit than Bitcoin's.
-- [Tokens Never Die](https://sabintsev.com/writing/tokens-never-die/) (May 26, 2026) — when a project stops shipping, the token keeps trading
-- [Your Token Was An Equity Grant All Along](https://sabintsev.com/writing/your-token-was-an-equity-grant-all-along/) (May 25, 2026) — customers want the work priced in dollars; operators hold the token for the upside
-- [The Resilience Premium](https://sabintsev.com/writing/the-resilience-premium/) (May 22, 2026) — a second vendor fails as a backup when it goes down for the same reason as the first
 
 ### Incubations
 - [Jewish Mythology](https://jewishmythology.com) (currently incubating — an AI-searchable reference library for Jewish mythological texts)
@@ -129,7 +122,7 @@ Washington DC–Baltimore area, United States
 ## Website
 - **URL:** [sabintsev.com](https://sabintsev.com)
 - **Type:** Personal homepage
-- **Content:** Portrait homepage, then the essay list. Links for Modern Intelligence, Pocket Network, and Ventures. Social icons (LinkedIn, X, GitHub, email)
+- **Content:** Portrait homepage. Links for Modern Intelligence, Pocket Network, and Ventures. Social icons (LinkedIn, X, GitHub, email)
 - **Agent files:** [llms.txt](https://sabintsev.com/llms.txt), [llms-full.txt](https://sabintsev.com/llms-full.txt), [ai.txt](https://sabintsev.com/ai.txt)
 - **Markdown:** [index.md](https://sabintsev.com/index.md) (also via `Accept: text/markdown` on `/`)
 - **API catalog (RFC 9727):** [/.well-known/api-catalog](https://sabintsev.com/.well-known/api-catalog)

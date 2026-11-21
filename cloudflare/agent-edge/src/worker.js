@@ -13,7 +13,6 @@ function linkHeader(pathname) {
     '</llms-full.txt>; rel="alternate"; type="text/plain"; title="LLM full summary"',
     '</ai.txt>; rel="alternate"; type="text/plain"; title="AI usage guidance"',
     `<${md}>; rel="alternate"; type="text/markdown"; title="Markdown"`,
-    '</writing/feed.xml>; rel="alternate"; type="application/rss+xml"; title="Essays"',
     '</.well-known/agent-skills/index.json>; rel="describedby"; title="Agent Skills"',
     '</auth.md>; rel="describedby"; title="auth.md"',
     '</sitemap.xml>; rel="describedby"; type="application/xml"; title="Sitemap"',
@@ -31,13 +30,6 @@ function isHomepage(pathname) {
 
 function markdownAsset(pathname) {
   if (isHomepage(pathname)) return "/index.md";
-  let path = pathname;
-  if (path.endsWith("/index.html")) path = path.slice(0, -"/index.html".length);
-  if (path.length > 1 && path.endsWith("/")) path = path.slice(0, -1);
-  if (path === "/writing" || path.startsWith("/writing/")) {
-    if (/\.(md|xml|css|txt)$/.test(path)) return null;
-    return `${path}/index.md`;
-  }
   return null;
 }
 
@@ -97,7 +89,7 @@ export default {
     try {
       const url = new URL(request.url);
 
-      // Markdown for Agents: homepage and /writing/*
+      // Markdown for Agents: homepage
       const mdAsset =
         request.method === "GET" ? markdownAsset(url.pathname) : null;
       if (wantsMarkdown(request) && mdAsset) {
@@ -146,11 +138,6 @@ export default {
           "Content-Type",
           'application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"'
         );
-        headers.delete("Content-Length");
-      }
-
-      if (url.pathname === "/writing/feed.xml") {
-        headers.set("Content-Type", "application/rss+xml; charset=utf-8");
         headers.delete("Content-Length");
       }
 

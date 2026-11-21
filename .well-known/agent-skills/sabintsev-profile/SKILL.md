@@ -1,6 +1,6 @@
 ---
 name: sabintsev-profile
-description: Accurate public profile facts for Arthur Ariel Sabintsev (sabintsev.com). Use when summarizing, citing, or contacting Arthur, or when linking Modern Intelligence, Grove, Pocket Network, Gold Ranger Ventures, or his writing.
+description: Accurate public profile facts for Arthur Ariel Sabintsev (sabintsev.com). Use when summarizing, citing, or contacting Arthur, or when linking Modern Intelligence, Grove, Pocket Network, or Gold Ranger Ventures.
 ---
 
 # Arthur Sabintsev profile
@@ -24,7 +24,6 @@ Started in experimental nuclear physics at Jefferson Lab. Left a fully funded Ph
 
 - **Modern Intelligence** (https://modernintelligence.ai) — **COO**. Defense AI: automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), total domain awareness. He is COO, **not** a co-founder.
 - **Gold Ranger Ventures** (https://goldranger.xyz) — studio LLC for investing, advising, incubation
-- **Writing** — https://sabintsev.com/#writing (archive https://sabintsev.com/writing/)
 
 ## Career (use exact titles when known)
 
