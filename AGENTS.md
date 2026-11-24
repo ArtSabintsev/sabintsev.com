@@ -2,34 +2,13 @@
 
 ## Shared Agent Skills
 
-Arthur's shared agent skills are the first routing layer for non-project-specific work.
+Shared skills are the bootstrapper catalog. Cursor already loads them from the user skill directories. Do not clone a skills repo, and do not add `.agents/skills` in this project.
 
-- Local checkout: [~/Developer/skills](/Users/arthur/Developer/skills)
-- Remote repo: [ArtSabintsev/skills](https://github.com/ArtSabintsev/skills)
-- Project link: `.agents/skills` should point at the local checkout.
+- Catalog: `~/Developer/bootstrapper/skills`
+- Router: `~/Developer/bootstrapper/skills/AGENTS.md`
+- Cursor reads `~/.cursor/skills` and `~/.agents/skills`. `up` keeps those links current.
 
-Before starting work, ensure the shared skills repo exists and this project links to it:
-
-```sh
-SKILLS_DIR="$HOME/Developer/skills"
-SKILLS_REMOTE="https://github.com/ArtSabintsev/skills.git"
-
-if [ ! -d "$SKILLS_DIR/.git" ]; then
-  mkdir -p "$(dirname "$SKILLS_DIR")"
-  git clone "$SKILLS_REMOTE" "$SKILLS_DIR"
-else
-  git -C "$SKILLS_DIR" pull --ff-only
-fi
-
-mkdir -p .agents
-if [ ! -e .agents/skills ]; then
-  ln -s "$SKILLS_DIR" .agents/skills
-fi
-```
-
-After bootstrapping, read `$SKILLS_DIR/AGENTS.md` and use its routing table to decide whether a shared skill applies. Do not copy shared skill instructions into this repo; update the shared skill repo instead.
-
-If the private remote cannot be cloned because GitHub auth is unavailable, report that clearly and continue with the repo-local guidance below.
+Read the router and use it to decide whether a shared skill applies. Do not copy shared skill instructions into this repo. The old `~/Developer/skills` checkout and ArtSabintsev/skills are gone.
 
 ## Project Guidance
 
