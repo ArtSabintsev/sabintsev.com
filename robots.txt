@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
-# Content Signals: search + agent input allowed; foundation-model training declined.
+# Content Signals: search, agent input, and foundation-model training allowed.
 # See https://contentsignals.org/ and draft-romm-aipref-contentsignals
-Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 
 # AI search and assistant crawlers
 User-agent: GPTBot
@@ -62,15 +62,15 @@ Allow: /
 User-agent: DuckAssistBot
 Allow: /
 
-# Training-only or bulk scraping crawlers
+# Training and dataset crawlers
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: Bytespider
-Disallow: /
+Allow: /
 
 User-agent: img2dataset
-Disallow: /
+Allow: /
 
 # Discovery files
 # LLM-readable summary: https://sabintsev.com/llms.txt

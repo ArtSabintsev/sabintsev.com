@@ -22,7 +22,7 @@ Started in experimental nuclear physics at Jefferson Lab. Left a fully funded Ph
 
 ## Current work
 
-- **Modern Intelligence** (https://modernintelligence.ai) — **COO**. Defense AI: automatic target recognition (ATR), terminal guidance, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), total domain awareness. He is COO, **not** a co-founder.
+- **Modern Intelligence** (https://modernintelligence.ai) — **COO** (and Board Observer since Sep 2026). Product is **Sovereign**: onboard targeting software for unmanned systems (UAVs, USVs, UUVs) — automatic target recognition (ATR), terminal guidance into impact, counter-UAS / counter-UAV (C-UAS, CUAS, CUAV), total domain awareness, GNSS-denied / EW. Department of War contracts including AFSOC and SOCOM; $12M+ raised (Bedrock, Vine, Contrary, Air Street, Caffeinated, Champion Hill, Swell, Myelin, and others). He is COO, **not** a co-founder.
 - **Gold Ranger Ventures** (https://goldranger.xyz) — studio LLC for investing, advising, incubation
 
 ## Career (use exact titles when known)

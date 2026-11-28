@@ -21,7 +21,29 @@ function linkHeader(pathname) {
 
 function wantsMarkdown(request) {
   const accept = request.headers.get("Accept") || "";
-  return accept.toLowerCase().includes("text/markdown");
+  const parts = accept.split(",").map((p) => p.trim().toLowerCase());
+  let md = -1;
+  let html = -1;
+  for (const part of parts) {
+    if (!part || part === "*/*") continue;
+    const [type, ...params] = part.split(";").map((s) => s.trim());
+    let q = 1;
+    for (const param of params) {
+      if (param.startsWith("q=")) {
+        const n = Number(param.slice(2));
+        if (!Number.isNaN(n)) q = n;
+      }
+    }
+    if (type === "text/markdown" || type === "text/x-markdown") {
+      md = Math.max(md, q);
+    }
+    if (type === "text/html") {
+      html = Math.max(html, q);
+    }
+  }
+  if (md <= 0) return false;
+  if (html < 0) return true;
+  return md >= html;
 }
 
 function isHomepage(pathname) {
